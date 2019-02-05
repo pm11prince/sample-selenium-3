@@ -1,0 +1,62 @@
+Thu, Jan 10  2019; 02:29:51 PM - 
+Test name : Farmer_PositiveFlow
+List of TestNames of Farmer_PositiveFlow:
+Thu, Jan 10  2019; 02:29:51 PM - 				Check Dashboard$Registration
+Thu, Jan 10  2019; 02:29:51 PM - 				Validations_FarmerProfile$FarmerProfileTest
+Thu, Jan 10  2019; 02:29:51 PM - 
+Test name : Farmer_NegativeFlow
+List of TestNames of Farmer_NegativeFlow:
+Thu, Jan 10  2019; 02:29:51 PM - 				Check Dashboard$Registration
+Thu, Jan 10  2019; 02:29:51 PM - 				Validations_FarmerProfile$FarmerProfileTest
+Thu, Jan 10  2019; 02:29:51 PM - 				Create Farmer Profile$FarmerProfileTest
+Thu, Jan 10  2019; 02:29:51 PM - 
+Test name : Farmer_PositiveFlow
+List of TestNames of Farmer_PositiveFlow:
+Thu, Jan 10  2019; 02:29:51 PM - 
+Test name : Farmer_NegativeFlow
+List of TestNames of Farmer_NegativeFlow:
+Thu, Jan 10  2019; 02:29:51 PM - Starting Appium Server
+Thu, Jan 10  2019; 02:30:01 PM - Starting Test Execution
+Thu, Jan 10  2019; 02:30:01 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 02:30:01 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 02:30:01 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 02:30:01 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 02:30:02 PM - Test case name--->Setup class
+Thu, Jan 10  2019; 02:30:02 PM - Launching Appium Android...
+Thu, Jan 10  2019; 02:30:57 PM - Test case name--->Farmer_PositiveFlow::Check Dashboard$Registration
+Thu, Jan 10  2019; 02:30:59 PM - Entered value in Phone Number field:7932763853
+Thu, Jan 10  2019; 02:31:20 PM - Entered value in OTP field:610166
+Thu, Jan 10  2019; 02:31:38 PM - registerAsNewUser ----> Success
+Thu, Jan 10  2019; 02:31:38 PM - checkWhetherDashboardIsPresent ----> Success
+Thu, Jan 10  2019; 02:31:38 PM - Test case name--->Farmer_PositiveFlow::Validations_FarmerProfile$FarmerProfileTest
+Thu, Jan 10  2019; 02:31:38 PM - navigateToFarmerProfileSection1 ----> Success
+Thu, Jan 10  2019; 02:31:38 PM - checkMandatoryFieldsWhileCreatingFarmerProfile ----> Success
+Thu, Jan 10  2019; 02:31:38 PM - enterMandatoryFieldsAndSaveProfile ----> Success
+Thu, Jan 10  2019; 02:31:38 PM - validatePANNumber ----> Success
+Thu, Jan 10  2019; 02:31:38 PM - validateAadharNumber ----> Success
+Thu, Jan 10  2019; 02:31:38 PM - Test case name--->Farmer_NegativeFlow::Check Dashboard$Registration
+Thu, Jan 10  2019; 02:32:38 PM - registerAsNewUser ----> Failed
+Thu, Jan 10  2019; 02:32:38 PM - org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.19 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '10.6.139.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankqa, statBarHeight=72, noReset=false, viewportRect={top=72, left=0, width=1080, height=1848}, deviceName=330073a8508cb423, platform=LINUX, deviceUDID=330073a8508cb423, desired={app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, appPackage=com.itc.seedbankqa, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.0, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=330073a8508cb423, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.0, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, deviceApiLevel=24, app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=3, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=480, deviceModel=SM-G610F, autoAcceptAlerts=true}]
+Session ID: c94d982b-c32f-470d-9792-002de16a6544
+*** Element info: {Using=id, value=com.itc.seedbankqa:id/edit_mobileNumberValue}
+Thu, Jan 10  2019; 02:32:39 PM - checkWhetherDashboardIsPresent ----> Success
+Thu, Jan 10  2019; 02:32:39 PM - Test case name--->Farmer_NegativeFlow::Validations_FarmerProfile$FarmerProfileTest
+Thu, Jan 10  2019; 02:32:39 PM - navigateToFarmerProfileSection1 ----> Success
+Thu, Jan 10  2019; 02:32:39 PM - checkMandatoryFieldsWhileCreatingFarmerProfile ----> Success
+Thu, Jan 10  2019; 02:32:39 PM - enterMandatoryFieldsAndSaveProfile ----> Success
+Thu, Jan 10  2019; 02:32:39 PM - validatePANNumber ----> Success
+Thu, Jan 10  2019; 02:32:39 PM - validateAadharNumber ----> Success
+Thu, Jan 10  2019; 02:32:39 PM - Test case name--->Farmer_NegativeFlow::Create Farmer Profile$FarmerProfileTest
+Thu, Jan 10  2019; 02:32:39 PM - navigateToFarmerProfileSection ----> Success
+Thu, Jan 10  2019; 02:32:39 PM - Ending Execution...
+Thu, Jan 10  2019; 02:32:39 PM - Trying to close Webdriver...
+Thu, Jan 10  2019; 02:32:41 PM - Selenium Webdriver closed successfully!
+Thu, Jan 10  2019; 02:32:41 PM - Stopping Appium server for Windows
+Thu, Jan 10  2019; 02:32:41 PM - Appium server is shutdown successfully
+Thu, Jan 10  2019; 02:32:51 PM - Writing Results and Logs to file...

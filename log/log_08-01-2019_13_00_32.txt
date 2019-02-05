@@ -1,0 +1,160 @@
+Tue, Jan 08  2019; 00:06:30 PM - Starting Appium Server
+Tue, Jan 08  2019; 00:06:40 PM - Starting Test Execution
+Tue, Jan 08  2019; 00:06:40 PM - Initializing locators from excel sheet...
+Tue, Jan 08  2019; 00:06:41 PM - Initializing locators from excel sheet completed successfully!
+Tue, Jan 08  2019; 00:06:41 PM - Initializing data from excel sheet...
+Tue, Jan 08  2019; 00:06:41 PM - Initializing data from excel sheet completed successfully!
+Tue, Jan 08  2019; 00:06:41 PM - Starting Appium Server
+Tue, Jan 08  2019; 00:06:51 PM - Starting Test Execution
+Tue, Jan 08  2019; 00:06:51 PM - Initializing locators from excel sheet...
+Tue, Jan 08  2019; 00:06:51 PM - Initializing locators from excel sheet completed successfully!
+Tue, Jan 08  2019; 00:06:51 PM - Initializing data from excel sheet...
+Tue, Jan 08  2019; 00:06:51 PM - Initializing data from excel sheet completed successfully!
+Tue, Jan 08  2019; 00:06:51 PM - Starting Appium Server
+Tue, Jan 08  2019; 00:07:01 PM - Starting Test Execution
+Tue, Jan 08  2019; 00:07:01 PM - Initializing locators from excel sheet...
+Tue, Jan 08  2019; 00:07:01 PM - Initializing locators from excel sheet completed successfully!
+Tue, Jan 08  2019; 00:07:01 PM - Initializing data from excel sheet...
+Tue, Jan 08  2019; 00:07:01 PM - Initializing data from excel sheet completed successfully!
+Tue, Jan 08  2019; 00:07:01 PM - Launching Appium Android...
+Tue, Jan 08  2019; 00:08:07 PM - Entered registered value in Phone Number field:9548231871
+Tue, Jan 08  2019; 00:08:23 PM - Entered value in OTP field:610166
+Tue, Jan 08  2019; 00:08:23 PM - loginAsExistingUser ----> Success
+Tue, Jan 08  2019; 00:09:39 PM - navigateToFarmerLandSection1 ----> Success
+Tue, Jan 08  2019; 00:09:43 PM - checkWhetherSurveyNoIsMandatory ----> Failed
+Tue, Jan 08  2019; 00:09:43 PM - org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8200 (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.09 seconds
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '10.6.139.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankqa, statBarHeight=72, noReset=false, viewportRect={top=72, left=0, width=1080, height=1848}, deviceName=330073a8508cb423, platform=LINUX, deviceUDID=330073a8508cb423, desired={app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, appPackage=com.itc.seedbankqa, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.0, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=330073a8508cb423, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.0, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, deviceApiLevel=24, app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=3, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=480, deviceModel=SM-G610F, autoAcceptAlerts=true}]
+Session ID: dc91b666-b4b9-4e8e-8e32-201d78cc892c
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector()).scrollIntoView(textStartsWith("SAVE"));}
+Tue, Jan 08  2019; 00:09:44 PM - checkWhetherSurveyNoIsMandatory ----> Failed
+Tue, Jan 08  2019; 00:09:44 PM - org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8200 (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.02 seconds
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '10.6.139.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankqa, statBarHeight=72, noReset=false, viewportRect={top=72, left=0, width=1080, height=1848}, deviceName=330073a8508cb423, platform=LINUX, deviceUDID=330073a8508cb423, desired={app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, appPackage=com.itc.seedbankqa, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.0, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=330073a8508cb423, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.0, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, deviceApiLevel=24, app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=3, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=480, deviceModel=SM-G610F, autoAcceptAlerts=true}]
+Session ID: dc91b666-b4b9-4e8e-8e32-201d78cc892c
+Tue, Jan 08  2019; 00:49:51 PM - Starting Appium Server
+Tue, Jan 08  2019; 00:50:01 PM - Starting Test Execution
+Tue, Jan 08  2019; 00:50:01 PM - Initializing locators from excel sheet...
+Tue, Jan 08  2019; 00:50:01 PM - Initializing locators from excel sheet completed successfully!
+Tue, Jan 08  2019; 00:50:01 PM - Initializing data from excel sheet...
+Tue, Jan 08  2019; 00:50:01 PM - Initializing data from excel sheet completed successfully!
+Tue, Jan 08  2019; 00:50:01 PM - Starting Appium Server
+Tue, Jan 08  2019; 00:50:11 PM - Starting Test Execution
+Tue, Jan 08  2019; 00:50:11 PM - Initializing locators from excel sheet...
+Tue, Jan 08  2019; 00:50:11 PM - Initializing locators from excel sheet completed successfully!
+Tue, Jan 08  2019; 00:50:11 PM - Initializing data from excel sheet...
+Tue, Jan 08  2019; 00:50:11 PM - Initializing data from excel sheet completed successfully!
+Tue, Jan 08  2019; 00:50:11 PM - Starting Appium Server
+Tue, Jan 08  2019; 00:50:21 PM - Starting Test Execution
+Tue, Jan 08  2019; 00:50:21 PM - Initializing locators from excel sheet...
+Tue, Jan 08  2019; 00:50:21 PM - Initializing locators from excel sheet completed successfully!
+Tue, Jan 08  2019; 00:50:21 PM - Initializing data from excel sheet...
+Tue, Jan 08  2019; 00:50:21 PM - Initializing data from excel sheet completed successfully!
+Tue, Jan 08  2019; 00:50:21 PM - Launching Appium Android...
+Tue, Jan 08  2019; 00:51:23 PM - Entered registered value in Phone Number field:9548231871
+Tue, Jan 08  2019; 00:51:38 PM - Entered value in OTP field:610166
+Tue, Jan 08  2019; 00:51:38 PM - loginAsExistingUser ----> Success
+Tue, Jan 08  2019; 00:52:31 PM - navigateToFarmerLandSection1 ----> Failed
+Tue, Jan 08  2019; 00:52:32 PM - org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: getaddrinfo ENOENT localhost:8200 (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 43.40 seconds
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankqa, statBarHeight=72, noReset=false, viewportRect={top=72, left=0, width=1080, height=1848}, deviceName=330073a8508cb423, platform=LINUX, deviceUDID=330073a8508cb423, desired={app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, appPackage=com.itc.seedbankqa, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.0, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=330073a8508cb423, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.0, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, deviceApiLevel=24, app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=3, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=480, deviceModel=SM-G610F, autoAcceptAlerts=true}]
+Session ID: ccc10677-7037-4988-a423-9587fbf0a92d
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Land' and @index='1']}
+Tue, Jan 08  2019; 00:52:32 PM - navigateToFarmerLandSection1 ----> Failed
+Tue, Jan 08  2019; 00:52:32 PM - org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: getaddrinfo ENOENT localhost:8200 (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13 milliseconds
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankqa, statBarHeight=72, noReset=false, viewportRect={top=72, left=0, width=1080, height=1848}, deviceName=330073a8508cb423, platform=LINUX, deviceUDID=330073a8508cb423, desired={app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, appPackage=com.itc.seedbankqa, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.0, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=330073a8508cb423, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.0, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, deviceApiLevel=24, app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=3, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=480, deviceModel=SM-G610F, autoAcceptAlerts=true}]
+Session ID: ccc10677-7037-4988-a423-9587fbf0a92d
+Tue, Jan 08  2019; 00:52:44 PM - Starting Appium Server
+Tue, Jan 08  2019; 00:52:54 PM - Starting Test Execution
+Tue, Jan 08  2019; 00:52:54 PM - Initializing locators from excel sheet...
+Tue, Jan 08  2019; 00:52:55 PM - Initializing locators from excel sheet completed successfully!
+Tue, Jan 08  2019; 00:52:55 PM - Initializing data from excel sheet...
+Tue, Jan 08  2019; 00:52:55 PM - Initializing data from excel sheet completed successfully!
+Tue, Jan 08  2019; 00:52:55 PM - Starting Appium Server
+Tue, Jan 08  2019; 00:53:05 PM - Starting Test Execution
+Tue, Jan 08  2019; 00:53:05 PM - Initializing locators from excel sheet...
+Tue, Jan 08  2019; 00:53:05 PM - Initializing locators from excel sheet completed successfully!
+Tue, Jan 08  2019; 00:53:05 PM - Initializing data from excel sheet...
+Tue, Jan 08  2019; 00:53:05 PM - Initializing data from excel sheet completed successfully!
+Tue, Jan 08  2019; 00:53:05 PM - Starting Appium Server
+Tue, Jan 08  2019; 00:53:15 PM - Starting Test Execution
+Tue, Jan 08  2019; 00:53:15 PM - Initializing locators from excel sheet...
+Tue, Jan 08  2019; 00:53:15 PM - Initializing locators from excel sheet completed successfully!
+Tue, Jan 08  2019; 00:53:15 PM - Initializing data from excel sheet...
+Tue, Jan 08  2019; 00:53:15 PM - Initializing data from excel sheet completed successfully!
+Tue, Jan 08  2019; 00:53:15 PM - Launching Appium Android...
+Tue, Jan 08  2019; 00:54:15 PM - Entered registered value in Phone Number field:9548231871
+Tue, Jan 08  2019; 00:54:27 PM - Entered value in OTP field:610166
+Tue, Jan 08  2019; 00:54:27 PM - loginAsExistingUser ----> Success
+Tue, Jan 08  2019; 00:55:09 PM - navigateToFarmerLandSection1 ----> Success
+Tue, Jan 08  2019; 00:55:28 PM - The message:Survey No cannot be empty.
+Tue, Jan 08  2019; 00:55:32 PM - checkWhetherSurveyNoIsMandatory ----> Success
+Tue, Jan 08  2019; 00:56:32 PM - Starting Appium Server
+Tue, Jan 08  2019; 00:56:42 PM - Starting Test Execution
+Tue, Jan 08  2019; 00:56:42 PM - Initializing locators from excel sheet...
+Tue, Jan 08  2019; 00:56:43 PM - Initializing locators from excel sheet completed successfully!
+Tue, Jan 08  2019; 00:56:43 PM - Initializing data from excel sheet...
+Tue, Jan 08  2019; 00:56:43 PM - Initializing data from excel sheet completed successfully!
+Tue, Jan 08  2019; 00:56:43 PM - Starting Appium Server
+Tue, Jan 08  2019; 00:56:53 PM - Starting Test Execution
+Tue, Jan 08  2019; 00:56:53 PM - Initializing locators from excel sheet...
+Tue, Jan 08  2019; 00:56:53 PM - Initializing locators from excel sheet completed successfully!
+Tue, Jan 08  2019; 00:56:53 PM - Initializing data from excel sheet...
+Tue, Jan 08  2019; 00:56:53 PM - Initializing data from excel sheet completed successfully!
+Tue, Jan 08  2019; 00:56:53 PM - Starting Appium Server
+Tue, Jan 08  2019; 00:57:03 PM - Starting Test Execution
+Tue, Jan 08  2019; 00:57:03 PM - Initializing locators from excel sheet...
+Tue, Jan 08  2019; 00:57:03 PM - Initializing locators from excel sheet completed successfully!
+Tue, Jan 08  2019; 00:57:03 PM - Initializing data from excel sheet...
+Tue, Jan 08  2019; 00:57:03 PM - Initializing data from excel sheet completed successfully!
+Tue, Jan 08  2019; 00:57:03 PM - Launching Appium Android...
+Tue, Jan 08  2019; 00:57:04 PM - loginAsExistingUser ----> Failed
+Tue, Jan 08  2019; 00:57:04 PM - java.lang.NullPointerException
+Tue, Jan 08  2019; 00:57:04 PM - loginAsExistingUser ----> Failed
+Tue, Jan 08  2019; 00:57:04 PM - java.lang.NullPointerException
+Tue, Jan 08  2019; 00:57:18 PM - Starting Appium Server
+Tue, Jan 08  2019; 00:57:28 PM - Starting Test Execution
+Tue, Jan 08  2019; 00:57:28 PM - Initializing locators from excel sheet...
+Tue, Jan 08  2019; 00:57:29 PM - Initializing locators from excel sheet completed successfully!
+Tue, Jan 08  2019; 00:57:29 PM - Initializing data from excel sheet...
+Tue, Jan 08  2019; 00:57:29 PM - Initializing data from excel sheet completed successfully!
+Tue, Jan 08  2019; 00:57:29 PM - Starting Appium Server
+Tue, Jan 08  2019; 00:57:39 PM - Starting Test Execution
+Tue, Jan 08  2019; 00:57:39 PM - Initializing locators from excel sheet...
+Tue, Jan 08  2019; 00:57:39 PM - Initializing locators from excel sheet completed successfully!
+Tue, Jan 08  2019; 00:57:39 PM - Initializing data from excel sheet...
+Tue, Jan 08  2019; 00:57:39 PM - Initializing data from excel sheet completed successfully!
+Tue, Jan 08  2019; 00:57:39 PM - Starting Appium Server
+Tue, Jan 08  2019; 00:57:49 PM - Starting Test Execution
+Tue, Jan 08  2019; 00:57:49 PM - Initializing locators from excel sheet...
+Tue, Jan 08  2019; 00:57:49 PM - Initializing locators from excel sheet completed successfully!
+Tue, Jan 08  2019; 00:57:49 PM - Initializing data from excel sheet...
+Tue, Jan 08  2019; 00:57:49 PM - Initializing data from excel sheet completed successfully!
+Tue, Jan 08  2019; 00:57:49 PM - Launching Appium Android...
+Tue, Jan 08  2019; 00:58:48 PM - Entered registered value in Phone Number field:9548231871
+Tue, Jan 08  2019; 00:58:59 PM - Entered value in OTP field:610166
+Tue, Jan 08  2019; 00:58:59 PM - loginAsExistingUser ----> Success
+Tue, Jan 08  2019; 00:59:48 PM - navigateToFarmerLandSection1 ----> Success
+Tue, Jan 08  2019; 00:59:59 PM - The message:Survey No cannot be empty.
+Tue, Jan 08  2019; 01:00:03 PM - checkWhetherSurveyNoIsMandatory ----> Success
+Tue, Jan 08  2019; 01:00:13 PM - The message:Total Land Holding Area cannot be empty
+Tue, Jan 08  2019; 01:00:20 PM - checkWhetherTotalLandHoldingAreaIsMandatory ----> Success
+Tue, Jan 08  2019; 01:00:20 PM - Ending Execution...
+Tue, Jan 08  2019; 01:00:20 PM - Trying to close Webdriver...
+Tue, Jan 08  2019; 01:00:22 PM - Selenium Webdriver closed successfully!
+Tue, Jan 08  2019; 01:00:22 PM - Stopping Appium server for Windows
+Tue, Jan 08  2019; 01:00:22 PM - Appium server is shutdown successfully
+Tue, Jan 08  2019; 01:00:32 PM - Writing Results and Logs to file...

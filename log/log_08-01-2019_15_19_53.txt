@@ -1,0 +1,58 @@
+Tue, Jan 08  2019; 03:13:40 PM - Starting Appium Server
+Tue, Jan 08  2019; 03:13:50 PM - Starting Test Execution
+Tue, Jan 08  2019; 03:13:50 PM - Initializing locators from excel sheet...
+Tue, Jan 08  2019; 03:13:51 PM - Initializing locators from excel sheet completed successfully!
+Tue, Jan 08  2019; 03:13:51 PM - Initializing data from excel sheet...
+Tue, Jan 08  2019; 03:13:51 PM - Initializing data from excel sheet completed successfully!
+Tue, Jan 08  2019; 03:13:51 PM - Starting Appium Server
+Tue, Jan 08  2019; 03:14:01 PM - Starting Test Execution
+Tue, Jan 08  2019; 03:14:01 PM - Initializing locators from excel sheet...
+Tue, Jan 08  2019; 03:14:01 PM - Initializing locators from excel sheet completed successfully!
+Tue, Jan 08  2019; 03:14:01 PM - Initializing data from excel sheet...
+Tue, Jan 08  2019; 03:14:01 PM - Initializing data from excel sheet completed successfully!
+Tue, Jan 08  2019; 03:14:01 PM - loginAsExistingUser ----> Failed
+Tue, Jan 08  2019; 03:14:01 PM - java.lang.NullPointerException
+Tue, Jan 08  2019; 03:14:01 PM - loginAsExistingUser ----> Failed
+Tue, Jan 08  2019; 03:14:01 PM - java.lang.NullPointerException
+Tue, Jan 08  2019; 03:14:57 PM - Starting Appium Server
+Tue, Jan 08  2019; 03:15:07 PM - Starting Test Execution
+Tue, Jan 08  2019; 03:15:07 PM - Initializing locators from excel sheet...
+Tue, Jan 08  2019; 03:15:07 PM - Initializing locators from excel sheet completed successfully!
+Tue, Jan 08  2019; 03:15:07 PM - Initializing data from excel sheet...
+Tue, Jan 08  2019; 03:15:07 PM - Initializing data from excel sheet completed successfully!
+Tue, Jan 08  2019; 03:15:07 PM - Starting Appium Server
+Tue, Jan 08  2019; 03:15:17 PM - Starting Test Execution
+Tue, Jan 08  2019; 03:15:17 PM - Initializing locators from excel sheet...
+Tue, Jan 08  2019; 03:15:17 PM - Initializing locators from excel sheet completed successfully!
+Tue, Jan 08  2019; 03:15:17 PM - Initializing data from excel sheet...
+Tue, Jan 08  2019; 03:15:17 PM - Initializing data from excel sheet completed successfully!
+Tue, Jan 08  2019; 03:15:17 PM - loginAsExistingUser ----> Failed
+Tue, Jan 08  2019; 03:15:17 PM - java.lang.NullPointerException
+Tue, Jan 08  2019; 03:15:17 PM - loginAsExistingUser ----> Failed
+Tue, Jan 08  2019; 03:15:17 PM - java.lang.NullPointerException
+Tue, Jan 08  2019; 03:16:25 PM - Starting Appium Server
+Tue, Jan 08  2019; 03:16:35 PM - Starting Test Execution
+Tue, Jan 08  2019; 03:16:35 PM - Initializing locators from excel sheet...
+Tue, Jan 08  2019; 03:16:36 PM - Initializing locators from excel sheet completed successfully!
+Tue, Jan 08  2019; 03:16:36 PM - Initializing data from excel sheet...
+Tue, Jan 08  2019; 03:16:36 PM - Initializing data from excel sheet completed successfully!
+Tue, Jan 08  2019; 03:16:36 PM - Starting Appium Server
+Tue, Jan 08  2019; 03:16:46 PM - Starting Test Execution
+Tue, Jan 08  2019; 03:16:46 PM - Initializing locators from excel sheet...
+Tue, Jan 08  2019; 03:16:46 PM - Initializing locators from excel sheet completed successfully!
+Tue, Jan 08  2019; 03:16:46 PM - Initializing data from excel sheet...
+Tue, Jan 08  2019; 03:16:46 PM - Initializing data from excel sheet completed successfully!
+Tue, Jan 08  2019; 03:16:46 PM - Launching Appium Android...
+Tue, Jan 08  2019; 03:17:49 PM - Entered registered value in Phone Number field:9548231871
+Tue, Jan 08  2019; 03:18:06 PM - Entered value in OTP field:610166
+Tue, Jan 08  2019; 03:18:06 PM - loginAsExistingUser ----> Success
+Tue, Jan 08  2019; 03:19:02 PM - Invalid PAN Number
+Tue, Jan 08  2019; 03:19:09 PM - validatePANNumber ----> Success
+Tue, Jan 08  2019; 03:19:29 PM - Invalid Aadhaar Number
+Tue, Jan 08  2019; 03:19:41 PM - validateAadharNumber ----> Success
+Tue, Jan 08  2019; 03:19:41 PM - Ending Execution...
+Tue, Jan 08  2019; 03:19:41 PM - Trying to close Webdriver...
+Tue, Jan 08  2019; 03:19:43 PM - Selenium Webdriver closed successfully!
+Tue, Jan 08  2019; 03:19:43 PM - Stopping Appium server for Windows
+Tue, Jan 08  2019; 03:19:43 PM - Appium server is shutdown successfully
+Tue, Jan 08  2019; 03:19:53 PM - Writing Results and Logs to file...

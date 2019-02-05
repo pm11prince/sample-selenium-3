@@ -1,0 +1,55 @@
+Fri, Dec 28  2018; 02:55:31 PM - Starting Appium Server
+Fri, Dec 28  2018; 02:55:41 PM - Starting Test Execution
+Fri, Dec 28  2018; 02:55:41 PM - Initializing locators from excel sheet...
+Fri, Dec 28  2018; 02:55:43 PM - Initializing locators from excel sheet completed successfully!
+Fri, Dec 28  2018; 02:55:43 PM - Initializing data from excel sheet...
+Fri, Dec 28  2018; 02:55:43 PM - Initializing data from excel sheet completed successfully!
+Fri, Dec 28  2018; 02:55:44 PM - Starting Appium Server
+Fri, Dec 28  2018; 02:55:54 PM - Starting Test Execution
+Fri, Dec 28  2018; 02:55:54 PM - Initializing locators from excel sheet...
+Fri, Dec 28  2018; 02:55:54 PM - Initializing locators from excel sheet completed successfully!
+Fri, Dec 28  2018; 02:55:54 PM - Initializing data from excel sheet...
+Fri, Dec 28  2018; 02:55:54 PM - Initializing data from excel sheet completed successfully!
+Fri, Dec 28  2018; 02:55:54 PM - Launching Appium Android...
+Fri, Dec 28  2018; 02:57:04 PM - Entered value in Phone Number field:2483264885
+Fri, Dec 28  2018; 02:57:33 PM - Entered value in OTP field:610166
+Fri, Dec 28  2018; 02:59:10 PM - registerWithAlreadyRegisteredNumber ----> Failed
+Fri, Dec 28  2018; 02:59:10 PM - org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8200 (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 36.07 seconds
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '10.6.141.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankqa, statBarHeight=72, noReset=false, viewportRect={top=72, left=0, width=1080, height=1848}, deviceName=330073a8508cb423, platform=LINUX, deviceUDID=330073a8508cb423, desired={app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, appPackage=com.itc.seedbankqa, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.0, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=330073a8508cb423, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.0, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, deviceApiLevel=24, app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=3, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=480, deviceModel=SM-G610F, autoAcceptAlerts=true}]
+Session ID: 14bc594b-6149-428d-aa6d-c779456d8118
+*** Element info: {Using=id, value=com.itc.seedbankqa:id/image_profilePhoto}
+Fri, Dec 28  2018; 02:59:12 PM - registerWithAlreadyRegisteredNumber ----> Failed
+Fri, Dec 28  2018; 02:59:12 PM - org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8200 (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.02 seconds
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '10.6.141.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankqa, statBarHeight=72, noReset=false, viewportRect={top=72, left=0, width=1080, height=1848}, deviceName=330073a8508cb423, platform=LINUX, deviceUDID=330073a8508cb423, desired={app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, appPackage=com.itc.seedbankqa, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.0, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=330073a8508cb423, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.0, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, deviceApiLevel=24, app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=3, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=480, deviceModel=SM-G610F, autoAcceptAlerts=true}]
+Session ID: 14bc594b-6149-428d-aa6d-c779456d8118
+Fri, Dec 28  2018; 03:11:37 PM - Starting Appium Server
+Fri, Dec 28  2018; 03:11:47 PM - Starting Test Execution
+Fri, Dec 28  2018; 03:11:47 PM - Initializing locators from excel sheet...
+Fri, Dec 28  2018; 03:11:48 PM - Initializing locators from excel sheet completed successfully!
+Fri, Dec 28  2018; 03:11:48 PM - Initializing data from excel sheet...
+Fri, Dec 28  2018; 03:11:48 PM - Initializing data from excel sheet completed successfully!
+Fri, Dec 28  2018; 03:11:48 PM - Starting Appium Server
+Fri, Dec 28  2018; 03:11:58 PM - Starting Test Execution
+Fri, Dec 28  2018; 03:11:58 PM - Initializing locators from excel sheet...
+Fri, Dec 28  2018; 03:11:59 PM - Initializing locators from excel sheet completed successfully!
+Fri, Dec 28  2018; 03:11:59 PM - Initializing data from excel sheet...
+Fri, Dec 28  2018; 03:11:59 PM - Initializing data from excel sheet completed successfully!
+Fri, Dec 28  2018; 03:11:59 PM - Launching Appium Android...
+Fri, Dec 28  2018; 03:12:59 PM - Entered value in Phone Number field:9460686885
+Fri, Dec 28  2018; 03:13:11 PM - Entered value in OTP field:610166
+Fri, Dec 28  2018; 03:15:20 PM - Entered value in Phone Number field:9460686885
+Fri, Dec 28  2018; 03:15:25 PM - registerWithAlreadyRegisteredNumber ----> Success
+Fri, Dec 28  2018; 03:15:26 PM - Ending Execution...
+Fri, Dec 28  2018; 03:15:26 PM - Trying to close Webdriver...
+Fri, Dec 28  2018; 03:15:28 PM - Selenium Webdriver closed successfully!
+Fri, Dec 28  2018; 03:15:28 PM - Stopping Appium server for Windows
+Fri, Dec 28  2018; 03:15:28 PM - Appium server is shutdown successfully
+Fri, Dec 28  2018; 03:15:38 PM - Writing Results and Logs to file...

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [REgistration]">
+  <parameter name="OS" value="Android"/>
+  <parameter name="deviceID" value="330073a8508cb423"/>
+  <listeners>
+    <listener class-name="com.seedbank.common.reporting.CustomListener"/>
+  </listeners>
+  <test thread-count="5" name="Farmer Validations(failed)">
+    <groups>
+      <run>
+        <include name="setup"/>
+        <include name="Existing User"/>
+        <include name="Validations_FarmerProfile"/>
+        <include name="Validations_FarmerLand"/>
+        <include name="Validations_FarmerCroppingPattern"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.seedbank.common.tests.FarmerCroppingPatternTest">
+        <methods>
+          <include name="checkIfSurveyNoIsMandatory"/>
+        </methods>
+      </class> <!-- com.seedbank.common.tests.FarmerCroppingPatternTest -->
+    </classes>
+  </test> <!-- Farmer Validations(failed) -->
+</suite> <!-- Failed suite [REgistration] -->

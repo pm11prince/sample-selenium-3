@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MultipleSuite">
+<suite-files>
+	<listeners>
+		<listener
+			class-name="com.seedbank.common.reporting.CustomListener" />
+	</listeners>
+    <suite-file path="resources//testng_files//testng_registration.xml"></suite-file>
+    <suite-file path="resources//testng_files//testng_farmerprofile.xml"></suite-file>
+    
+    
+  </suite-files>
+</suite> 

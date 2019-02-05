@@ -1,0 +1,71 @@
+Mon, Dec 03  2018; 02:12:46 PM - Starting Appium Server
+Mon, Dec 03  2018; 02:12:56 PM - Starting Test Execution
+Mon, Dec 03  2018; 02:12:56 PM - Initializing locators from excel sheet...
+Mon, Dec 03  2018; 02:12:57 PM - Initializing locators from excel sheet completed successfully!
+Mon, Dec 03  2018; 02:12:57 PM - Initializing data from excel sheet...
+Mon, Dec 03  2018; 02:13:34 PM - Starting Appium Server
+Mon, Dec 03  2018; 02:13:44 PM - Starting Test Execution
+Mon, Dec 03  2018; 02:13:44 PM - Initializing locators from excel sheet...
+Mon, Dec 03  2018; 02:13:45 PM - Initializing locators from excel sheet completed successfully!
+Mon, Dec 03  2018; 02:13:45 PM - Initializing data from excel sheet...
+Mon, Dec 03  2018; 02:15:13 PM - Starting Appium Server
+Mon, Dec 03  2018; 02:15:23 PM - Starting Test Execution
+Mon, Dec 03  2018; 02:15:23 PM - Initializing locators from excel sheet...
+Mon, Dec 03  2018; 02:15:23 PM - Initializing locators from excel sheet completed successfully!
+Mon, Dec 03  2018; 02:15:23 PM - Initializing data from excel sheet...
+Mon, Dec 03  2018; 02:16:18 PM - Starting Appium Server
+Mon, Dec 03  2018; 02:16:28 PM - Starting Test Execution
+Mon, Dec 03  2018; 02:16:28 PM - Initializing locators from excel sheet...
+Mon, Dec 03  2018; 02:16:28 PM - Initializing locators from excel sheet completed successfully!
+Mon, Dec 03  2018; 02:16:28 PM - Initializing data from excel sheet...
+Mon, Dec 03  2018; 02:17:03 PM - Starting Appium Server
+Mon, Dec 03  2018; 02:17:13 PM - Starting Test Execution
+Mon, Dec 03  2018; 02:17:13 PM - Initializing locators from excel sheet...
+Mon, Dec 03  2018; 02:17:14 PM - Initializing locators from excel sheet completed successfully!
+Mon, Dec 03  2018; 02:17:14 PM - Initializing data from excel sheet...
+Mon, Dec 03  2018; 02:17:14 PM - Initializing data from excel sheet completed successfully!
+Mon, Dec 03  2018; 02:17:14 PM - Starting Appium Server
+Mon, Dec 03  2018; 02:17:24 PM - Starting Test Execution
+Mon, Dec 03  2018; 02:17:24 PM - Initializing locators from excel sheet...
+Mon, Dec 03  2018; 02:17:24 PM - Initializing locators from excel sheet completed successfully!
+Mon, Dec 03  2018; 02:17:24 PM - Initializing data from excel sheet...
+Mon, Dec 03  2018; 02:17:24 PM - Initializing data from excel sheet completed successfully!
+Mon, Dec 03  2018; 02:17:24 PM - Launching Appium Android...
+Mon, Dec 03  2018; 02:18:27 PM - Entered value in Phone Number field:/|*_/!-)')
+Mon, Dec 03  2018; 02:18:36 PM - registerValidations_SpecialChar ----> Success
+Mon, Dec 03  2018; 02:18:48 PM - Entered value in Phone Number field:uFz9XLKGLZ
+Mon, Dec 03  2018; 02:18:56 PM - registerValidations_AlphaNumeric ----> Success
+Mon, Dec 03  2018; 02:19:09 PM - Entered value in Phone Number field:WGTdrHjWiP
+Mon, Dec 03  2018; 02:19:17 PM - registerValidations_Alphabetic ----> Success
+Mon, Dec 03  2018; 02:19:30 PM - Entered value in Phone Number field:67298
+Mon, Dec 03  2018; 02:19:38 PM - registerValidations_checkMobileNumberLength ----> Success
+Mon, Dec 03  2018; 02:19:50 PM - Entered value in Phone Number field:8540326720
+Mon, Dec 03  2018; 02:23:06 PM - Starting Appium Server
+Mon, Dec 03  2018; 02:23:16 PM - Starting Test Execution
+Mon, Dec 03  2018; 02:23:16 PM - Initializing locators from excel sheet...
+Mon, Dec 03  2018; 02:23:16 PM - Initializing locators from excel sheet completed successfully!
+Mon, Dec 03  2018; 02:23:16 PM - Initializing data from excel sheet...
+Mon, Dec 03  2018; 02:23:16 PM - Initializing data from excel sheet completed successfully!
+Mon, Dec 03  2018; 02:23:16 PM - Starting Appium Server
+Mon, Dec 03  2018; 02:23:27 PM - Starting Test Execution
+Mon, Dec 03  2018; 02:23:27 PM - Initializing locators from excel sheet...
+Mon, Dec 03  2018; 02:23:27 PM - Initializing locators from excel sheet completed successfully!
+Mon, Dec 03  2018; 02:23:27 PM - Initializing data from excel sheet...
+Mon, Dec 03  2018; 02:23:27 PM - Initializing data from excel sheet completed successfully!
+Mon, Dec 03  2018; 02:23:27 PM - Launching Appium Android...
+Mon, Dec 03  2018; 02:24:27 PM - Entered value in Phone Number field:(##&-&\^_[
+Mon, Dec 03  2018; 02:24:35 PM - registerValidations_SpecialChar ----> Success
+Mon, Dec 03  2018; 02:24:48 PM - Entered value in Phone Number field:Ttpzjkh5JQ
+Mon, Dec 03  2018; 02:24:56 PM - registerValidations_AlphaNumeric ----> Success
+Mon, Dec 03  2018; 02:25:08 PM - Entered value in Phone Number field:zaacAcRfkd
+Mon, Dec 03  2018; 02:25:16 PM - registerValidations_Alphabetic ----> Success
+Mon, Dec 03  2018; 02:25:29 PM - Entered value in Phone Number field:88004
+Mon, Dec 03  2018; 02:25:37 PM - registerValidations_checkMobileNumberLength ----> Success
+Mon, Dec 03  2018; 02:25:50 PM - Entered value in Phone Number field:7918224121
+Mon, Dec 03  2018; 02:26:05 PM - registerValidations_register ----> Success
+Mon, Dec 03  2018; 02:26:06 PM - Ending Execution...
+Mon, Dec 03  2018; 02:26:06 PM - Trying to close Webdriver...
+Mon, Dec 03  2018; 02:26:07 PM - Selenium Webdriver closed successfully!
+Mon, Dec 03  2018; 02:26:07 PM - Stopping Appium server for Windows
+Mon, Dec 03  2018; 02:26:07 PM - Appium server is shutdown successfully
+Mon, Dec 03  2018; 02:26:17 PM - Writing Results and Logs to file...

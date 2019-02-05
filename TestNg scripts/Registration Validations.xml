@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SeedBank Testing Framework">
+	<parameter name="OS" value="Android" />
+	<parameter name="deviceID" value="330073a8508cb423" />
+	<listeners>
+		<listener
+			class-name="com.seedbank.common.reporting.CustomListener" />
+	</listeners>
+	<test name="Registration Validations" preserve-order="true">
+		<groups><run>
+				<include name="setup" />
+				<include name="Registration_Invalid Mobile Number"/>
+				<!-- <include name="Registration_Invalid OTP"/>
+				<include name="Register with already registered number"/>
+				<include name="Check Dashboard"/> -->
+			</run></groups>
+		<classes><class name="com.seedbank.common.tests.Registration" /></classes>
+	</test>
+</suite> 

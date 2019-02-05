@@ -1,0 +1,476 @@
+Thu, Jan 10  2019; 11:49:52 AM - 
+Test name : Farmer_PositiveFlow
+List of TestNames of Farmer_PositiveFlow:
+Thu, Jan 10  2019; 11:49:52 AM - 				Register with Valid Details$Registration
+Thu, Jan 10  2019; 11:49:52 AM - 				Check Dashboard$Registration
+Thu, Jan 10  2019; 11:49:52 AM - 				Create Farmer Profile$FarmerProfileTest
+Thu, Jan 10  2019; 11:49:52 AM - 				Create Farmer Land$FarmerLandTest
+Thu, Jan 10  2019; 11:49:52 AM - 				Create Crop Pattern$FarmerCroppingPatternTest
+Thu, Jan 10  2019; 11:49:52 AM - 
+Test name : Farmer_NegativeFlow
+List of TestNames of Farmer_NegativeFlow:
+Thu, Jan 10  2019; 11:49:52 AM - 				Registration_Invalid Mobile Number$Registration
+Thu, Jan 10  2019; 11:49:52 AM - 				Registration_Invalid OTP$Registration
+Thu, Jan 10  2019; 11:49:52 AM - 				Registration_Register with already registered number$Registration
+Thu, Jan 10  2019; 11:49:52 AM - 				Check Dashboard$Registration
+Thu, Jan 10  2019; 11:49:52 AM - 				Check Mandatory fields$FarmerProfileTest
+Thu, Jan 10  2019; 11:49:52 AM - 				Create Farmer Land$FarmerLandTest
+Thu, Jan 10  2019; 11:49:52 AM - 				Create Crop Pattern$FarmerCroppingPatternTest
+Thu, Jan 10  2019; 11:49:52 AM - 
+Test name : Farmer_PositiveFlow
+List of TestNames of Farmer_PositiveFlow:
+Thu, Jan 10  2019; 11:49:52 AM - 
+Test name : Farmer_NegativeFlow
+List of TestNames of Farmer_NegativeFlow:
+Thu, Jan 10  2019; 11:49:53 AM - Starting Appium Server
+Thu, Jan 10  2019; 11:50:03 AM - Starting Test Execution
+Thu, Jan 10  2019; 11:50:03 AM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 11:50:03 AM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 11:50:03 AM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 11:50:03 AM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 11:50:03 AM - Test case name--->Farmer_PositiveFlow::Register with Valid Details$Registration
+Thu, Jan 10  2019; 11:50:03 AM - Test case name--->Farmer_PositiveFlow::Check Dashboard$Registration
+Thu, Jan 10  2019; 11:50:03 AM - registerAsNewUser ----> Failed
+Thu, Jan 10  2019; 11:50:03 AM - java.lang.NullPointerException
+Thu, Jan 10  2019; 11:50:03 AM - registerAsNewUser ----> Failed
+Thu, Jan 10  2019; 11:50:03 AM - java.lang.NullPointerException
+Thu, Jan 10  2019; 11:51:30 AM - 
+Test name : Farmer_NegativeFlow
+List of TestNames of Farmer_NegativeFlow:
+Thu, Jan 10  2019; 11:51:30 AM - 				Registration_Invalid Mobile Number$Registration
+Thu, Jan 10  2019; 11:51:30 AM - 				Registration_Invalid OTP$Registration
+Thu, Jan 10  2019; 11:51:30 AM - 				Registration_Register with already registered number$Registration
+Thu, Jan 10  2019; 11:51:30 AM - 				Check Dashboard$Registration
+Thu, Jan 10  2019; 11:51:30 AM - 				Check Mandatory fields$FarmerProfileTest
+Thu, Jan 10  2019; 11:51:30 AM - 				Create Farmer Land$FarmerLandTest
+Thu, Jan 10  2019; 11:51:30 AM - 				Create Crop Pattern$FarmerCroppingPatternTest
+Thu, Jan 10  2019; 11:51:30 AM - 
+Test name : Farmer_NegativeFlow
+List of TestNames of Farmer_NegativeFlow:
+Thu, Jan 10  2019; 11:51:30 AM - Starting Appium Server
+Thu, Jan 10  2019; 11:51:40 AM - Starting Test Execution
+Thu, Jan 10  2019; 11:51:40 AM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 11:51:40 AM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 11:51:40 AM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 11:51:40 AM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 11:51:40 AM - Test case name--->Farmer_NegativeFlow::Registration_Invalid Mobile Number$Registration
+Thu, Jan 10  2019; 11:51:40 AM - checkForInvalidMobileNumber_SpecialChar ----> Failed
+Thu, Jan 10  2019; 11:51:40 AM - java.lang.NullPointerException
+Thu, Jan 10  2019; 11:51:40 AM - checkForInvalidMobileNumber_SpecialChar ----> Failed
+Thu, Jan 10  2019; 11:51:40 AM - java.lang.NullPointerException
+Thu, Jan 10  2019; 11:52:06 AM - 
+Test name : Farmer_NegativeFlow
+List of TestNames of Farmer_NegativeFlow:
+Thu, Jan 10  2019; 11:52:06 AM - 				Registration_Invalid Mobile Number$Registration
+Thu, Jan 10  2019; 11:52:06 AM - 				Registration_Invalid OTP$Registration
+Thu, Jan 10  2019; 11:52:06 AM - 				Registration_Register with already registered number$Registration
+Thu, Jan 10  2019; 11:52:06 AM - 				Check Dashboard$Registration
+Thu, Jan 10  2019; 11:52:06 AM - 				Check Mandatory fields$FarmerProfileTest
+Thu, Jan 10  2019; 11:52:06 AM - 				Create Farmer Land$FarmerLandTest
+Thu, Jan 10  2019; 11:52:06 AM - 				Create Crop Pattern$FarmerCroppingPatternTest
+Thu, Jan 10  2019; 11:52:06 AM - 
+Test name : Farmer_NegativeFlow
+List of TestNames of Farmer_NegativeFlow:
+Thu, Jan 10  2019; 11:52:06 AM - Starting Appium Server
+Thu, Jan 10  2019; 11:52:16 AM - Starting Test Execution
+Thu, Jan 10  2019; 11:52:16 AM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 11:52:16 AM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 11:52:16 AM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 11:52:16 AM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 11:52:16 AM - Test case name--->Farmer_NegativeFlow::Registration_Invalid Mobile Number$Registration
+Thu, Jan 10  2019; 11:52:16 AM - checkForInvalidMobileNumber_SpecialChar ----> Failed
+Thu, Jan 10  2019; 11:52:16 AM - java.lang.NullPointerException
+Thu, Jan 10  2019; 11:52:16 AM - checkForInvalidMobileNumber_SpecialChar ----> Failed
+Thu, Jan 10  2019; 11:52:16 AM - java.lang.NullPointerException
+Thu, Jan 10  2019; 11:54:27 AM - 
+Test name : Farmer_NegativeFlow
+List of TestNames of Farmer_NegativeFlow:
+Thu, Jan 10  2019; 11:54:27 AM - 				Registration_Invalid Mobile Number$Registration
+Thu, Jan 10  2019; 11:54:27 AM - 				Registration_Invalid OTP$Registration
+Thu, Jan 10  2019; 11:54:27 AM - 				Registration_Register with already registered number$Registration
+Thu, Jan 10  2019; 11:54:27 AM - 				Check Dashboard$Registration
+Thu, Jan 10  2019; 11:54:27 AM - 				Check Mandatory fields$FarmerProfileTest
+Thu, Jan 10  2019; 11:54:27 AM - 				Create Farmer Land$FarmerLandTest
+Thu, Jan 10  2019; 11:54:27 AM - 				Create Crop Pattern$FarmerCroppingPatternTest
+Thu, Jan 10  2019; 11:54:27 AM - 
+Test name : Farmer_NegativeFlow
+List of TestNames of Farmer_NegativeFlow:
+Thu, Jan 10  2019; 11:54:27 AM - Starting Appium Server
+Thu, Jan 10  2019; 11:54:37 AM - Starting Test Execution
+Thu, Jan 10  2019; 11:54:37 AM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 11:54:38 AM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 11:54:38 AM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 11:54:38 AM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 11:54:38 AM - Test case name--->Farmer_NegativeFlow::Registration_Invalid Mobile Number$Registration
+Thu, Jan 10  2019; 11:54:38 AM - checkForInvalidMobileNumber_SpecialChar ----> Failed
+Thu, Jan 10  2019; 11:54:38 AM - java.lang.NullPointerException
+Thu, Jan 10  2019; 11:54:38 AM - checkForInvalidMobileNumber_SpecialChar ----> Failed
+Thu, Jan 10  2019; 11:54:38 AM - java.lang.NullPointerException
+Thu, Jan 10  2019; 11:58:27 AM - 
+Test name : Farmer_NegativeFlow
+List of TestNames of Farmer_NegativeFlow:
+Thu, Jan 10  2019; 11:58:27 AM - 				Registration_Invalid Mobile Number$Registration
+Thu, Jan 10  2019; 11:58:27 AM - 				Registration_Invalid OTP$Registration
+Thu, Jan 10  2019; 11:58:27 AM - 				Registration_Register with already registered number$Registration
+Thu, Jan 10  2019; 11:58:27 AM - 				Check Dashboard$Registration
+Thu, Jan 10  2019; 11:58:27 AM - 				Check Mandatory fields$FarmerProfileTest
+Thu, Jan 10  2019; 11:58:27 AM - 				Create Farmer Land$FarmerLandTest
+Thu, Jan 10  2019; 11:58:27 AM - 				Create Crop Pattern$FarmerCroppingPatternTest
+Thu, Jan 10  2019; 11:58:27 AM - 
+Test name : Farmer_NegativeFlow
+List of TestNames of Farmer_NegativeFlow:
+Thu, Jan 10  2019; 00:01:31 PM - 
+Test name : Farmer_NegativeFlow
+List of TestNames of Farmer_NegativeFlow:
+Thu, Jan 10  2019; 00:01:31 PM - 				Registration_Invalid Mobile Number$Registration
+Thu, Jan 10  2019; 00:01:31 PM - 				Registration_Invalid OTP$Registration
+Thu, Jan 10  2019; 00:01:31 PM - 				Registration_Register with already registered number$Registration
+Thu, Jan 10  2019; 00:01:31 PM - 				Check Dashboard$Registration
+Thu, Jan 10  2019; 00:01:31 PM - 				Check Mandatory fields$FarmerProfileTest
+Thu, Jan 10  2019; 00:01:31 PM - 				Create Farmer Land$FarmerLandTest
+Thu, Jan 10  2019; 00:01:31 PM - 				Create Crop Pattern$FarmerCroppingPatternTest
+Thu, Jan 10  2019; 00:01:31 PM - 
+Test name : Farmer_NegativeFlow
+List of TestNames of Farmer_NegativeFlow:
+Thu, Jan 10  2019; 00:01:31 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:01:41 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:01:41 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:01:41 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:01:41 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:01:41 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:01:42 PM - Test case name--->Farmer_NegativeFlow::Registration_Invalid Mobile Number$Registration
+Thu, Jan 10  2019; 00:01:42 PM - checkForInvalidMobileNumber_SpecialChar ----> Failed
+Thu, Jan 10  2019; 00:01:42 PM - java.lang.NullPointerException
+Thu, Jan 10  2019; 00:01:42 PM - checkForInvalidMobileNumber_SpecialChar ----> Failed
+Thu, Jan 10  2019; 00:01:42 PM - java.lang.NullPointerException
+Thu, Jan 10  2019; 00:02:39 PM - 
+Test name : Farmer_PositiveFlow
+List of TestNames of Farmer_PositiveFlow:
+Thu, Jan 10  2019; 00:02:39 PM - 				setup$Registration
+Thu, Jan 10  2019; 00:02:39 PM - 				Register with Valid Details$Registration
+Thu, Jan 10  2019; 00:02:39 PM - 				Check Dashboard$Registration
+Thu, Jan 10  2019; 00:02:39 PM - 				Create Farmer Profile$FarmerProfileTest
+Thu, Jan 10  2019; 00:02:39 PM - 				Create Farmer Land$FarmerLandTest
+Thu, Jan 10  2019; 00:02:39 PM - 				Create Crop Pattern$FarmerCroppingPatternTest
+Thu, Jan 10  2019; 00:02:39 PM - 
+Test name : Farmer_PositiveFlow
+List of TestNames of Farmer_PositiveFlow:
+Thu, Jan 10  2019; 00:02:39 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:02:49 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:02:49 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:02:49 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:02:49 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:02:49 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:02:50 PM - Test case name--->Farmer_PositiveFlow::setup$Registration
+Thu, Jan 10  2019; 00:02:50 PM - Test case name--->Farmer_PositiveFlow::Register with Valid Details$Registration
+Thu, Jan 10  2019; 00:02:50 PM - Test case name--->Farmer_PositiveFlow::Check Dashboard$Registration
+Thu, Jan 10  2019; 00:02:50 PM - registerAsNewUser ----> Failed
+Thu, Jan 10  2019; 00:02:50 PM - java.lang.NullPointerException
+Thu, Jan 10  2019; 00:02:50 PM - registerAsNewUser ----> Failed
+Thu, Jan 10  2019; 00:02:50 PM - java.lang.NullPointerException
+Thu, Jan 10  2019; 00:03:42 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:03:52 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:03:52 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:03:53 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:03:53 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:03:53 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:03:53 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:04:03 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:04:03 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:04:03 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:04:03 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:04:03 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:04:03 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:04:13 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:04:13 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:04:13 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:04:13 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:04:13 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:04:13 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:04:23 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:04:23 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:04:23 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:04:23 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:04:23 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:04:23 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:04:33 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:04:33 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:04:33 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:04:33 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:04:33 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:04:33 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:04:43 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:04:43 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:04:43 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:04:43 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:04:43 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:04:43 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:04:53 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:04:53 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:04:53 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:04:53 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:04:53 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:04:53 PM - Test case name--->Farmer_PositiveFlow::setup$Registration
+Thu, Jan 10  2019; 00:04:53 PM - Test case name--->Farmer_PositiveFlow::Register with Valid Details$Registration
+Thu, Jan 10  2019; 00:04:53 PM - Test case name--->Farmer_PositiveFlow::Check Dashboard$Registration
+Thu, Jan 10  2019; 00:04:54 PM - registerAsNewUser ----> Failed
+Thu, Jan 10  2019; 00:04:54 PM - java.lang.NullPointerException
+Thu, Jan 10  2019; 00:04:54 PM - registerAsNewUser ----> Failed
+Thu, Jan 10  2019; 00:04:54 PM - java.lang.NullPointerException
+Thu, Jan 10  2019; 00:05:24 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:05:59 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:06:09 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:06:09 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:06:09 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:06:09 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:06:10 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:06:10 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:06:20 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:06:20 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:06:20 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:06:20 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:06:20 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:06:20 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:06:33 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:06:59 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:07:09 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:07:09 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:07:10 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:07:10 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:07:10 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:07:10 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:07:20 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:07:20 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:07:20 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:07:20 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:07:20 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:07:20 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:08:43 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:08:53 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:08:53 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:08:54 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:08:54 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:08:54 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:08:54 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:08:58 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:09:08 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:09:08 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:09:08 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:09:08 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:09:08 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:09:08 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:09:17 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:09:27 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:09:27 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:09:28 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:09:28 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:09:28 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:09:28 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:09:38 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:09:38 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:09:38 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:09:38 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:09:38 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:09:38 PM - Test case name--->Registration Validations
+Thu, Jan 10  2019; 00:09:38 PM - Launching Appium Android...
+Thu, Jan 10  2019; 00:10:36 PM - Entered value in Phone Number field:+#_&_=&-}=
+Thu, Jan 10  2019; 00:10:44 PM - Invalid Mobile number:+#_&_=&-}=
+Thu, Jan 10  2019; 00:10:44 PM - checkForInvalidMobileNumber_SpecialChar ----> Success
+Thu, Jan 10  2019; 00:10:46 PM - Entered value in Phone Number field:bgaw0rkEaA
+Thu, Jan 10  2019; 00:10:55 PM - Invalid Mobile number:bgaw0rkEaA
+Thu, Jan 10  2019; 00:10:55 PM - checkForInvalidMobileNumber_AlphaNumeric ----> Success
+Thu, Jan 10  2019; 00:10:57 PM - Entered value in Phone Number field:hfaNlwsuTO
+Thu, Jan 10  2019; 00:11:05 PM - checkForInvalidMobileNumber_Alphabetic ----> Success
+Thu, Jan 10  2019; 00:11:07 PM - Entered value in Phone Number field:93532
+Thu, Jan 10  2019; 00:11:15 PM - checkForInvalidMobileNumber_checkMobileNumberLength ----> Success
+Thu, Jan 10  2019; 00:11:17 PM - Entered value in Phone Number field:4855810006
+Thu, Jan 10  2019; 00:12:08 PM - Entered value in OTP field:\/}]+{
+Thu, Jan 10  2019; 00:12:08 PM - checkForInvalidOTP_SpecialChar ----> Success
+Thu, Jan 10  2019; 00:12:25 PM - Entered value in OTP field:3IPGKw
+Thu, Jan 10  2019; 00:12:25 PM - checkForInvalidOTP_AlphaNumeric ----> Success
+Thu, Jan 10  2019; 00:12:42 PM - Entered value in OTP field:AXkJwA
+Thu, Jan 10  2019; 00:12:42 PM - checkForInvalidOTP_Alphabetic ----> Success
+Thu, Jan 10  2019; 00:13:14 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:13:24 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:13:24 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:13:25 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:13:25 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:13:25 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:13:25 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:13:35 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:13:35 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:13:35 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:13:35 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:13:35 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:13:35 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:13:45 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:13:45 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:13:45 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:13:45 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:13:45 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:13:45 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:14:08 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:14:18 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:14:18 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:14:19 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:14:19 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:14:19 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:14:19 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:14:29 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:14:29 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:14:29 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:14:29 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:14:29 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:14:29 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:14:39 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:14:39 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:14:39 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:14:39 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:14:39 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:14:39 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:14:49 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:14:49 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:14:49 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:14:49 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:14:49 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:14:49 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:14:59 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:14:59 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:14:59 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:14:59 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:14:59 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:14:59 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:15:09 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:15:09 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:15:09 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:15:09 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:15:09 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:15:09 PM - Test case name--->Farmer_PositiveFlow::Register with Valid Details$Registration
+Thu, Jan 10  2019; 00:15:09 PM - Test case name--->Farmer_PositiveFlow::Check Dashboard$Registration
+Thu, Jan 10  2019; 00:15:09 PM - registerAsNewUser ----> Failed
+Thu, Jan 10  2019; 00:15:09 PM - java.lang.NullPointerException
+Thu, Jan 10  2019; 00:15:09 PM - registerAsNewUser ----> Failed
+Thu, Jan 10  2019; 00:15:09 PM - java.lang.NullPointerException
+Thu, Jan 10  2019; 00:15:55 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:16:05 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:16:05 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:16:05 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:16:05 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:16:05 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:16:05 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:16:15 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:16:15 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:16:16 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:16:16 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:16:16 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:16:16 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:16:26 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:16:26 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:16:26 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:16:26 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:16:26 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:16:26 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:16:36 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:16:36 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:16:36 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:16:36 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:16:36 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:16:36 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:16:46 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:16:46 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:16:46 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:16:46 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:16:46 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:16:46 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:16:56 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:16:56 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:16:56 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:16:56 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:16:56 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:16:56 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:17:06 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:17:06 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:17:06 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:17:06 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:17:06 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:17:06 PM - Test case name--->Farmer_PositiveFlow::setup$Registration
+Thu, Jan 10  2019; 00:17:06 PM - Test case name--->Farmer_PositiveFlow::Register with Valid Details$Registration
+Thu, Jan 10  2019; 00:17:06 PM - Test case name--->Farmer_PositiveFlow::Check Dashboard$Registration
+Thu, Jan 10  2019; 00:17:06 PM - registerAsNewUser ----> Failed
+Thu, Jan 10  2019; 00:17:06 PM - java.lang.NullPointerException
+Thu, Jan 10  2019; 00:17:06 PM - registerAsNewUser ----> Failed
+Thu, Jan 10  2019; 00:17:06 PM - java.lang.NullPointerException
+Thu, Jan 10  2019; 00:19:01 PM - 
+Test name : Farmer_PositiveFlow
+List of TestNames of Farmer_PositiveFlow:
+Thu, Jan 10  2019; 00:19:01 PM - 				setup$Registration
+Thu, Jan 10  2019; 00:19:01 PM - 				Registration_Invalid Mobile Number$Registration
+Thu, Jan 10  2019; 00:19:01 PM - 
+Test name : Farmer_PositiveFlow
+List of TestNames of Farmer_PositiveFlow:
+Thu, Jan 10  2019; 00:19:01 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:19:11 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:19:11 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:19:11 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:19:11 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:19:11 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:19:11 PM - Test case name--->Farmer_PositiveFlow::setup$Registration
+Thu, Jan 10  2019; 00:19:11 PM - Test case name--->Farmer_PositiveFlow::Registration_Invalid Mobile Number$Registration
+Thu, Jan 10  2019; 00:19:11 PM - checkForInvalidMobileNumber_SpecialChar ----> Failed
+Thu, Jan 10  2019; 00:19:11 PM - java.lang.NullPointerException
+Thu, Jan 10  2019; 00:19:11 PM - checkForInvalidMobileNumber_SpecialChar ----> Failed
+Thu, Jan 10  2019; 00:19:11 PM - java.lang.NullPointerException
+Thu, Jan 10  2019; 00:19:45 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:19:55 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:19:55 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:19:55 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:19:55 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:19:55 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:19:55 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:20:05 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:20:05 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:20:05 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:20:05 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:20:05 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:20:05 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:20:16 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:20:16 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:20:16 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:20:16 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:20:16 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:20:16 PM - Test case name--->Farmer_PositiveFlow::setup$Registration
+Thu, Jan 10  2019; 00:20:16 PM - Test case name--->Farmer_PositiveFlow::Registration_Invalid Mobile Number$Registration
+Thu, Jan 10  2019; 00:20:16 PM - checkForInvalidMobileNumber_SpecialChar ----> Failed
+Thu, Jan 10  2019; 00:20:16 PM - java.lang.NullPointerException
+Thu, Jan 10  2019; 00:20:16 PM - checkForInvalidMobileNumber_SpecialChar ----> Failed
+Thu, Jan 10  2019; 00:20:16 PM - java.lang.NullPointerException
+Thu, Jan 10  2019; 00:20:42 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:20:52 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:20:52 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:20:52 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:20:52 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:20:52 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:20:52 PM - Starting Appium Server
+Thu, Jan 10  2019; 00:21:02 PM - Starting Test Execution
+Thu, Jan 10  2019; 00:21:02 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 00:21:02 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:21:02 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 00:21:02 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 00:21:02 PM - Test case name--->Farmer_PositiveFlow::Registration_Invalid Mobile Number$Registration
+Thu, Jan 10  2019; 00:21:02 PM - Launching Appium Android...
+Thu, Jan 10  2019; 00:21:56 PM - Entered value in Phone Number field:#%$+-+/{/}
+Thu, Jan 10  2019; 00:22:04 PM - Invalid Mobile number:#%$+-+/{/}
+Thu, Jan 10  2019; 00:22:04 PM - checkForInvalidMobileNumber_SpecialChar ----> Success
+Thu, Jan 10  2019; 00:22:06 PM - Entered value in Phone Number field:YHuT35JIEZ
+Thu, Jan 10  2019; 00:22:14 PM - Invalid Mobile number:YHuT35JIEZ
+Thu, Jan 10  2019; 00:22:14 PM - checkForInvalidMobileNumber_AlphaNumeric ----> Success
+Thu, Jan 10  2019; 00:22:16 PM - Entered value in Phone Number field:JEYHSQGsnX
+Thu, Jan 10  2019; 00:22:25 PM - checkForInvalidMobileNumber_Alphabetic ----> Success
+Thu, Jan 10  2019; 00:22:27 PM - Entered value in Phone Number field:80518
+Thu, Jan 10  2019; 00:22:35 PM - checkForInvalidMobileNumber_checkMobileNumberLength ----> Success
+Thu, Jan 10  2019; 00:22:35 PM - Ending Execution...
+Thu, Jan 10  2019; 00:22:35 PM - Trying to close Webdriver...
+Thu, Jan 10  2019; 00:22:37 PM - Selenium Webdriver closed successfully!
+Thu, Jan 10  2019; 00:22:37 PM - Stopping Appium server for Windows
+Thu, Jan 10  2019; 00:22:37 PM - Appium server is shutdown successfully
+Thu, Jan 10  2019; 00:22:47 PM - Writing Results and Logs to file...

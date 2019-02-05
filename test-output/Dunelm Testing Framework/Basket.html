@@ -1,0 +1,340 @@
+<html>
+<head>
+<title>TestNG:  Basket</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Basket</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/44</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jun 13 11:21:30 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (36 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>Basket_18 Basket_3 Basket_4 Basket_1 Basket_7 Basket_8 Basket_5 Basket_6 setup Basket_10 Basket_12 Basket_13 Basket_14 Basket_15 Basket_16 </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.initializeTestBaseSetup()'><b>initializeTestBaseSetup</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browserType&apos; is required by @Configuration on method initializeTestBaseSetup but has not been marked @Optional or defined
+in D:\Nithya\DunlemWorkspace\Dunelm Framework (Mobile)\text.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1865940560", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1865940560'><pre>org.testng.TestNGException: 
+Parameter &apos;browserType&apos; is required by @Configuration on method initializeTestBaseSetup but has not been marked @Optional or defined
+in D:\Nithya\DunlemWorkspace\Dunelm Framework (Mobile)\text.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.LogIn()'><b>LogIn</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.addToBasket12()'><b>addToBasket12</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.addToBasket6()'><b>addToBasket6</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.addtoBasket18()'><b>addtoBasket18</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.addtoBasket5()'><b>addtoBasket5</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.addtoBasket5a()'><b>addtoBasket5a</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.basketAmount()'><b>basketAmount</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.clickOnProduct()'><b>clickOnProduct</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.clickOnProduct12()'><b>clickOnProduct12</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.clickReserveAndStore()'><b>clickReserveAndStore</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.continueToReserve()'><b>continueToReserve</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.createAccountWithoutDetails()'><b>createAccountWithoutDetails</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.discountAmount()'><b>discountAmount</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.emailWarningMessage()'><b>emailWarningMessage</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.enterStore()'><b>enterStore</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.enterStore5()'><b>enterStore5</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.enterValidDetails()'><b>enterValidDetails</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.enterstorename()'><b>enterstorename</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.findYourNearestStore()'><b>findYourNearestStore</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.getTextOfOnly12ItemsAvailableMessage()'><b>getTextOfOnly12ItemsAvailableMessage</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.homeDelieveryButton()'><b>homeDelieveryButton</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.logOut()'><b>logOut</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.passwordWarningMessage()'><b>passwordWarningMessage</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.rcWarning()'><b>rcWarning</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.reSelectQuantity1()'><b>reSelectQuantity1</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.reSelectQuantityAs20()'><b>reSelectQuantityAs20</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.removeProduct()'><b>removeProduct</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.reserveAndStoredisabled()'><b>reserveAndStoredisabled</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.saveBasketForLater()'><b>saveBasketForLater</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.searchProduct()'><b>searchProduct</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.searchProduct12()'><b>searchProduct12</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.searchProduct18()'><b>searchProduct18</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.searchProduct5()'><b>searchProduct5</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.searchProduct5a()'><b>searchProduct5a</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.selectStore()'><b>selectStore</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.selectStore1()'><b>selectStore1</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.signIn()'><b>signIn</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.totalAmount()'><b>totalAmount</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.totalWithHomeDelievery()'><b>totalWithHomeDelievery</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.verifySavedProduct()'><b>verifySavedProduct</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.viewBasket12()'><b>viewBasket12</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.viewBasket18()'><b>viewBasket18</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.viewBasket5()'><b>viewBasket5</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.BasketTest.voucherCode()'><b>voucherCode</b><br>Test class: com.dunelm.common.tests.BasketTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.BasketTest@42e62466</td></tr>
+</table><p>
+</body>
+</html>

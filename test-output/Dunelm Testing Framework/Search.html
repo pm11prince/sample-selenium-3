@@ -1,0 +1,1668 @@
+<html>
+<head>
+<title>TestNG:  Search</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Search</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/154</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jun 13 11:21:31 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (336 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td>Srch_Asrt_61 Srch_Asrt_59 </td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.initializeTestBaseSetup()'><b>initializeTestBaseSetup</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browserType&apos; is required by @Configuration on method initializeTestBaseSetup but has not been marked @Optional or defined
+in D:\Nithya\DunlemWorkspace\Dunelm Framework (Mobile)\text.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace345674251", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace345674251'><pre>org.testng.TestNGException: 
+Parameter &apos;browserType&apos; is required by @Configuration on method initializeTestBaseSetup but has not been marked @Optional or defined
+in D:\Nithya\DunlemWorkspace\Dunelm Framework (Mobile)\text.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.afterMethod()'><b>afterMethod</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.SearchForABundleCodeInTheSearchBarb02027()'><b>SearchForABundleCodeInTheSearchBarb02027</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.aWatersNoble()'><b>aWatersNoble</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.b100EgyptianCotton()'><b>b100EgyptianCotton</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.browseToBathroomTowels()'><b>browseToBathroomTowels</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.browseToBathroomTowels1()'><b>browseToBathroomTowels1</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.browseToBedSheetsCategory1()'><b>browseToBedSheetsCategory1</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.browseToBedSheetsCategory2()'><b>browseToBedSheetsCategory2</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.browseToBedSheetsCategory3()'><b>browseToBedSheetsCategory3</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.browseToBedSheetsCategory4()'><b>browseToBedSheetsCategory4</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.browseToBedSheetsCategory5()'><b>browseToBedSheetsCategory5</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.browseToHomeWareFurnitureDecorCusions()'><b>browseToHomeWareFurnitureDecorCusions</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.browseToHomeWareFurnitureDecorCusions1()'><b>browseToHomeWareFurnitureDecorCusions1</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.browseToHomewareFurnitureBeddingBedSheets()'><b>browseToHomewareFurnitureBeddingBedSheets</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.browseToHomewareFurnitureCurtainsReadyMadeCurtainsEyeletCurtains()'><b>browseToHomewareFurnitureCurtainsReadyMadeCurtainsEyeletCurtains</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.browseToOtherPageOfTheSiteAndAttemptSearch()'><b>browseToOtherPageOfTheSiteAndAttemptSearch</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.browseToThePencilPleatCurtainsCategory()'><b>browseToThePencilPleatCurtainsCategory</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.browseToThePencilPleatCurtainsCategory1()'><b>browseToThePencilPleatCurtainsCategory1</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.c8Knife()'><b>c8Knife</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.checkArticlesSuggested()'><b>checkArticlesSuggested</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.checkIfAnyLinksAppearInTheCentralArea()'><b>checkIfAnyLinksAppearInTheCentralArea</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.checkOnTheColorFilter()'><b>checkOnTheColorFilter</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.checkSdfSdfProductsAndArticlesCount()'><b>checkSdfSdfProductsAndArticlesCount</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.checkThatSomeProductHaveAlternativeColoursAvailable()'><b>checkThatSomeProductHaveAlternativeColoursAvailable</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.checkThatSomeResultsAreBundles()'><b>checkThatSomeResultsAreBundles</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.checkThatSomeSearchResultsAreBundles()'><b>checkThatSomeSearchResultsAreBundles</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.checkTheCategorySuggested()'><b>checkTheCategorySuggested</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.checkTheFilterControlsAppearCorrectly()'><b>checkTheFilterControlsAppearCorrectly</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.checkThePriceFilter1()'><b>checkThePriceFilter1</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.checkTheSortByOptions()'><b>checkTheSortByOptions</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.checkYouSearchedForHeading()'><b>checkYouSearchedForHeading</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.clicTheResetButtonOnTheColourFilter()'><b>clicTheResetButtonOnTheColourFilter</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.clickLoadMoreResults3()'><b>clickLoadMoreResults3</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.clickOnAFilter()'><b>clickOnAFilter</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.clickOnAFilter1()'><b>clickOnAFilter1</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.clickOnAFilter2()'><b>clickOnAFilter2</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.clickOnFilterBy()'><b>clickOnFilterBy</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.clickOnFilterBy1()'><b>clickOnFilterBy1</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.clickOnFilterBy2()'><b>clickOnFilterBy2</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.clickOnTheBackToSearchResultsButtonNearTheTopOfThePage6()'><b>clickOnTheBackToSearchResultsButtonNearTheTopOfThePage6</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.clickOnTheBedSheetsCategoryLinkInTheBreadCrumbTrailNearTheTopOfThePage()'><b>clickOnTheBedSheetsCategoryLinkInTheBreadCrumbTrailNearTheTopOfThePage</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.clickOnTheCushionsCategoryLinkInTheBreadcrumbTrailNearTheTopOfThePage()'><b>clickOnTheCushionsCategoryLinkInTheBreadcrumbTrailNearTheTopOfThePage</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.clickOnTheFilterByButton()'><b>clickOnTheFilterByButton</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.clickOnTheSecondColourSwatchYouSelectedToeselectIt()'><b>clickOnTheSecondColourSwatchYouSelectedToeselectIt</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.clickResetOnTheAverageReviewFilter()'><b>clickResetOnTheAverageReviewFilter</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.clickResetOnTheMaterialFilter()'><b>clickResetOnTheMaterialFilter</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.clickResetOnThePriceFilter()'><b>clickResetOnThePriceFilter</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.clickTheBrowserBackButton()'><b>clickTheBrowserBackButton</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.clickTheBrowserBackButton1()'><b>clickTheBrowserBackButton1</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.clickTheBrowserBackButton2()'><b>clickTheBrowserBackButton2</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.clickTheExitCrossToCloseTheFilter()'><b>clickTheExitCrossToCloseTheFilter</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.clickTheGreenArrowToCloseTheFilter()'><b>clickTheGreenArrowToCloseTheFilter</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.clickTheGreenArrowToCloseTheFilterControls()'><b>clickTheGreenArrowToCloseTheFilterControls</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.clickTheSearchButton()'><b>clickTheSearchButton</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.clickTheSearchIcon()'><b>clickTheSearchIcon</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.clickTheSeeSearchResultsButtonAtTheTopOfThePage()'><b>clickTheSeeSearchResultsButtonAtTheTopOfThePage</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.clickTheSeeSearchResultsButtonAtTheTopOfThePage1()'><b>clickTheSeeSearchResultsButtonAtTheTopOfThePage1</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.clickonbrbatialink()'><b>clickonbrbatialink</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.compareTheDetailsOfTheItemSeenOnThePdpWithThoseDisplayedOnTheSearchResultsPageForTheSameItem2()'><b>compareTheDetailsOfTheItemSeenOnThePdpWithThoseDisplayedOnTheSearchResultsPageForTheSameItem2</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.compareTheDetailsOfTheItemSeenOnThePdpWithThoseDisplayedOnTheSearchResultsPageForTheSameItem7()'><b>compareTheDetailsOfTheItemSeenOnThePdpWithThoseDisplayedOnTheSearchResultsPageForTheSameItem7</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.compareTheStatedProductCountWithTheActualNoOfImagesShown()'><b>compareTheStatedProductCountWithTheActualNoOfImagesShown</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.compareTheStatedProductCountWithTheActualNumberOfProductImagesShown()'><b>compareTheStatedProductCountWithTheActualNumberOfProductImagesShown</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.dChefn()'><b>dChefn</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.defaultImageColour1()'><b>defaultImageColour1</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.defaultImageColour2()'><b>defaultImageColour2</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.deselectTheThreeStarRatingAndTickTheFourAndFiveStarRatingsInstead()'><b>deselectTheThreeStarRatingAndTickTheFourAndFiveStarRatingsInstead</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.eEcloth()'><b>eEcloth</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.enterAHigherLowerPriceRangeForExample5To150AndClickApply()'><b>enterAHigherLowerPriceRangeForExample5To150AndClickApply</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.enterAPriceRangeForExample10To50AndClickApply1()'><b>enterAPriceRangeForExample10To50AndClickApply1</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.enterAPriceRangeUsingSignsEg10to100()'><b>enterAPriceRangeUsingSignsEg10to100</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.enterAPriceRangeWhereTheMinIsGreaterThanTheMax40To20AndClickApply()'><b>enterAPriceRangeWhereTheMinIsGreaterThanTheMax40To20AndClickApply</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.enterApriceRangeContainingANegativeNumberAndClickApply()'><b>enterApriceRangeContainingANegativeNumberAndClickApply</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.findAFilterWhichHasMoreValues()'><b>findAFilterWhichHasMoreValues</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.firstFewLinesOfProductDescription2()'><b>firstFewLinesOfProductDescription2</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.firstFewLinesOfProductDescription5()'><b>firstFewLinesOfProductDescription5</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.identifyAProductWithAlternativeColoursAvailableClickOnTheMainProductImage3()'><b>identifyAProductWithAlternativeColoursAvailableClickOnTheMainProductImage3</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.identifyAProductWithAlternativeColoursAvailableClickOnTheMainProductImage4()'><b>identifyAProductWithAlternativeColoursAvailableClickOnTheMainProductImage4</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.keepScrollingDownThePageUntilYouReachTheEndOfTheProducts3()'><b>keepScrollingDownThePageUntilYouReachTheEndOfTheProducts3</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.noteTheFirst8ProductsDisplayedSelectTheSortOptionAverageRating()'><b>noteTheFirst8ProductsDisplayedSelectTheSortOptionAverageRating</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.noteTheFirst8ProductsDisplayedSelectTheSortOptionAverageRating1()'><b>noteTheFirst8ProductsDisplayedSelectTheSortOptionAverageRating1</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.noteTheProductsWhichAreVisibleOnTheScreenNowClickOnOneOfTheImagesWhichHasAViewCollectionLabel()'><b>noteTheProductsWhichAreVisibleOnTheScreenNowClickOnOneOfTheImagesWhichHasAViewCollectionLabel</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.noteTheProductsWhichAreVisibleOnTheScreenNowClickOnOneOfTheProductImages1()'><b>noteTheProductsWhichAreVisibleOnTheScreenNowClickOnOneOfTheProductImages1</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.nowClickOnOneOfTheProductImages()'><b>nowClickOnOneOfTheProductImages</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.observeTheCountNextToAnIndividualValueWithinADIFFERENTFilterNowSelectThisValueAndApplyTheFilter()'><b>observeTheCountNextToAnIndividualValueWithinADIFFERENTFilterNowSelectThisValueAndApplyTheFilter</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.observeTheCountNextToAnIndividualValueWithinAFilter()'><b>observeTheCountNextToAnIndividualValueWithinAFilter</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.observeTheProductSortOrder1()'><b>observeTheProductSortOrder1</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.observeTheProductSortOrder2()'><b>observeTheProductSortOrder2</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.observeTheProductSortOrder3()'><b>observeTheProductSortOrder3</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.observeTheProductSortOrder4()'><b>observeTheProductSortOrder4</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.observertheSearchIconInTheHeader()'><b>observertheSearchIconInTheHeader</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.onTheBrowserPressTheBackButton1()'><b>onTheBrowserPressTheBackButton1</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.onTheBrowserPressTheBackButton2()'><b>onTheBrowserPressTheBackButton2</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.productAlternativeColour2()'><b>productAlternativeColour2</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.productAlternativeColour4()'><b>productAlternativeColour4</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.productName2()'><b>productName2</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.productName4()'><b>productName4</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.productPrice2()'><b>productPrice2</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.productPrice4()'><b>productPrice4</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.refineByALining()'><b>refineByALining</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.refineByAStyleWhichHasHighProductCount()'><b>refineByAStyleWhichHasHighProductCount</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.refineByColor1()'><b>refineByColor1</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.refineByOneOfTheOptionsEgSizeOrColour()'><b>refineByOneOfTheOptionsEgSizeOrColour</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.refineByTheThreeStarRating1()'><b>refineByTheThreeStarRating1</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.remaningOnTheSearchResultsPageClickOnTheSearchIconAndTypeWoodenInTheSearchBox()'><b>remaningOnTheSearchResultsPageClickOnTheSearchIconAndTypeWoodenInTheSearchBox</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.scrollALittleFurtherAndSelectTwoCompareButtons()'><b>scrollALittleFurtherAndSelectTwoCompareButtons</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.scrollALittleFurtherAndSelectTwoCompareButtonsNoteTheProductsWhichAreVisibleOnTheScreenNowClickOnOneOfTheProductImages1()'><b>scrollALittleFurtherAndSelectTwoCompareButtonsNoteTheProductsWhichAreVisibleOnTheScreenNowClickOnOneOfTheProductImages1</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.scrollALittleFurtherUntilYouCanSeeAnotherImageWithAViewCollectionLabelNoteTheProductsWhichAreVisibleOnTheScreenNowClickOnOneOfTheImagesWithAViewCollectionLabel()'><b>scrollALittleFurtherUntilYouCanSeeAnotherImageWithAViewCollectionLabelNoteTheProductsWhichAreVisibleOnTheScreenNowClickOnOneOfTheImagesWithAViewCollectionLabel</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.scrollDownThePageUntilYouHaveLoadedAllOfTheAvailableFiltersInTheLeftHandNavigation()'><b>scrollDownThePageUntilYouHaveLoadedAllOfTheAvailableFiltersInTheLeftHandNavigation</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.scrollDownThePageUntilYouHaveedAllOfTheAvailableFiltersInTheLeftHandNavigation()'><b>scrollDownThePageUntilYouHaveedAllOfTheAvailableFiltersInTheLeftHandNavigation</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.scrollDownUntilYouHaveEd16Products1()'><b>scrollDownUntilYouHaveEd16Products1</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.scrollDownUntilYouHaveEd16ProductsAndYouCanSeeAnImageWhichHasAViewCollectionLabel()'><b>scrollDownUntilYouHaveEd16ProductsAndYouCanSeeAnImageWhichHasAViewCollectionLabel</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.scrollDownUntillAllYouHaveed16Products()'><b>scrollDownUntillAllYouHaveed16Products</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.scrollUntilTheLoadMoreResultsButtonIsShownClickTheButtonToLoadMore1()'><b>scrollUntilTheLoadMoreResultsButtonIsShownClickTheButtonToLoadMore1</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.scrollUntilTheLoadMoreResultsButtonIsShownClickTheButtonToLoadMore2()'><b>scrollUntilTheLoadMoreResultsButtonIsShownClickTheButtonToLoadMore2</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.scrollUntillTheLoadMoreResultsIsShown()'><b>scrollUntillTheLoadMoreResultsIsShown</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.searchForABarcodeInTheSearchBar5054077098243()'><b>searchForABarcodeInTheSearchBar5054077098243</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.searchForBedLinen4()'><b>searchForBedLinen4</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.searchForBedSpreads()'><b>searchForBedSpreads</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.searchForBeddingCollection()'><b>searchForBeddingCollection</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.searchForBlueTowels1()'><b>searchForBlueTowels1</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.searchForBlueTowels2()'><b>searchForBlueTowels2</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.searchForBrbantia()'><b>searchForBrbantia</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.searchForChutneyrecipe()'><b>searchForChutneyrecipe</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.searchForClippits()'><b>searchForClippits</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.searchForFlatSheets1()'><b>searchForFlatSheets1</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.searchForLillyBelle()'><b>searchForLillyBelle</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.searchForRedTowels1()'><b>searchForRedTowels1</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.searchForSdfsdf()'><b>searchForSdfsdf</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.searchForSoftCushions()'><b>searchForSoftCushions</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.searchProductCodeInTheSearchBar1000034690()'><b>searchProductCodeInTheSearchBar1000034690</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.searchResultsPageCheckTheControlBarAboveTheProductResults()'><b>searchResultsPageCheckTheControlBarAboveTheProductResults</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.searchYellowTowelInTheSearchBar()'><b>searchYellowTowelInTheSearchBar</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.selectAColourAndApplyTheFilter()'><b>selectAColourAndApplyTheFilter</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.selectAFilterValue()'><b>selectAFilterValue</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.selectAFilterValue1()'><b>selectAFilterValue1</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.selectAFilterValue2()'><b>selectAFilterValue2</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.selectASuggestedArticleWithTheMouse()'><b>selectASuggestedArticleWithTheMouse</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.selectASuggestedCategoryWithTheMouse()'><b>selectASuggestedCategoryWithTheMouse</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.selectASuggestedKeywordWithTheMouse()'><b>selectASuggestedKeywordWithTheMouse</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.selectAnotherColourAndApplyTheFilter()'><b>selectAnotherColourAndApplyTheFilter</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.selectFilterBy()'><b>selectFilterBy</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.selectTheSortOptionDefault()'><b>selectTheSortOptionDefault</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.selectTheSortOptionRelevance()'><b>selectTheSortOptionRelevance</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.sortByAverageRating1()'><b>sortByAverageRating1</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.sortByPriceHighToLow()'><b>sortByPriceHighToLow</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.typeBeInTheSearchBar()'><b>typeBeInTheSearchBar</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.typeBeInTheSearchBarAndSelectTheSameSuggestedCategory()'><b>typeBeInTheSearchBarAndSelectTheSameSuggestedCategory</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.typeHeInTheSearchBarAndSelectTheSameSuggestedArticleUsingKeyboardArrows()'><b>typeHeInTheSearchBarAndSelectTheSameSuggestedArticleUsingKeyboardArrows</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.typeHeInTheSearchBox()'><b>typeHeInTheSearchBox</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.typeJugInTheSearchBox()'><b>typeJugInTheSearchBox</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.typeKiAndSelectTheSameSuggestedKeywordUsingKeyboardArrows()'><b>typeKiAndSelectTheSameSuggestedKeywordUsingKeyboardArrows</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.typeKiInTheSearchBox()'><b>typeKiInTheSearchBox</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.typeTowelInTheSearchBox()'><b>typeTowelInTheSearchBox</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.typeYourSelectedKeywordIntoTheSearchBarInFull()'><b>typeYourSelectedKeywordIntoTheSearchBarInFull</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.SearchTest.viewTheHomePage()'><b>viewTheHomePage</b><br>Test class: com.dunelm.common.tests.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.SearchTest@2bd43389</td></tr>
+</table><p>
+</body>
+</html>

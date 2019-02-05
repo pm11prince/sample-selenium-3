@@ -1,0 +1,88 @@
+Wed, Jan 30  2019; 02:55:38 PM - 
+Test name : Registration_Validations
+List of TestNames of Registration_Validations:
+Wed, Jan 30  2019; 02:55:38 PM - 				Registration_Invalid Mobile Number$RegistrationTests
+Wed, Jan 30  2019; 02:55:38 PM - 				Registration_Invalid OTP$RegistrationTests
+Wed, Jan 30  2019; 02:55:38 PM - 
+Test name : Registration_Validations
+List of TestNames of Registration_Validations:
+Wed, Jan 30  2019; 02:55:38 PM - Constructed XML::<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="SeedBank TestSuites"><parameter name="OS" value="Android"/><parameter name="deviceID" value="e516e0b0" /><listeners><listener class-name="com.seedbank.common.reporting.CustomListener" /></listeners><test name="Setup class" preserve-order="true"><groups><run><include name="setup" /></run></groups><classes><class name="com.seedbank.base.TestCaseBase" /></classes></test><test name="Registration_Validations::Registration_Invalid Mobile Number$RegistrationTests" preserve-order="true"><groups><run><include name="Registration_Invalid Mobile Number"/></run></groups><classes><class name="com.seedbank.common.tests.RegistrationTests"/></classes></test><test name="Registration_Validations::Registration_Invalid OTP$RegistrationTests" preserve-order="true"><groups><run><include name="Registration_Invalid OTP"/></run></groups><classes><class name="com.seedbank.common.tests.RegistrationTests"/></classes></test></suite>
+Wed, Jan 30  2019; 02:55:38 PM - Starting Appium Server
+Wed, Jan 30  2019; 02:55:48 PM - Starting Test Execution
+Wed, Jan 30  2019; 02:55:48 PM - Initializing locators from excel sheet...
+Wed, Jan 30  2019; 02:55:48 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 30  2019; 02:55:48 PM - Initializing data from excel sheet...
+Wed, Jan 30  2019; 02:55:48 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 30  2019; 02:55:49 PM - Test case name--->Setup class
+Wed, Jan 30  2019; 02:55:49 PM - Launching Appium Android...
+Wed, Jan 30  2019; 02:56:41 PM - Test case name--->Registration_Validations::Registration_Invalid Mobile Number$RegistrationTests
+Wed, Jan 30  2019; 02:56:44 PM - Entered value in Phone Number field:/|/!!##'|%
+Wed, Jan 30  2019; 02:56:53 PM - Invalid Mobile number:/|/!!##'|%
+Wed, Jan 30  2019; 02:56:53 PM - checkForInvalidMobileNumber_SpecialChar ----> Success
+Wed, Jan 30  2019; 02:56:56 PM - Entered value in Phone Number field:oq7F58h3z4
+Wed, Jan 30  2019; 02:57:05 PM - Invalid Mobile number:oq7F58h3z4
+Wed, Jan 30  2019; 02:57:05 PM - checkForInvalidMobileNumber_AlphaNumeric ----> Success
+Wed, Jan 30  2019; 02:57:06 PM - Entered value in Phone Number field:cYdvcVHdEb
+Wed, Jan 30  2019; 02:57:15 PM - checkForInvalidMobileNumber_Alphabetic ----> Success
+Wed, Jan 30  2019; 02:57:17 PM - Entered value in Phone Number field:15255
+Wed, Jan 30  2019; 02:57:26 PM - checkForInvalidMobileNumber_checkMobileNumberLength ----> Success
+Wed, Jan 30  2019; 02:57:26 PM - Test case name--->Registration_Validations::Registration_Invalid OTP$RegistrationTests
+Wed, Jan 30  2019; 02:57:27 PM - Entered value in Phone Number field:5106537772
+Wed, Jan 30  2019; 02:57:48 PM - Entered value in OTP field:\'{'$\
+Wed, Jan 30  2019; 02:57:51 PM - checkForInvalidOTP_SpecialChar ----> Failed
+Wed, Jan 30  2019; 02:57:51 PM - java.lang.AssertionError: expected [Invalid OTP!! You have left 1 out of 3 attempts!!] but found [Invalid OTP!! You have left with 2 more attempts!!]
+Wed, Jan 30  2019; 02:58:08 PM - Entered value in OTP field:PDiFlj
+Wed, Jan 30  2019; 02:58:10 PM - checkForInvalidOTP_AlphaNumeric ----> Failed
+Wed, Jan 30  2019; 02:58:10 PM - java.lang.AssertionError: expected [Invalid OTP!! You have left 1 out of 3 attempts!!] but found [Invalid OTP!! You have left with 2 more attempts!!]
+Wed, Jan 30  2019; 02:58:28 PM - Entered value in OTP field:RarHgh
+Wed, Jan 30  2019; 02:58:29 PM - checkForInvalidOTP_Alphabetic ----> Failed
+Wed, Jan 30  2019; 02:58:29 PM - java.lang.AssertionError: expected [Invalid OTP!! You have left 1 out of 3 attempts!!] but found [Invalid OTP!! You have left with 2 more attempts!!]
+Wed, Jan 30  2019; 02:58:29 PM - Ending Execution...
+Wed, Jan 30  2019; 02:58:29 PM - Trying to close Webdriver...
+Wed, Jan 30  2019; 02:58:31 PM - Selenium Webdriver closed successfully!
+Wed, Jan 30  2019; 02:58:31 PM - Appium server is shutdown successfully
+Wed, Jan 30  2019; 02:58:41 PM - Writing Results and Logs to file...
+Wed, Jan 30  2019; 03:03:55 PM - 
+Test name : Registration_Validations
+List of TestNames of Registration_Validations:
+Wed, Jan 30  2019; 03:03:55 PM - 				Registration_Invalid Mobile Number$RegistrationTests
+Wed, Jan 30  2019; 03:03:55 PM - 				Registration_Invalid OTP$RegistrationTests
+Wed, Jan 30  2019; 03:03:55 PM - 
+Test name : Registration_Validations
+List of TestNames of Registration_Validations:
+Wed, Jan 30  2019; 03:03:55 PM - Constructed XML::<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="SeedBank TestSuites"><parameter name="OS" value="Android"/><parameter name="deviceID" value="e516e0b0" /><listeners><listener class-name="com.seedbank.common.reporting.CustomListener" /></listeners><test name="Setup class" preserve-order="true"><groups><run><include name="setup" /></run></groups><classes><class name="com.seedbank.base.TestCaseBase" /></classes></test><test name="Registration_Validations::Registration_Invalid Mobile Number$RegistrationTests" preserve-order="true"><groups><run><include name="Registration_Invalid Mobile Number"/></run></groups><classes><class name="com.seedbank.common.tests.RegistrationTests"/></classes></test><test name="Registration_Validations::Registration_Invalid OTP$RegistrationTests" preserve-order="true"><groups><run><include name="Registration_Invalid OTP"/></run></groups><classes><class name="com.seedbank.common.tests.RegistrationTests"/></classes></test></suite>
+Wed, Jan 30  2019; 03:03:55 PM - Starting Appium Server
+Wed, Jan 30  2019; 03:04:05 PM - Starting Test Execution
+Wed, Jan 30  2019; 03:04:05 PM - Initializing locators from excel sheet...
+Wed, Jan 30  2019; 03:04:06 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 30  2019; 03:04:06 PM - Initializing data from excel sheet...
+Wed, Jan 30  2019; 03:04:06 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 30  2019; 03:04:06 PM - Test case name--->Setup class
+Wed, Jan 30  2019; 03:04:06 PM - Launching Appium Android...
+Wed, Jan 30  2019; 03:05:02 PM - Test case name--->Registration_Validations::Registration_Invalid Mobile Number$RegistrationTests
+Wed, Jan 30  2019; 03:05:03 PM - Entered value in Phone Number field:][*{*]}\/-
+Wed, Jan 30  2019; 03:05:14 PM - Invalid Mobile number:][*{*]}\/-
+Wed, Jan 30  2019; 03:05:14 PM - checkForInvalidMobileNumber_SpecialChar ----> Success
+Wed, Jan 30  2019; 03:05:16 PM - Entered value in Phone Number field:8SxYNfMFMY
+Wed, Jan 30  2019; 03:05:25 PM - Invalid Mobile number:8SxYNfMFMY
+Wed, Jan 30  2019; 03:05:25 PM - checkForInvalidMobileNumber_AlphaNumeric ----> Success
+Wed, Jan 30  2019; 03:05:27 PM - Entered value in Phone Number field:FrhtnNyrqg
+Wed, Jan 30  2019; 03:05:36 PM - checkForInvalidMobileNumber_Alphabetic ----> Success
+Wed, Jan 30  2019; 03:05:37 PM - Entered value in Phone Number field:37607
+Wed, Jan 30  2019; 03:05:47 PM - checkForInvalidMobileNumber_checkMobileNumberLength ----> Success
+Wed, Jan 30  2019; 03:05:47 PM - Test case name--->Registration_Validations::Registration_Invalid OTP$RegistrationTests
+Wed, Jan 30  2019; 03:05:48 PM - Entered value in Phone Number field:5210521313
+Wed, Jan 30  2019; 03:06:03 PM - Entered value in OTP field:|\'[!@
+Wed, Jan 30  2019; 03:06:06 PM - checkForInvalidOTP_SpecialChar ----> Failed
+Wed, Jan 30  2019; 03:06:06 PM - java.lang.AssertionError: expected [Invalid OTP!! You have left 1 out of 3 attempts!!] but found [Invalid OTP!! You have left with 2 more attempts!!]
+Wed, Jan 30  2019; 03:06:22 PM - Entered value in OTP field:7gO7tE
+Wed, Jan 30  2019; 03:06:25 PM - checkForInvalidOTP_AlphaNumeric ----> Failed
+Wed, Jan 30  2019; 03:06:25 PM - java.lang.AssertionError: expected [Invalid OTP!! You have left 1 out of 3 attempts!!] but found [Invalid OTP!! You have left with 2 more attempts!!]
+Wed, Jan 30  2019; 03:06:46 PM - Entered value in OTP field:NhCyyH
+Wed, Jan 30  2019; 03:06:47 PM - checkForInvalidOTP_Alphabetic ----> Failed
+Wed, Jan 30  2019; 03:06:47 PM - java.lang.AssertionError: expected [Invalid OTP!! You have left 1 out of 3 attempts!!] but found [Invalid OTP!! You have left with 2 more attempts!!]
+Wed, Jan 30  2019; 03:06:48 PM - Ending Execution...
+Wed, Jan 30  2019; 03:06:48 PM - Trying to close Webdriver...
+Wed, Jan 30  2019; 03:06:49 PM - Selenium Webdriver closed successfully!
+Wed, Jan 30  2019; 03:06:49 PM - Appium server is shutdown successfully
+Wed, Jan 30  2019; 03:06:59 PM - Writing Results and Logs to file...

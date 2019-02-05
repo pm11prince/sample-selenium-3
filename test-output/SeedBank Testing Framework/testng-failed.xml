@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SeedBank Testing Framework]">
+  <parameter name="OS" value="Android"/>
+  <parameter name="deviceID" value="330073a8508cb423"/>
+  <listeners>
+    <listener class-name="com.seedbank.common.reporting.CustomListener"/>
+  </listeners>
+  <test thread-count="5" name="Registration(failed)">
+    <groups>
+      <run>
+        <include name="setup"/>
+        <include name="Register with Valid Details"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.seedbank.common.tests.Registration">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="registerAsNewUser"/>
+        </methods>
+      </class> <!-- com.seedbank.common.tests.Registration -->
+    </classes>
+  </test> <!-- Registration(failed) -->
+  <test thread-count="5" name="Create Farmer Profile(failed)">
+    <groups>
+      <run>
+        <include name="Check Mandatory fields"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.seedbank.common.tests.FarmerProfileTest">
+        <methods>
+          <include name="navigateToFarmerProfileSection1"/>
+          <include name="enterVillageAndSaveProfile"/>
+          <include name="checkMandatoryFieldsWhileCreatingFarmerProfile"/>
+        </methods>
+      </class> <!-- com.seedbank.common.tests.FarmerProfileTest -->
+    </classes>
+  </test> <!-- Create Farmer Profile(failed) -->
+</suite> <!-- Failed suite [SeedBank Testing Framework] -->

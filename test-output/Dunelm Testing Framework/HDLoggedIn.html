@@ -1,0 +1,315 @@
+<html>
+<head>
+<title>TestNG:  HDLoggedIn</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>HDLoggedIn</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/39</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jun 13 11:21:30 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (32 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>HD_R_4 HD_R_5 HD_R_1 HD_R_2 HD_R_3 setup </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.initializeTestBaseSetup()'><b>initializeTestBaseSetup</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browserType&apos; is required by @Configuration on method initializeTestBaseSetup but has not been marked @Optional or defined
+in D:\Nithya\DunlemWorkspace\Dunelm Framework (Mobile)\text.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1936526464", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1936526464'><pre>org.testng.TestNGException: 
+Parameter &apos;browserType&apos; is required by @Configuration on method initializeTestBaseSetup but has not been marked @Optional or defined
+in D:\Nithya\DunlemWorkspace\Dunelm Framework (Mobile)\text.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.CheckfortheOrderTotalandAmountDisplayedonPaynowandCompleteyourOrder()'><b>CheckfortheOrderTotalandAmountDisplayedonPaynowandCompleteyourOrder</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.CheckfortheOrderTotalandAmountDisplayedonPaynowandCompleteyourOrder2()'><b>CheckfortheOrderTotalandAmountDisplayedonPaynowandCompleteyourOrder2</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.addAProductToTheBasketPageAndClickOnCheckoutIcon()'><b>addAProductToTheBasketPageAndClickOnCheckoutIcon</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.addAProductToTheBasketPageAndClickOnCheckoutIcon1()'><b>addAProductToTheBasketPageAndClickOnCheckoutIcon1</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.addAProductToTheBasketPageAndClickOnCheckoutIcon_3()'><b>addAProductToTheBasketPageAndClickOnCheckoutIcon_3</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.addAProductToTheBasketPageAndClickOnCheckoutIcon_4()'><b>addAProductToTheBasketPageAndClickOnCheckoutIcon_4</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.addAProductToTheBasketPageAndClickOnCheckoutIcon_5()'><b>addAProductToTheBasketPageAndClickOnCheckoutIcon_5</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.checkForTheAvailableFields()'><b>checkForTheAvailableFields</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.checkForTheAvailableFields1()'><b>checkForTheAvailableFields1</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.checkForTheAvailableFields_3()'><b>checkForTheAvailableFields_3</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.checkIfThereIsDefaultAddressAndPaymentIsStored()'><b>checkIfThereIsDefaultAddressAndPaymentIsStored</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.checkIfThereIsDefaultAddressAndPaymentIsStored1()'><b>checkIfThereIsDefaultAddressAndPaymentIsStored1</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.chooseHomeDeliveryOption()'><b>chooseHomeDeliveryOption</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.chooseHomeDeliveryOption1()'><b>chooseHomeDeliveryOption1</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.chooseHomeDeliveryOption_3()'><b>chooseHomeDeliveryOption_3</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.chooseHomeDeliveryOption_4()'><b>chooseHomeDeliveryOption_4</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.chooseHomeDeliveryOption_5()'><b>chooseHomeDeliveryOption_5</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.clickOnDeliverToThisAddressAndContinueToPayment()'><b>clickOnDeliverToThisAddressAndContinueToPayment</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.clickOnDeliverToThisAddressAndContinueToPayment1()'><b>clickOnDeliverToThisAddressAndContinueToPayment1</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.clickOnDeliverToThisAddressAndContinueToPayment2()'><b>clickOnDeliverToThisAddressAndContinueToPayment2</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.clickOnPaynowAndCompleteYourOrder()'><b>clickOnPaynowAndCompleteYourOrder</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.clickOnPaynowAndCompleteYourOrder2()'><b>clickOnPaynowAndCompleteYourOrder2</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.enterCardNoNameOnCardExpiryDateAndSecurityCode()'><b>enterCardNoNameOnCardExpiryDateAndSecurityCode</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.enterCardNoNameOnCardExpiryDateAndSecurityCode2()'><b>enterCardNoNameOnCardExpiryDateAndSecurityCode2</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.enterValidDataInAllRequiredField()'><b>enterValidDataInAllRequiredField</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.enterValidDataInAllRequiredField1()'><b>enterValidDataInAllRequiredField1</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.enterValidDataInAllRequiredField2()'><b>enterValidDataInAllRequiredField2</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.logInToAccount_4()'><b>logInToAccount_4</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.logInToAccount_5()'><b>logInToAccount_5</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.loginToPayPalWithValidEmailAndPassword()'><b>loginToPayPalWithValidEmailAndPassword</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.navigateToHomePage()'><b>navigateToHomePage</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.navigateToHomePage1()'><b>navigateToHomePage1</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.navigateToHomePage2()'><b>navigateToHomePage2</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.navigateToHomePage4()'><b>navigateToHomePage4</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.navigateToHomePage5()'><b>navigateToHomePage5</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.selectCardPaymentPayPal()'><b>selectCardPaymentPayPal</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.selectCardPaymentVisaOrMaster()'><b>selectCardPaymentVisaOrMaster</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.selectCardPaymentVisaOrMaster2()'><b>selectCardPaymentVisaOrMaster2</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.HDLoggedInTest.signInToTheApplicationWithRegisteredAccountUsed()'><b>signInToTheApplicationWithRegisteredAccountUsed</b><br>Test class: com.dunelm.common.tests.HDLoggedInTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.HDLoggedInTest@4958ef4f</td></tr>
+</table><p>
+</body>
+</html>

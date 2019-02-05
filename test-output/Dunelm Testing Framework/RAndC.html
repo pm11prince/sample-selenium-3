@@ -1,0 +1,510 @@
+<html>
+<head>
+<title>TestNG:  RAndC</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>RAndC</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/78</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jun 13 11:21:30 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (95 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>RAndC_14 RAndC_9 RAndC_10 setup RAndC_2 RAndC_1 RAndC_3 RAndC_6 RAndC_5 RAndC_8 RAndC_7 </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.initializeTestBaseSetup()'><b>initializeTestBaseSetup</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browserType&apos; is required by @Configuration on method initializeTestBaseSetup but has not been marked @Optional or defined
+in D:\Nithya\DunlemWorkspace\Dunelm Framework (Mobile)\text.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace194160056", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace194160056'><pre>org.testng.TestNGException: 
+Parameter &apos;browserType&apos; is required by @Configuration on method initializeTestBaseSetup but has not been marked @Optional or defined
+in D:\Nithya\DunlemWorkspace\Dunelm Framework (Mobile)\text.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.addToBasket()'><b>addToBasket</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.addToBasket1()'><b>addToBasket1</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.addToBasket2()'><b>addToBasket2</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.addToBasket3()'><b>addToBasket3</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.adjustQuantityOnItemWithLimitedStock()'><b>adjustQuantityOnItemWithLimitedStock</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.checkCustomerFirstnameOpeningParagraph1()'><b>checkCustomerFirstnameOpeningParagraph1</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.checkFooterContent1()'><b>checkFooterContent1</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.checkHeaderContents1()'><b>checkHeaderContents1</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.checkReservationNumber1()'><b>checkReservationNumber1</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.checkStoreNameIsCorrect1()'><b>checkStoreNameIsCorrect1</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.checkTheAvailableFieldsAndItsDefaultValue()'><b>checkTheAvailableFieldsAndItsDefaultValue</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.clickOnAccordianNextToReviewLimitedStockInStorename()'><b>clickOnAccordianNextToReviewLimitedStockInStorename</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.clickOnAccordianToReviewLimitedStockInStore()'><b>clickOnAccordianToReviewLimitedStockInStore</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.clickOnOneOfTheStoreFlags()'><b>clickOnOneOfTheStoreFlags</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.clicktapChangeStore()'><b>clicktapChangeStore</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.clicktapChangeStore1()'><b>clicktapChangeStore1</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.clicktapChangeStore2()'><b>clicktapChangeStore2</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.clicktapChangeStore3()'><b>clicktapChangeStore3</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.clicktapMapView()'><b>clicktapMapView</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.clicktapMapView1()'><b>clicktapMapView1</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.clicktapReserveAndCollectInStorename()'><b>clicktapReserveAndCollectInStorename</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.clicktapReserveAndPayInStoreButton()'><b>clicktapReserveAndPayInStoreButton</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.clicktapReserveAndPayInStoreButton1()'><b>clicktapReserveAndPayInStoreButton1</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.clicktapReserveAndPayInStoreButton2()'><b>clicktapReserveAndPayInStoreButton2</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.enterALocationIntoCheckStockFieldClicktapCheckStock()'><b>enterALocationIntoCheckStockFieldClicktapCheckStock</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.enterALocationIntoCheckStockFieldClicktapCheckStock1()'><b>enterALocationIntoCheckStockFieldClicktapCheckStock1</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.enterALocationIntoCheckStockFieldClicktapCheckStock2()'><b>enterALocationIntoCheckStockFieldClicktapCheckStock2</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.enterALocationIntoCheckStockFieldClicktapCheckStock3()'><b>enterALocationIntoCheckStockFieldClicktapCheckStock3</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.enterALocationIntoSearchBarClicktapCheckStock()'><b>enterALocationIntoSearchBarClicktapCheckStock</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.enterALocationThatHadLessThan5StoresWithinA60mileRadiusEgInvernessPressEnter()'><b>enterALocationThatHadLessThan5StoresWithinA60mileRadiusEgInvernessPressEnter</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.enterAPartialPostcodeIntoIntoCheckStockFieldClicktapCheckStock()'><b>enterAPartialPostcodeIntoIntoCheckStockFieldClicktapCheckStock</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.enterAPartialPostcodeIntoSearchBarClicktapCheckStock()'><b>enterAPartialPostcodeIntoSearchBarClicktapCheckStock</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.enterAPartialPostcodeIntoSearchBarClicktapCheckStock1()'><b>enterAPartialPostcodeIntoSearchBarClicktapCheckStock1</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.enterATownNameThatHasMoreThanOneLocationEgNewcastlePressEnter()'><b>enterATownNameThatHasMoreThanOneLocationEgNewcastlePressEnter</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.enterATownNameThatHasMoreThanOneLocationEgNewcastlePressEnter1()'><b>enterATownNameThatHasMoreThanOneLocationEgNewcastlePressEnter1</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.enterATownNameThatHasMoreThanOneLocationEgNewcastlePressEnter2()'><b>enterATownNameThatHasMoreThanOneLocationEgNewcastlePressEnter2</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.enterAValidPostcodeIntoCheckStockFieldClicktapCheckStock()'><b>enterAValidPostcodeIntoCheckStockFieldClicktapCheckStock</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.enterAValidPostcodeIntoSearchBarClicktapCheckStock()'><b>enterAValidPostcodeIntoSearchBarClicktapCheckStock</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.enterAValidPostcodeIntoSearchBarUnderReserveAndCollectClicktapCheckStock()'><b>enterAValidPostcodeIntoSearchBarUnderReserveAndCollectClicktapCheckStock</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.enterAnInvalidPostcodeIntoCheckStockFieldClicktapCheckStock()'><b>enterAnInvalidPostcodeIntoCheckStockFieldClicktapCheckStock</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.enterAnInvalidPostcodeIntoSearchBarClicktapCheckStock()'><b>enterAnInvalidPostcodeIntoSearchBarClicktapCheckStock</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.enterAnInvalidPostcodeIntoSearchBarClicktapCheckStock1()'><b>enterAnInvalidPostcodeIntoSearchBarClicktapCheckStock1</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.enterFullNameValidEmailAddressAndPhoneNumberClicktapReserveAtStorenamePayWhenYouCollect()'><b>enterFullNameValidEmailAddressAndPhoneNumberClicktapReserveAtStorenamePayWhenYouCollect</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.enterLocationIntoSearchBarClicktapCheckStock()'><b>enterLocationIntoSearchBarClicktapCheckStock</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.increaseQuantityAboveCurrentStockLevel()'><b>increaseQuantityAboveCurrentStockLevel</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.increaseQuantityAboveCurrentStockLevel1()'><b>increaseQuantityAboveCurrentStockLevel1</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.increaseQuantityAboveCurrentStockLevel2()'><b>increaseQuantityAboveCurrentStockLevel2</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.increaseQuantityAboveCurrentStockLevel3()'><b>increaseQuantityAboveCurrentStockLevel3</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.increaseQuantityAboveCurrentStockLevel4()'><b>increaseQuantityAboveCurrentStockLevel4</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.increaseQuantityAboveCurrentStockLevel5()'><b>increaseQuantityAboveCurrentStockLevel5</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.navigateToABdpWithProductsAvailableThroughRcButWithZeroStock()'><b>navigateToABdpWithProductsAvailableThroughRcButWithZeroStock</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.navigateToABdpWithProductsWithALowLevelOfStock()'><b>navigateToABdpWithProductsWithALowLevelOfStock</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.navigateToABdpWithStoreStock()'><b>navigateToABdpWithStoreStock</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.navigateToAPdpAvailableThroughRcButWithZeroStock()'><b>navigateToAPdpAvailableThroughRcButWithZeroStock</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.navigateToAPdpAvailableThroughRcButWithZeroStock1()'><b>navigateToAPdpAvailableThroughRcButWithZeroStock1</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.navigateToAPdpWithALowLevelOfStock()'><b>navigateToAPdpWithALowLevelOfStock</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.navigateToAPdpWithALowLevelOfStock1()'><b>navigateToAPdpWithALowLevelOfStock1</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.navigateToAPdpWithALowLevelOfStock2()'><b>navigateToAPdpWithALowLevelOfStock2</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.navigateToAPdpWithStoreStock()'><b>navigateToAPdpWithStoreStock</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.navigateToAPdpWithStoreStock1()'><b>navigateToAPdpWithStoreStock1</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.navigateToBasketUsingGoToSecureCheckoutButton()'><b>navigateToBasketUsingGoToSecureCheckoutButton</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.navigateToBasketUsingGoToSecureCheckoutButton1()'><b>navigateToBasketUsingGoToSecureCheckoutButton1</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.navigateToBasketUsingGoToSecureCheckoutButton2()'><b>navigateToBasketUsingGoToSecureCheckoutButton2</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.openDropDownMenuAndselectAQuantityFromMenu()'><b>openDropDownMenuAndselectAQuantityFromMenu</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.openEmailFromReadyRcOrder()'><b>openEmailFromReadyRcOrder</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.removeOutOfStockProductByClickingOnXInRelevantSection()'><b>removeOutOfStockProductByClickingOnXInRelevantSection</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.selectContactUsLink1()'><b>selectContactUsLink1</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.selectFaqLink1()'><b>selectFaqLink1</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.selectLocationFromTheList()'><b>selectLocationFromTheList</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.selectLocationFromTheList1()'><b>selectLocationFromTheList1</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.selectLocationFromTheList2()'><b>selectLocationFromTheList2</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.selectProductAndExpandAvailableViaAccordian()'><b>selectProductAndExpandAvailableViaAccordian</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.selectProductAndExpandAvailableViaAccordian1()'><b>selectProductAndExpandAvailableViaAccordian1</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.selectProductAndExpandAvailableViaAccordian2()'><b>selectProductAndExpandAvailableViaAccordian2</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.selectProductAndExpandAvailableViaAccordian_1()'><b>selectProductAndExpandAvailableViaAccordian_1</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.selectStoreNameLink1()'><b>selectStoreNameLink1</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.tryUsingTheZoomInAndOutFunctionOnTheMap()'><b>tryUsingTheZoomInAndOutFunctionOnTheMap</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.RAndCTest.tryUsingTheZoomInAndOutFunctionOnTheMap2()'><b>tryUsingTheZoomInAndOutFunctionOnTheMap2</b><br>Test class: com.dunelm.common.tests.RAndCTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.RAndCTest@3719971e</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,57 @@
+Wed, Jan 09  2019; 02:02:27 PM - Starting Appium Server
+Wed, Jan 09  2019; 02:02:37 PM - Starting Test Execution
+Wed, Jan 09  2019; 02:02:37 PM - Initializing locators from excel sheet...
+Wed, Jan 09  2019; 02:02:38 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 09  2019; 02:02:38 PM - Initializing data from excel sheet...
+Wed, Jan 09  2019; 02:02:38 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 09  2019; 02:02:38 PM - Starting Appium Server
+Wed, Jan 09  2019; 02:02:48 PM - Starting Test Execution
+Wed, Jan 09  2019; 02:02:48 PM - Initializing locators from excel sheet...
+Wed, Jan 09  2019; 02:02:48 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 09  2019; 02:02:48 PM - Initializing data from excel sheet...
+Wed, Jan 09  2019; 02:02:48 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 09  2019; 02:02:48 PM - Launching Appium Android...
+Wed, Jan 09  2019; 02:04:05 PM - Entered registered value in Phone Number field:9874563211
+Wed, Jan 09  2019; 02:04:17 PM - Entered value in OTP field:610166
+Wed, Jan 09  2019; 02:04:17 PM - loginAsExistingUser ----> Success
+Wed, Jan 09  2019; 02:04:41 PM - navigateToFarmerProfileSection1 ----> Success
+Wed, Jan 09  2019; 02:04:54 PM - Please select Village
+Wed, Jan 09  2019; 02:04:54 PM - checkMandatoryFieldsWhileCreatingFarmerProfile ----> Success
+Wed, Jan 09  2019; 02:05:30 PM - enterMandatoryFieldsAndSaveProfile ----> Success
+Wed, Jan 09  2019; 02:05:40 PM - Invalid PAN Number
+Wed, Jan 09  2019; 02:05:47 PM - validatePANNumber ----> Success
+Wed, Jan 09  2019; 02:05:56 PM - Invalid Aadhaar Number
+Wed, Jan 09  2019; 02:06:05 PM - validateAadharNumber ----> Success
+Wed, Jan 09  2019; 02:06:27 PM - navigateToFarmerLandSection1 ----> Success
+Wed, Jan 09  2019; 02:06:36 PM - The message:Survey No cannot be empty.
+Wed, Jan 09  2019; 02:06:40 PM - checkWhetherSurveyNoIsMandatory ----> Success
+Wed, Jan 09  2019; 02:06:50 PM - The message:Total Land Holding Area cannot be empty
+Wed, Jan 09  2019; 02:07:02 PM - checkWhetherTotalLandHoldingAreaIsMandatory ----> Success
+Wed, Jan 09  2019; 02:07:26 PM - The message:Irrigated Land should be less than or equal to Total Land Holding Area
+Wed, Jan 09  2019; 02:07:35 PM - checkWhetherIrrigatedLandIsGreaterThanTotalLandHoldingArea ----> Success
+Wed, Jan 09  2019; 02:07:45 PM - navigateToFarmerCroppingPatternSection2 ----> Success
+Wed, Jan 09  2019; 02:07:52 PM - The message:Survey No cannot be empty.
+Wed, Jan 09  2019; 02:08:53 PM - checkIfSurveyNoIsMandatory ----> Failed
+Wed, Jan 09  2019; 02:08:53 PM - org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.28 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '10.6.139.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankqa, statBarHeight=72, noReset=false, viewportRect={top=72, left=0, width=1080, height=1848}, deviceName=330073a8508cb423, platform=LINUX, deviceUDID=330073a8508cb423, desired={app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, appPackage=com.itc.seedbankqa, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.0, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=330073a8508cb423, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.0, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, deviceApiLevel=24, app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=3, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=480, deviceModel=SM-G610F, autoAcceptAlerts=true}]
+Session ID: 784b7e3c-40df-4638-afd7-4fb8fa325d28
+*** Element info: {Using=id, value=com.itc.seedbankqa:id/edit_SurveyNo}
+Wed, Jan 09  2019; 02:08:58 PM - The message:Field Name cannot be empty.
+Wed, Jan 09  2019; 02:09:02 PM - checkIfFieldNameIsMandatory ----> Success
+Wed, Jan 09  2019; 02:09:07 PM - The message:Crop cannot be empty
+Wed, Jan 09  2019; 02:09:13 PM - checkIfCropTypeIsMandatory ----> Success
+Wed, Jan 09  2019; 02:09:18 PM - The message:Season Crop Mapping cannot be empty
+Wed, Jan 09  2019; 02:09:22 PM - checkIfSeasonCropMappingIsMandatory ----> Success
+Wed, Jan 09  2019; 02:09:40 PM - The message:Size cannot be zero
+Wed, Jan 09  2019; 02:09:44 PM - checkIfSizeIsMandatory ----> Success
+Wed, Jan 09  2019; 02:09:45 PM - Ending Execution...
+Wed, Jan 09  2019; 02:09:45 PM - Trying to close Webdriver...
+Wed, Jan 09  2019; 02:09:47 PM - Selenium Webdriver closed successfully!
+Wed, Jan 09  2019; 02:09:47 PM - Stopping Appium server for Windows
+Wed, Jan 09  2019; 02:09:47 PM - Appium server is shutdown successfully
+Wed, Jan 09  2019; 02:09:57 PM - Writing Results and Logs to file...

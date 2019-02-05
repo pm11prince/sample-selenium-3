@@ -1,0 +1,796 @@
+Mon, Dec 31  2018; 03:19:10 PM - Starting Appium Server
+Mon, Dec 31  2018; 03:19:20 PM - Starting Test Execution
+Mon, Dec 31  2018; 03:19:20 PM - Initializing locators from excel sheet...
+Mon, Dec 31  2018; 03:19:20 PM - Initializing locators from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:19:20 PM - Initializing data from excel sheet...
+Mon, Dec 31  2018; 03:19:20 PM - Initializing data from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:19:21 PM - Starting Appium Server
+Mon, Dec 31  2018; 03:19:31 PM - Starting Test Execution
+Mon, Dec 31  2018; 03:19:31 PM - Initializing locators from excel sheet...
+Mon, Dec 31  2018; 03:19:31 PM - Initializing locators from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:19:31 PM - Initializing data from excel sheet...
+Mon, Dec 31  2018; 03:19:31 PM - Initializing data from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:19:31 PM - Starting Appium Server
+Mon, Dec 31  2018; 03:19:41 PM - Starting Test Execution
+Mon, Dec 31  2018; 03:19:41 PM - Initializing locators from excel sheet...
+Mon, Dec 31  2018; 03:19:41 PM - Initializing locators from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:19:41 PM - Initializing data from excel sheet...
+Mon, Dec 31  2018; 03:19:41 PM - Initializing data from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:19:41 PM - Starting Appium Server
+Mon, Dec 31  2018; 03:19:51 PM - Starting Test Execution
+Mon, Dec 31  2018; 03:19:51 PM - Initializing locators from excel sheet...
+Mon, Dec 31  2018; 03:19:51 PM - Initializing locators from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:19:51 PM - Initializing data from excel sheet...
+Mon, Dec 31  2018; 03:19:51 PM - Initializing data from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:19:51 PM - Starting Appium Server
+Mon, Dec 31  2018; 03:20:01 PM - Starting Test Execution
+Mon, Dec 31  2018; 03:20:01 PM - Initializing locators from excel sheet...
+Mon, Dec 31  2018; 03:20:01 PM - Initializing locators from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:20:01 PM - Initializing data from excel sheet...
+Mon, Dec 31  2018; 03:20:01 PM - Initializing data from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:20:01 PM - Starting Appium Server
+Mon, Dec 31  2018; 03:20:11 PM - Starting Test Execution
+Mon, Dec 31  2018; 03:20:11 PM - Initializing locators from excel sheet...
+Mon, Dec 31  2018; 03:20:11 PM - Initializing locators from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:20:11 PM - Initializing data from excel sheet...
+Mon, Dec 31  2018; 03:20:11 PM - Initializing data from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:20:11 PM - Launching Appium Android...
+Mon, Dec 31  2018; 03:21:06 PM - Entered value in Phone Number field:3686992429
+Mon, Dec 31  2018; 03:21:17 PM - Entered value in OTP field:610166
+Mon, Dec 31  2018; 03:21:41 PM - registerAsNewUser ----> Success
+Mon, Dec 31  2018; 03:22:46 PM - navigateToFarmerProfileSection1 ----> Success
+Mon, Dec 31  2018; 03:23:53 PM - checkMandatoryFieldsWhileCreatingFarmerProfile ----> Failed
+Mon, Dec 31  2018; 03:23:53 PM - org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.44 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '10.6.141.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankqa, statBarHeight=72, noReset=false, viewportRect={top=72, left=0, width=1080, height=1848}, deviceName=330073a8508cb423, platform=LINUX, deviceUDID=330073a8508cb423, desired={app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, appPackage=com.itc.seedbankqa, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.0, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=330073a8508cb423, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.0, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, deviceApiLevel=24, app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=3, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=480, deviceModel=SM-G610F, autoAcceptAlerts=true}]
+Session ID: 720491a2-139b-40bc-8a9b-0f83f4d203b2
+*** Element info: {Using=id, value=com.itc.seedbankqa:id/button_saveBasicInfo}
+Mon, Dec 31  2018; 03:28:11 PM - Starting Appium Server
+Mon, Dec 31  2018; 03:28:21 PM - Starting Test Execution
+Mon, Dec 31  2018; 03:28:21 PM - Initializing locators from excel sheet...
+Mon, Dec 31  2018; 03:28:21 PM - Initializing locators from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:28:21 PM - Initializing data from excel sheet...
+Mon, Dec 31  2018; 03:28:21 PM - Initializing data from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:28:21 PM - Starting Appium Server
+Mon, Dec 31  2018; 03:28:31 PM - Starting Test Execution
+Mon, Dec 31  2018; 03:28:31 PM - Initializing locators from excel sheet...
+Mon, Dec 31  2018; 03:28:31 PM - Initializing locators from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:28:31 PM - Initializing data from excel sheet...
+Mon, Dec 31  2018; 03:28:32 PM - Initializing data from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:28:32 PM - Starting Appium Server
+Mon, Dec 31  2018; 03:28:42 PM - Starting Test Execution
+Mon, Dec 31  2018; 03:28:42 PM - Initializing locators from excel sheet...
+Mon, Dec 31  2018; 03:28:42 PM - Initializing locators from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:28:42 PM - Initializing data from excel sheet...
+Mon, Dec 31  2018; 03:28:42 PM - Initializing data from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:28:42 PM - Starting Appium Server
+Mon, Dec 31  2018; 03:28:52 PM - Starting Test Execution
+Mon, Dec 31  2018; 03:28:52 PM - Initializing locators from excel sheet...
+Mon, Dec 31  2018; 03:28:52 PM - Initializing locators from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:28:52 PM - Initializing data from excel sheet...
+Mon, Dec 31  2018; 03:28:52 PM - Initializing data from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:28:52 PM - Starting Appium Server
+Mon, Dec 31  2018; 03:29:02 PM - Starting Test Execution
+Mon, Dec 31  2018; 03:29:02 PM - Initializing locators from excel sheet...
+Mon, Dec 31  2018; 03:29:02 PM - Initializing locators from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:29:02 PM - Initializing data from excel sheet...
+Mon, Dec 31  2018; 03:29:02 PM - Initializing data from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:29:02 PM - Starting Appium Server
+Mon, Dec 31  2018; 03:29:12 PM - Starting Test Execution
+Mon, Dec 31  2018; 03:29:12 PM - Initializing locators from excel sheet...
+Mon, Dec 31  2018; 03:29:12 PM - Initializing locators from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:29:12 PM - Initializing data from excel sheet...
+Mon, Dec 31  2018; 03:29:12 PM - Initializing data from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:29:12 PM - Launching Appium Android...
+Mon, Dec 31  2018; 03:30:02 PM - Entered value in Phone Number field:9003187911
+Mon, Dec 31  2018; 03:30:38 PM - Entered value in OTP field:610166
+Mon, Dec 31  2018; 03:30:49 PM - registerAsNewUser ----> Success
+Mon, Dec 31  2018; 03:30:54 PM - navigateToFarmerProfileSection1 ----> Success
+Mon, Dec 31  2018; 03:31:05 PM - checkMandatoryFieldsWhileCreatingFarmerProfile ----> Failed
+Mon, Dec 31  2018; 03:31:05 PM - org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11 milliseconds
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '10.6.141.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankqa, statBarHeight=72, noReset=false, viewportRect={top=72, left=0, width=1080, height=1848}, deviceName=330073a8508cb423, platform=LINUX, deviceUDID=330073a8508cb423, desired={app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, appPackage=com.itc.seedbankqa, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.0, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=330073a8508cb423, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.0, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, deviceApiLevel=24, app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=3, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=480, deviceModel=SM-G610F, autoAcceptAlerts=true}]
+Session ID: abe33bd1-17af-4eb1-9ea6-526296c83d44
+*** Element info: {Using=id, value=com.itc.seedbankqa:id/button_saveBasicInfo}
+Mon, Dec 31  2018; 03:31:05 PM - checkMandatoryFieldsWhileCreatingFarmerProfile ----> Failed
+Mon, Dec 31  2018; 03:31:05 PM - org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11 milliseconds
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '10.6.141.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankqa, statBarHeight=72, noReset=false, viewportRect={top=72, left=0, width=1080, height=1848}, deviceName=330073a8508cb423, platform=LINUX, deviceUDID=330073a8508cb423, desired={app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, appPackage=com.itc.seedbankqa, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.0, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=330073a8508cb423, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.0, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, deviceApiLevel=24, app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=3, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=480, deviceModel=SM-G610F, autoAcceptAlerts=true}]
+Session ID: abe33bd1-17af-4eb1-9ea6-526296c83d44
+Mon, Dec 31  2018; 03:41:47 PM - Starting Appium Server
+Mon, Dec 31  2018; 03:41:57 PM - Starting Test Execution
+Mon, Dec 31  2018; 03:41:57 PM - Initializing locators from excel sheet...
+Mon, Dec 31  2018; 03:41:59 PM - Initializing locators from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:41:59 PM - Initializing data from excel sheet...
+Mon, Dec 31  2018; 03:41:59 PM - Initializing data from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:41:59 PM - Starting Appium Server
+Mon, Dec 31  2018; 03:42:09 PM - Starting Test Execution
+Mon, Dec 31  2018; 03:42:09 PM - Initializing locators from excel sheet...
+Mon, Dec 31  2018; 03:42:09 PM - Initializing locators from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:42:09 PM - Initializing data from excel sheet...
+Mon, Dec 31  2018; 03:42:09 PM - Initializing data from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:42:09 PM - Starting Appium Server
+Mon, Dec 31  2018; 03:42:19 PM - Starting Test Execution
+Mon, Dec 31  2018; 03:42:19 PM - Initializing locators from excel sheet...
+Mon, Dec 31  2018; 03:42:19 PM - Initializing locators from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:42:19 PM - Initializing data from excel sheet...
+Mon, Dec 31  2018; 03:42:19 PM - Initializing data from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:42:19 PM - Starting Appium Server
+Mon, Dec 31  2018; 03:42:29 PM - Starting Test Execution
+Mon, Dec 31  2018; 03:42:29 PM - Initializing locators from excel sheet...
+Mon, Dec 31  2018; 03:42:29 PM - Initializing locators from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:42:29 PM - Initializing data from excel sheet...
+Mon, Dec 31  2018; 03:42:30 PM - Initializing data from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:42:30 PM - Starting Appium Server
+Mon, Dec 31  2018; 03:42:40 PM - Starting Test Execution
+Mon, Dec 31  2018; 03:42:40 PM - Initializing locators from excel sheet...
+Mon, Dec 31  2018; 03:42:40 PM - Initializing locators from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:42:40 PM - Initializing data from excel sheet...
+Mon, Dec 31  2018; 03:42:40 PM - Initializing data from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:42:40 PM - Starting Appium Server
+Mon, Dec 31  2018; 03:42:50 PM - Starting Test Execution
+Mon, Dec 31  2018; 03:42:50 PM - Initializing locators from excel sheet...
+Mon, Dec 31  2018; 03:42:50 PM - Initializing locators from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:42:50 PM - Initializing data from excel sheet...
+Mon, Dec 31  2018; 03:42:50 PM - Initializing data from excel sheet completed successfully!
+Mon, Dec 31  2018; 03:42:50 PM - Launching Appium Android...
+Mon, Dec 31  2018; 03:43:56 PM - Entered value in Phone Number field:6856166594
+Mon, Dec 31  2018; 03:44:32 PM - Entered value in OTP field:610166
+Mon, Dec 31  2018; 03:44:45 PM - registerAsNewUser ----> Success
+Mon, Dec 31  2018; 03:44:50 PM - navigateToFarmerProfileSection1 ----> Success
+Mon, Dec 31  2018; 03:45:03 PM - Please select Village
+Mon, Dec 31  2018; 03:45:03 PM - checkMandatoryFieldsWhileCreatingFarmerProfile ----> Success
+Wed, Jan 02  2019; 00:00:18 PM - Starting Appium Server
+Wed, Jan 02  2019; 00:00:28 PM - Starting Test Execution
+Wed, Jan 02  2019; 00:00:28 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 00:00:30 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:00:30 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 00:00:31 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:00:31 PM - Starting Appium Server
+Wed, Jan 02  2019; 00:00:41 PM - Starting Test Execution
+Wed, Jan 02  2019; 00:00:41 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 00:00:41 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:00:41 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 00:00:41 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:00:42 PM - Starting Appium Server
+Wed, Jan 02  2019; 00:00:52 PM - Starting Test Execution
+Wed, Jan 02  2019; 00:00:52 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 00:00:52 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:00:52 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 00:00:52 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:00:52 PM - Starting Appium Server
+Wed, Jan 02  2019; 00:01:02 PM - Starting Test Execution
+Wed, Jan 02  2019; 00:01:02 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 00:01:02 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:01:02 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 00:01:02 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:01:02 PM - Starting Appium Server
+Wed, Jan 02  2019; 00:01:12 PM - Starting Test Execution
+Wed, Jan 02  2019; 00:01:12 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 00:01:12 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:01:12 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 00:01:12 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:01:12 PM - Starting Appium Server
+Wed, Jan 02  2019; 00:01:22 PM - Starting Test Execution
+Wed, Jan 02  2019; 00:01:22 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 00:01:22 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:01:22 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 00:01:23 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:01:23 PM - Launching Appium Android...
+Wed, Jan 02  2019; 00:02:41 PM - Entered value in Phone Number field:8453676064
+Wed, Jan 02  2019; 00:02:53 PM - Entered value in OTP field:610166
+Wed, Jan 02  2019; 00:03:10 PM - registerAsNewUser ----> Success
+Wed, Jan 02  2019; 00:03:15 PM - navigateToFarmerProfileSection1 ----> Success
+Wed, Jan 02  2019; 00:03:27 PM - Please select Village
+Wed, Jan 02  2019; 00:03:27 PM - checkMandatoryFieldsWhileCreatingFarmerProfile ----> Success
+Wed, Jan 02  2019; 00:08:00 PM - Starting Appium Server
+Wed, Jan 02  2019; 00:08:10 PM - Starting Test Execution
+Wed, Jan 02  2019; 00:08:10 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 00:08:11 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:08:11 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 00:08:11 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:08:11 PM - Starting Appium Server
+Wed, Jan 02  2019; 00:08:21 PM - Starting Test Execution
+Wed, Jan 02  2019; 00:08:21 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 00:08:21 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:08:21 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 00:08:21 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:08:21 PM - Starting Appium Server
+Wed, Jan 02  2019; 00:08:31 PM - Starting Test Execution
+Wed, Jan 02  2019; 00:08:31 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 00:08:31 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:08:31 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 00:08:31 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:08:31 PM - Starting Appium Server
+Wed, Jan 02  2019; 00:08:41 PM - Starting Test Execution
+Wed, Jan 02  2019; 00:08:41 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 00:08:42 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:08:42 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 00:08:42 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:08:42 PM - Starting Appium Server
+Wed, Jan 02  2019; 00:08:52 PM - Starting Test Execution
+Wed, Jan 02  2019; 00:08:52 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 00:08:52 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:08:52 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 00:08:52 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:08:52 PM - Starting Appium Server
+Wed, Jan 02  2019; 00:09:02 PM - Starting Test Execution
+Wed, Jan 02  2019; 00:09:02 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 00:09:02 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:09:02 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 00:09:02 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:09:02 PM - Launching Appium Android...
+Wed, Jan 02  2019; 00:10:11 PM - Entered value in Phone Number field:8921740435
+Wed, Jan 02  2019; 00:10:23 PM - Entered value in OTP field:610166
+Wed, Jan 02  2019; 00:10:42 PM - registerAsNewUser ----> Success
+Wed, Jan 02  2019; 00:10:47 PM - navigateToFarmerProfileSection1 ----> Success
+Wed, Jan 02  2019; 00:11:00 PM - checkMandatoryFieldsWhileCreatingFarmerProfile ----> Failed
+Wed, Jan 02  2019; 00:11:00 PM - org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8200 (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.08 seconds
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '172.16.25.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankqa, statBarHeight=72, noReset=false, viewportRect={top=72, left=0, width=1080, height=1848}, deviceName=330073a8508cb423, platform=LINUX, deviceUDID=330073a8508cb423, desired={app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, appPackage=com.itc.seedbankqa, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.0, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=330073a8508cb423, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.0, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, deviceApiLevel=24, app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=3, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=480, deviceModel=SM-G610F, autoAcceptAlerts=true}]
+Session ID: 45737ed8-a154-4ce5-92af-9d7e25126d79
+*** Element info: {Using=xpath, value=//android.widget.Button[@resource-id='com.itc.seedbankqa:id/button_saveBasicInfo']}
+Wed, Jan 02  2019; 00:11:01 PM - checkMandatoryFieldsWhileCreatingFarmerProfile ----> Failed
+Wed, Jan 02  2019; 00:11:01 PM - org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8200 (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.05 seconds
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '172.16.25.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankqa, statBarHeight=72, noReset=false, viewportRect={top=72, left=0, width=1080, height=1848}, deviceName=330073a8508cb423, platform=LINUX, deviceUDID=330073a8508cb423, desired={app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, appPackage=com.itc.seedbankqa, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.0, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=330073a8508cb423, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.0, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, deviceApiLevel=24, app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=3, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=480, deviceModel=SM-G610F, autoAcceptAlerts=true}]
+Session ID: 45737ed8-a154-4ce5-92af-9d7e25126d79
+Wed, Jan 02  2019; 00:11:49 PM - Starting Appium Server
+Wed, Jan 02  2019; 00:11:59 PM - Starting Test Execution
+Wed, Jan 02  2019; 00:11:59 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 00:12:00 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:12:00 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 00:12:00 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:12:00 PM - Starting Appium Server
+Wed, Jan 02  2019; 00:12:10 PM - Starting Test Execution
+Wed, Jan 02  2019; 00:12:10 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 00:12:10 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:12:10 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 00:12:11 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:12:11 PM - Starting Appium Server
+Wed, Jan 02  2019; 00:12:21 PM - Starting Test Execution
+Wed, Jan 02  2019; 00:12:21 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 00:12:21 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:12:21 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 00:12:21 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:12:21 PM - Starting Appium Server
+Wed, Jan 02  2019; 00:12:31 PM - Starting Test Execution
+Wed, Jan 02  2019; 00:12:31 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 00:12:31 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:12:31 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 00:12:31 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:12:31 PM - Starting Appium Server
+Wed, Jan 02  2019; 00:12:41 PM - Starting Test Execution
+Wed, Jan 02  2019; 00:12:41 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 00:12:41 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:12:41 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 00:12:41 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:12:41 PM - Starting Appium Server
+Wed, Jan 02  2019; 00:12:51 PM - Starting Test Execution
+Wed, Jan 02  2019; 00:12:51 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 00:12:51 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:12:51 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 00:12:52 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:12:52 PM - Launching Appium Android...
+Wed, Jan 02  2019; 00:13:59 PM - Entered value in Phone Number field:3798875882
+Wed, Jan 02  2019; 00:14:11 PM - Entered value in OTP field:610166
+Wed, Jan 02  2019; 00:14:28 PM - registerAsNewUser ----> Success
+Wed, Jan 02  2019; 00:14:32 PM - navigateToFarmerProfileSection1 ----> Success
+Wed, Jan 02  2019; 00:14:45 PM - checkMandatoryFieldsWhileCreatingFarmerProfile ----> Failed
+Wed, Jan 02  2019; 00:14:45 PM - org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8200 (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.05 seconds
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '172.16.25.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankqa, statBarHeight=72, noReset=false, viewportRect={top=72, left=0, width=1080, height=1848}, deviceName=330073a8508cb423, platform=LINUX, deviceUDID=330073a8508cb423, desired={app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, appPackage=com.itc.seedbankqa, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.0, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=330073a8508cb423, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.0, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, deviceApiLevel=24, app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=3, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=480, deviceModel=SM-G610F, autoAcceptAlerts=true}]
+Session ID: 80f01559-582c-4800-b153-a156db5c29b2
+*** Element info: {Using=xpath, value=//android.widget.Button[@resource-id='com.itc.seedbankqa:id/button_saveBasicInfo']}
+Wed, Jan 02  2019; 00:14:46 PM - checkMandatoryFieldsWhileCreatingFarmerProfile ----> Failed
+Wed, Jan 02  2019; 00:14:46 PM - org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8200 (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.05 seconds
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '172.16.25.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankqa, statBarHeight=72, noReset=false, viewportRect={top=72, left=0, width=1080, height=1848}, deviceName=330073a8508cb423, platform=LINUX, deviceUDID=330073a8508cb423, desired={app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, appPackage=com.itc.seedbankqa, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.0, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=330073a8508cb423, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.0, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, deviceApiLevel=24, app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=3, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=480, deviceModel=SM-G610F, autoAcceptAlerts=true}]
+Session ID: 80f01559-582c-4800-b153-a156db5c29b2
+Wed, Jan 02  2019; 00:27:56 PM - Starting Appium Server
+Wed, Jan 02  2019; 00:28:06 PM - Starting Test Execution
+Wed, Jan 02  2019; 00:28:06 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 00:28:07 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:28:07 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 00:28:07 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:28:07 PM - Starting Appium Server
+Wed, Jan 02  2019; 00:28:17 PM - Starting Test Execution
+Wed, Jan 02  2019; 00:28:17 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 00:28:17 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:28:17 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 00:28:18 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:28:18 PM - Starting Appium Server
+Wed, Jan 02  2019; 00:28:28 PM - Starting Test Execution
+Wed, Jan 02  2019; 00:28:28 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 00:28:28 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:28:28 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 00:28:28 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:28:28 PM - Starting Appium Server
+Wed, Jan 02  2019; 00:28:38 PM - Starting Test Execution
+Wed, Jan 02  2019; 00:28:38 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 00:28:38 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:28:38 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 00:28:38 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:28:38 PM - Starting Appium Server
+Wed, Jan 02  2019; 00:28:48 PM - Starting Test Execution
+Wed, Jan 02  2019; 00:28:48 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 00:28:48 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:28:48 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 00:28:48 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:28:48 PM - Starting Appium Server
+Wed, Jan 02  2019; 00:28:58 PM - Starting Test Execution
+Wed, Jan 02  2019; 00:28:58 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 00:28:58 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:28:58 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 00:28:58 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:28:58 PM - Launching Appium Android...
+Wed, Jan 02  2019; 00:30:37 PM - Starting Appium Server
+Wed, Jan 02  2019; 00:30:47 PM - Starting Test Execution
+Wed, Jan 02  2019; 00:30:47 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 00:30:48 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:30:48 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 00:30:48 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:30:48 PM - Starting Appium Server
+Wed, Jan 02  2019; 00:30:58 PM - Starting Test Execution
+Wed, Jan 02  2019; 00:30:58 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 00:30:58 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:30:58 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 00:30:59 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:30:59 PM - Starting Appium Server
+Wed, Jan 02  2019; 00:31:09 PM - Starting Test Execution
+Wed, Jan 02  2019; 00:31:09 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 00:31:09 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:31:09 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 00:31:09 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:31:09 PM - Starting Appium Server
+Wed, Jan 02  2019; 00:31:19 PM - Starting Test Execution
+Wed, Jan 02  2019; 00:31:19 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 00:31:19 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:31:19 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 00:31:19 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:31:19 PM - Starting Appium Server
+Wed, Jan 02  2019; 00:31:29 PM - Starting Test Execution
+Wed, Jan 02  2019; 00:31:29 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 00:31:29 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:31:29 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 00:31:29 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:31:29 PM - Starting Appium Server
+Wed, Jan 02  2019; 00:31:39 PM - Starting Test Execution
+Wed, Jan 02  2019; 00:31:39 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 00:31:40 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:31:40 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 00:31:40 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 00:31:40 PM - Launching Appium Android...
+Wed, Jan 02  2019; 00:32:47 PM - Entered value in Phone Number field:1430503774
+Wed, Jan 02  2019; 00:33:03 PM - Entered value in OTP field:610166
+Wed, Jan 02  2019; 00:33:47 PM - registerAsNewUser ----> Success
+Wed, Jan 02  2019; 00:33:51 PM - navigateToFarmerProfileSection1 ----> Success
+Wed, Jan 02  2019; 00:34:04 PM - Please select Village
+Wed, Jan 02  2019; 00:34:04 PM - checkMandatoryFieldsWhileCreatingFarmerProfile ----> Success
+Wed, Jan 02  2019; 00:34:27 PM - enterVillageAndSaveProfile ----> Failed
+Wed, Jan 02  2019; 00:34:27 PM - org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22.81 seconds
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '10.6.141.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankqa, statBarHeight=72, noReset=false, viewportRect={top=72, left=0, width=1080, height=1848}, deviceName=330073a8508cb423, platform=LINUX, deviceUDID=330073a8508cb423, desired={app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, appPackage=com.itc.seedbankqa, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.0, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=330073a8508cb423, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.0, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, deviceApiLevel=24, app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=3, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=480, deviceModel=SM-G610F, autoAcceptAlerts=true}]
+Session ID: b8e40c94-15e3-477d-92fa-7ba7bbe47c5e
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector()).scrollIntoView(textStartsWith("Enter Pincode"));}
+Wed, Jan 02  2019; 00:34:28 PM - enterVillageAndSaveProfile ----> Failed
+Wed, Jan 02  2019; 00:34:28 PM - org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8200 (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.06 seconds
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '10.6.141.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankqa, statBarHeight=72, noReset=false, viewportRect={top=72, left=0, width=1080, height=1848}, deviceName=330073a8508cb423, platform=LINUX, deviceUDID=330073a8508cb423, desired={app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, appPackage=com.itc.seedbankqa, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.0, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=330073a8508cb423, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.0, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, deviceApiLevel=24, app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=3, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=480, deviceModel=SM-G610F, autoAcceptAlerts=true}]
+Session ID: b8e40c94-15e3-477d-92fa-7ba7bbe47c5e
+Wed, Jan 02  2019; 01:14:09 PM - Starting Appium Server
+Wed, Jan 02  2019; 01:14:19 PM - Starting Test Execution
+Wed, Jan 02  2019; 01:14:19 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 01:14:20 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 01:14:20 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 01:14:20 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 01:14:20 PM - Starting Appium Server
+Wed, Jan 02  2019; 01:14:30 PM - Starting Test Execution
+Wed, Jan 02  2019; 01:14:30 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 01:14:30 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 01:14:30 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 01:14:31 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 01:14:31 PM - Starting Appium Server
+Wed, Jan 02  2019; 01:14:41 PM - Starting Test Execution
+Wed, Jan 02  2019; 01:14:41 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 01:14:41 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 01:14:41 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 01:14:41 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 01:14:41 PM - Starting Appium Server
+Wed, Jan 02  2019; 01:14:51 PM - Starting Test Execution
+Wed, Jan 02  2019; 01:14:51 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 01:14:51 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 01:14:51 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 01:14:51 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 01:14:51 PM - Starting Appium Server
+Wed, Jan 02  2019; 01:15:01 PM - Starting Test Execution
+Wed, Jan 02  2019; 01:15:01 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 01:15:01 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 01:15:01 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 01:15:01 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 01:15:01 PM - Starting Appium Server
+Wed, Jan 02  2019; 01:15:11 PM - Starting Test Execution
+Wed, Jan 02  2019; 01:15:11 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 01:15:11 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 01:15:11 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 01:15:11 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 01:15:11 PM - Launching Appium Android...
+Wed, Jan 02  2019; 01:15:54 PM - registerAsNewUser ----> Failed
+Wed, Jan 02  2019; 01:15:54 PM - java.lang.NullPointerException
+Wed, Jan 02  2019; 01:15:54 PM - registerAsNewUser ----> Failed
+Wed, Jan 02  2019; 01:15:54 PM - java.lang.NullPointerException
+Wed, Jan 02  2019; 01:17:08 PM - Starting Appium Server
+Wed, Jan 02  2019; 01:17:18 PM - Starting Test Execution
+Wed, Jan 02  2019; 01:17:18 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 01:17:19 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 01:17:19 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 01:17:19 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 01:17:19 PM - Starting Appium Server
+Wed, Jan 02  2019; 01:17:29 PM - Starting Test Execution
+Wed, Jan 02  2019; 01:17:29 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 01:17:29 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 01:17:29 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 01:17:29 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 01:17:29 PM - Starting Appium Server
+Wed, Jan 02  2019; 01:17:39 PM - Starting Test Execution
+Wed, Jan 02  2019; 01:17:39 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 01:17:39 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 01:17:39 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 01:17:40 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 01:17:40 PM - Starting Appium Server
+Wed, Jan 02  2019; 01:17:50 PM - Starting Test Execution
+Wed, Jan 02  2019; 01:17:50 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 01:17:50 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 01:17:50 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 01:17:50 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 01:17:50 PM - Starting Appium Server
+Wed, Jan 02  2019; 01:18:00 PM - Starting Test Execution
+Wed, Jan 02  2019; 01:18:00 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 01:18:00 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 01:18:00 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 01:18:00 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 01:18:00 PM - Starting Appium Server
+Wed, Jan 02  2019; 01:18:10 PM - Starting Test Execution
+Wed, Jan 02  2019; 01:18:10 PM - Initializing locators from excel sheet...
+Wed, Jan 02  2019; 01:18:10 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 02  2019; 01:18:10 PM - Initializing data from excel sheet...
+Wed, Jan 02  2019; 01:18:10 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 02  2019; 01:18:10 PM - Launching Appium Android...
+Wed, Jan 02  2019; 01:18:53 PM - registerAsNewUser ----> Failed
+Wed, Jan 02  2019; 01:18:53 PM - java.lang.NullPointerException
+Wed, Jan 02  2019; 01:18:53 PM - registerAsNewUser ----> Failed
+Wed, Jan 02  2019; 01:18:53 PM - java.lang.NullPointerException
+Thu, Jan 03  2019; 10:44:41 AM - Starting Appium Server
+Thu, Jan 03  2019; 10:44:51 AM - Starting Test Execution
+Thu, Jan 03  2019; 10:44:51 AM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 10:44:52 AM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 10:44:52 AM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 10:44:52 AM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 10:44:52 AM - Starting Appium Server
+Thu, Jan 03  2019; 10:45:02 AM - Starting Test Execution
+Thu, Jan 03  2019; 10:45:02 AM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 10:45:02 AM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 10:45:02 AM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 10:45:02 AM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 10:45:02 AM - Starting Appium Server
+Thu, Jan 03  2019; 10:45:12 AM - Starting Test Execution
+Thu, Jan 03  2019; 10:45:12 AM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 10:45:12 AM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 10:45:12 AM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 10:45:12 AM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 10:45:12 AM - Starting Appium Server
+Thu, Jan 03  2019; 10:45:22 AM - Starting Test Execution
+Thu, Jan 03  2019; 10:45:22 AM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 10:45:22 AM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 10:45:22 AM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 10:45:22 AM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 10:45:22 AM - Starting Appium Server
+Thu, Jan 03  2019; 10:45:32 AM - Starting Test Execution
+Thu, Jan 03  2019; 10:45:32 AM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 10:45:32 AM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 10:45:32 AM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 10:45:32 AM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 10:45:32 AM - Starting Appium Server
+Thu, Jan 03  2019; 10:45:42 AM - Starting Test Execution
+Thu, Jan 03  2019; 10:45:42 AM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 10:45:42 AM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 10:45:42 AM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 10:45:42 AM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 10:45:42 AM - Launching Appium Android...
+Thu, Jan 03  2019; 10:46:37 AM - Entered value in Phone Number field:6517447686
+Thu, Jan 03  2019; 10:47:10 AM - Entered value in OTP field:610166
+Thu, Jan 03  2019; 10:47:33 AM - registerAsNewUser ----> Success
+Thu, Jan 03  2019; 10:47:38 AM - navigateToFarmerProfileSection1 ----> Success
+Thu, Jan 03  2019; 10:47:51 AM - Please select Village
+Thu, Jan 03  2019; 10:47:51 AM - checkMandatoryFieldsWhileCreatingFarmerProfile ----> Success
+Thu, Jan 03  2019; 10:48:51 AM - enterVillageAndSaveProfile ----> Failed
+Thu, Jan 03  2019; 10:48:51 AM - org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.16 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '10.6.141.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankqa, statBarHeight=72, noReset=false, viewportRect={top=72, left=0, width=1080, height=1848}, deviceName=330073a8508cb423, platform=LINUX, deviceUDID=330073a8508cb423, desired={app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, appPackage=com.itc.seedbankqa, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.0, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=330073a8508cb423, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.0, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, deviceApiLevel=24, app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=3, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=480, deviceModel=SM-G610F, autoAcceptAlerts=true}]
+Session ID: 2bdcff68-4657-45c0-b015-a823495ca8a6
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector()).scrollIntoView(textStartsWith("Enter Pincode"));}
+Thu, Jan 03  2019; 10:50:14 AM - navigateToFarmerLandSection ----> Success
+Thu, Jan 03  2019; 10:50:18 AM - enterSurveyNumber ----> Success
+Thu, Jan 03  2019; 10:50:21 AM - enterLandName ----> Success
+Thu, Jan 03  2019; 10:50:27 AM - selectSoilType ----> Success
+Thu, Jan 03  2019; 10:50:33 AM - selectSourceOfIrrigation ----> Success
+Thu, Jan 03  2019; 10:50:36 AM - enterTotalLandOwn ----> Success
+Thu, Jan 03  2019; 10:50:39 AM - enterTotalLeased ----> Success
+Thu, Jan 03  2019; 10:50:39 AM - checkTotalLandHoldingArea ----> Success
+Thu, Jan 03  2019; 10:50:42 AM - enterIrrigatedLand ----> Success
+Thu, Jan 03  2019; 10:50:46 AM - saveLandDetails ----> Success
+Thu, Jan 03  2019; 10:51:59 AM - navigateToFarmerCroppingPatternSection ----> Success
+Thu, Jan 03  2019; 10:52:06 AM - selectSurveyNo ----> Success
+Thu, Jan 03  2019; 10:52:08 AM - enterFieldName ----> Success
+Thu, Jan 03  2019; 10:52:11 AM - selectCropType ----> Success
+Thu, Jan 03  2019; 10:52:12 AM - selectSeasonCropYear ----> Success
+Thu, Jan 03  2019; 10:53:12 AM - enterSizeInAcres ----> Failed
+Thu, Jan 03  2019; 10:53:12 AM - org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.24 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '10.6.141.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankqa, statBarHeight=72, noReset=false, viewportRect={top=72, left=0, width=1080, height=1848}, deviceName=330073a8508cb423, platform=LINUX, deviceUDID=330073a8508cb423, desired={app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, appPackage=com.itc.seedbankqa, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.0, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=330073a8508cb423, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.0, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, deviceApiLevel=24, app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=3, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=480, deviceModel=SM-G610F, autoAcceptAlerts=true}]
+Session ID: 2bdcff68-4657-45c0-b015-a823495ca8a6
+*** Element info: {Using=id, value=com.itc.seedbankqa:id/edit_size}
+Thu, Jan 03  2019; 10:54:13 AM - saveCropDetails ----> Failed
+Thu, Jan 03  2019; 10:54:13 AM - org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.20 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '10.6.141.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankqa, statBarHeight=72, noReset=false, viewportRect={top=72, left=0, width=1080, height=1848}, deviceName=330073a8508cb423, platform=LINUX, deviceUDID=330073a8508cb423, desired={app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, appPackage=com.itc.seedbankqa, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.0, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=330073a8508cb423, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.0, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, deviceApiLevel=24, app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=3, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=480, deviceModel=SM-G610F, autoAcceptAlerts=true}]
+Session ID: 2bdcff68-4657-45c0-b015-a823495ca8a6
+*** Element info: {Using=id, value=com.itc.seedbankqa:id/button_save}
+Thu, Jan 03  2019; 10:56:19 AM - navigateToCropMonitoringPageFromDashboard ----> Failed
+Thu, Jan 03  2019; 10:56:19 AM - org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.19 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '10.6.141.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankqa, statBarHeight=72, noReset=false, viewportRect={top=72, left=0, width=1080, height=1848}, deviceName=330073a8508cb423, platform=LINUX, deviceUDID=330073a8508cb423, desired={app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, appPackage=com.itc.seedbankqa, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.0, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=330073a8508cb423, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.0, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, deviceApiLevel=24, app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=3, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=480, deviceModel=SM-G610F, autoAcceptAlerts=true}]
+Session ID: 2bdcff68-4657-45c0-b015-a823495ca8a6
+*** Element info: {Using=id, value=com.itc.seedbankqa:id/image_back}
+Thu, Jan 03  2019; 10:57:24 AM - Starting Appium Server
+Thu, Jan 03  2019; 10:57:34 AM - Starting Test Execution
+Thu, Jan 03  2019; 10:57:34 AM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 10:57:35 AM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 10:57:35 AM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 10:57:35 AM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 10:57:35 AM - Starting Appium Server
+Thu, Jan 03  2019; 10:57:45 AM - Starting Test Execution
+Thu, Jan 03  2019; 10:57:45 AM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 10:57:45 AM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 10:57:45 AM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 10:57:45 AM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 10:57:45 AM - Starting Appium Server
+Thu, Jan 03  2019; 10:57:55 AM - Starting Test Execution
+Thu, Jan 03  2019; 10:57:55 AM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 10:57:55 AM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 10:57:55 AM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 10:57:55 AM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 10:57:55 AM - Starting Appium Server
+Thu, Jan 03  2019; 10:58:05 AM - Starting Test Execution
+Thu, Jan 03  2019; 10:58:05 AM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 10:58:05 AM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 10:58:05 AM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 10:58:05 AM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 10:58:05 AM - Starting Appium Server
+Thu, Jan 03  2019; 10:58:15 AM - Starting Test Execution
+Thu, Jan 03  2019; 10:58:15 AM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 10:58:15 AM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 10:58:15 AM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 10:58:15 AM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 10:58:15 AM - Starting Appium Server
+Thu, Jan 03  2019; 10:58:25 AM - Starting Test Execution
+Thu, Jan 03  2019; 10:58:25 AM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 10:58:25 AM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 10:58:25 AM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 10:58:25 AM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 10:58:25 AM - Launching Appium Android...
+Thu, Jan 03  2019; 10:59:18 AM - Entered value in Phone Number field:6527853995
+Thu, Jan 03  2019; 10:59:30 AM - Entered value in OTP field:610166
+Thu, Jan 03  2019; 10:59:44 AM - registerAsNewUser ----> Success
+Thu, Jan 03  2019; 10:59:49 AM - navigateToFarmerProfileSection1 ----> Success
+Thu, Jan 03  2019; 11:00:02 AM - Please select Village
+Thu, Jan 03  2019; 11:00:02 AM - checkMandatoryFieldsWhileCreatingFarmerProfile ----> Success
+Thu, Jan 03  2019; 11:01:02 AM - enterVillageAndSaveProfile ----> Failed
+Thu, Jan 03  2019; 11:01:02 AM - org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.90 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '10.6.141.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankqa, statBarHeight=72, noReset=false, viewportRect={top=72, left=0, width=1080, height=1848}, deviceName=330073a8508cb423, platform=LINUX, deviceUDID=330073a8508cb423, desired={app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, appPackage=com.itc.seedbankqa, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.0, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=330073a8508cb423, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.0, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, deviceApiLevel=24, app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=3, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=480, deviceModel=SM-G610F, autoAcceptAlerts=true}]
+Session ID: 7f7df1e5-da2e-40a3-879d-8d4ed59b1416
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector()).scrollIntoView(textStartsWith("Enter Pincode"));}
+Thu, Jan 03  2019; 11:02:25 AM - Starting Appium Server
+Thu, Jan 03  2019; 11:02:35 AM - Starting Test Execution
+Thu, Jan 03  2019; 11:02:35 AM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 11:02:35 AM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 11:02:35 AM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 11:02:35 AM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 11:02:35 AM - Starting Appium Server
+Thu, Jan 03  2019; 11:02:45 AM - Starting Test Execution
+Thu, Jan 03  2019; 11:02:45 AM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 11:02:46 AM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 11:02:46 AM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 11:02:46 AM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 11:02:46 AM - Starting Appium Server
+Thu, Jan 03  2019; 11:02:56 AM - Starting Test Execution
+Thu, Jan 03  2019; 11:02:56 AM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 11:02:56 AM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 11:02:56 AM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 11:02:56 AM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 11:02:56 AM - Starting Appium Server
+Thu, Jan 03  2019; 11:03:06 AM - Starting Test Execution
+Thu, Jan 03  2019; 11:03:06 AM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 11:03:06 AM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 11:03:06 AM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 11:03:06 AM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 11:03:06 AM - Starting Appium Server
+Thu, Jan 03  2019; 11:03:16 AM - Starting Test Execution
+Thu, Jan 03  2019; 11:03:16 AM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 11:03:16 AM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 11:03:16 AM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 11:03:16 AM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 11:03:16 AM - Starting Appium Server
+Thu, Jan 03  2019; 11:03:26 AM - Starting Test Execution
+Thu, Jan 03  2019; 11:03:26 AM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 11:03:26 AM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 11:03:26 AM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 11:03:26 AM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 11:03:26 AM - Launching Appium Android...
+Thu, Jan 03  2019; 11:04:17 AM - Entered value in Phone Number field:1298793851
+Thu, Jan 03  2019; 11:04:39 AM - Entered value in OTP field:610166
+Thu, Jan 03  2019; 11:04:54 AM - registerAsNewUser ----> Success
+Thu, Jan 03  2019; 11:04:59 AM - navigateToFarmerProfileSection1 ----> Success
+Thu, Jan 03  2019; 11:05:11 AM - Please select Village
+Thu, Jan 03  2019; 11:05:11 AM - checkMandatoryFieldsWhileCreatingFarmerProfile ----> Success
+Thu, Jan 03  2019; 11:06:12 AM - enterVillageAndSaveProfile ----> Failed
+Thu, Jan 03  2019; 11:06:12 AM - org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.14 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '10.6.141.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankqa, statBarHeight=72, noReset=false, viewportRect={top=72, left=0, width=1080, height=1848}, deviceName=330073a8508cb423, platform=LINUX, deviceUDID=330073a8508cb423, desired={app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, appPackage=com.itc.seedbankqa, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.0, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=330073a8508cb423, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.0, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, deviceApiLevel=24, app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=3, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=480, deviceModel=SM-G610F, autoAcceptAlerts=true}]
+Session ID: 2555705c-173f-4565-a1c0-f203ae275bbf
+*** Element info: {Using=id, value=com.itc.seedbankqa:id/edit_pincode}
+Thu, Jan 03  2019; 11:07:35 AM - navigateToFarmerLandSection ----> Success
+Thu, Jan 03  2019; 11:07:38 AM - enterSurveyNumber ----> Success
+Thu, Jan 03  2019; 11:07:41 AM - enterLandName ----> Success
+Thu, Jan 03  2019; 11:07:44 AM - selectSoilType ----> Failed
+Thu, Jan 03  2019; 11:07:44 AM - org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '10.6.141.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankqa, statBarHeight=72, noReset=false, viewportRect={top=72, left=0, width=1080, height=1848}, deviceName=330073a8508cb423, platform=LINUX, deviceUDID=330073a8508cb423, desired={app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, appPackage=com.itc.seedbankqa, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.0, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=330073a8508cb423, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.0, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, deviceApiLevel=24, app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=3, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=480, deviceModel=SM-G610F, autoAcceptAlerts=true}]
+Session ID: 2555705c-173f-4565-a1c0-f203ae275bbf
+*** Element info: {Using=xpath, value=//android.widget.TextView[@resource-id='com.itc.seedbankqa:id/text_spinner']}
+Thu, Jan 03  2019; 11:07:44 AM - selectSoilType ----> Failed
+Thu, Jan 03  2019; 11:07:44 AM - org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 17 milliseconds
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '10.6.141.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankqa, statBarHeight=72, noReset=false, viewportRect={top=72, left=0, width=1080, height=1848}, deviceName=330073a8508cb423, platform=LINUX, deviceUDID=330073a8508cb423, desired={app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, appPackage=com.itc.seedbankqa, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.0, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=330073a8508cb423, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.0, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, deviceApiLevel=24, app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=3, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=480, deviceModel=SM-G610F, autoAcceptAlerts=true}]
+Session ID: 2555705c-173f-4565-a1c0-f203ae275bbf
+Thu, Jan 03  2019; 11:38:35 AM - Starting Appium Server
+Thu, Jan 03  2019; 11:38:45 AM - Starting Test Execution
+Thu, Jan 03  2019; 11:38:45 AM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 11:38:46 AM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 11:38:46 AM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 11:38:46 AM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 11:38:46 AM - Starting Appium Server
+Thu, Jan 03  2019; 11:38:56 AM - Starting Test Execution
+Thu, Jan 03  2019; 11:38:56 AM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 11:38:56 AM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 11:38:56 AM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 11:38:56 AM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 11:38:56 AM - Starting Appium Server
+Thu, Jan 03  2019; 11:39:06 AM - Starting Test Execution
+Thu, Jan 03  2019; 11:39:06 AM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 11:39:06 AM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 11:39:06 AM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 11:39:06 AM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 11:39:06 AM - Launching Appium Android...
+Thu, Jan 03  2019; 11:40:00 AM - Entered value in Phone Number field:4626709697
+Thu, Jan 03  2019; 11:40:17 AM - Entered value in OTP field:610166
+Thu, Jan 03  2019; 11:41:06 AM - registerAsNewUser ----> Success
+Thu, Jan 03  2019; 11:42:10 AM - Element Not Found:By.xpath: //*[@class='android.support.v7.app.ActionBar$Tab' and @index='0']
+Thu, Jan 03  2019; 01:35:17 PM - Starting Appium Server
+Thu, Jan 03  2019; 01:35:27 PM - Starting Test Execution
+Thu, Jan 03  2019; 01:35:27 PM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 01:35:27 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 01:35:27 PM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 01:35:27 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 01:35:27 PM - Starting Appium Server
+Thu, Jan 03  2019; 01:35:37 PM - Starting Test Execution
+Thu, Jan 03  2019; 01:35:37 PM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 01:35:37 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 01:35:37 PM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 01:35:37 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 01:35:37 PM - Starting Appium Server
+Thu, Jan 03  2019; 01:35:47 PM - Starting Test Execution
+Thu, Jan 03  2019; 01:35:47 PM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 01:35:47 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 01:35:47 PM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 01:35:47 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 01:35:47 PM - Launching Appium Android...
+Thu, Jan 03  2019; 01:36:41 PM - Entered value in Phone Number field:5918697464
+Thu, Jan 03  2019; 01:36:56 PM - Entered value in OTP field:610166
+Thu, Jan 03  2019; 01:37:34 PM - registerAsNewUser ----> Success
+Thu, Jan 03  2019; 01:38:39 PM - Element Not Found:By.xpath: //*[@class='android.support.v7.app.ActionBar$Tab' and @index='0']
+Thu, Jan 03  2019; 01:39:39 PM - navigateToFarmerProfileSection1 ----> Failed
+Thu, Jan 03  2019; 01:39:39 PM - org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '10.6.141.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankqa, statBarHeight=72, noReset=false, viewportRect={top=72, left=0, width=1080, height=1848}, deviceName=330073a8508cb423, platform=LINUX, deviceUDID=330073a8508cb423, desired={app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, appPackage=com.itc.seedbankqa, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.0, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=330073a8508cb423, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.0, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, deviceApiLevel=24, app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=3, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=480, deviceModel=SM-G610F, autoAcceptAlerts=true}]
+Session ID: bf09053b-e04f-4aff-851a-25bcfe3283ea
+*** Element info: {Using=xpath, value=//*[@class='android.support.v7.app.ActionBar$Tab' and @index='0']}
+Thu, Jan 03  2019; 01:40:42 PM - checkMandatoryFieldsWhileCreatingFarmerProfile ----> Failed
+Thu, Jan 03  2019; 01:40:42 PM - org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 62.43 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '10.6.141.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankqa, statBarHeight=72, noReset=false, viewportRect={top=72, left=0, width=1080, height=1848}, deviceName=330073a8508cb423, platform=LINUX, deviceUDID=330073a8508cb423, desired={app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, appPackage=com.itc.seedbankqa, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.0, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=330073a8508cb423, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.0, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, deviceApiLevel=24, app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=3, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=480, deviceModel=SM-G610F, autoAcceptAlerts=true}]
+Session ID: bf09053b-e04f-4aff-851a-25bcfe3283ea
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector()).scrollIntoView(textStartsWith("Select Village*"));}
+Thu, Jan 03  2019; 01:41:44 PM - enterVillageAndSaveProfile ----> Failed
+Thu, Jan 03  2019; 01:41:44 PM - org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.93 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '10.6.141.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankqa, statBarHeight=72, noReset=false, viewportRect={top=72, left=0, width=1080, height=1848}, deviceName=330073a8508cb423, platform=LINUX, deviceUDID=330073a8508cb423, desired={app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, appPackage=com.itc.seedbankqa, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.0, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=330073a8508cb423, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.0, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, deviceApiLevel=24, app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=3, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=480, deviceModel=SM-G610F, autoAcceptAlerts=true}]
+Session ID: bf09053b-e04f-4aff-851a-25bcfe3283ea
+*** Element info: {Using=id, value=com.itc.seedbankqa:id/edit_pincode}
+Thu, Jan 03  2019; 01:41:46 PM - Ending Execution...
+Thu, Jan 03  2019; 01:41:46 PM - Trying to close Webdriver...
+Thu, Jan 03  2019; 01:41:47 PM - Selenium Webdriver closed successfully!
+Thu, Jan 03  2019; 01:41:47 PM - Stopping Appium server for Windows
+Thu, Jan 03  2019; 01:41:47 PM - Appium server is shutdown successfully
+Thu, Jan 03  2019; 01:41:57 PM - Writing Results and Logs to file...

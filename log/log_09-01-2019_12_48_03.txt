@@ -1,0 +1,75 @@
+Wed, Jan 09  2019; 00:36:17 PM - Starting Appium Server
+Wed, Jan 09  2019; 00:36:28 PM - Starting Test Execution
+Wed, Jan 09  2019; 00:36:28 PM - Initializing locators from excel sheet...
+Wed, Jan 09  2019; 00:36:30 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 09  2019; 00:36:30 PM - Initializing data from excel sheet...
+Wed, Jan 09  2019; 00:36:30 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 09  2019; 00:36:30 PM - Starting Appium Server
+Wed, Jan 09  2019; 00:36:40 PM - Starting Test Execution
+Wed, Jan 09  2019; 00:36:40 PM - Initializing locators from excel sheet...
+Wed, Jan 09  2019; 00:36:41 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 09  2019; 00:36:41 PM - Initializing data from excel sheet...
+Wed, Jan 09  2019; 00:36:41 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 09  2019; 00:36:41 PM - Launching Appium Android...
+Wed, Jan 09  2019; 00:38:01 PM - Entered registered value in Phone Number field:9874563211
+Wed, Jan 09  2019; 00:38:16 PM - Entered value in OTP field:610166
+Wed, Jan 09  2019; 00:38:16 PM - loginAsExistingUser ----> Success
+Wed, Jan 09  2019; 00:39:21 PM - Element Not Found:By.xpath: //*[@class='android.support.v7.app.ActionBar$Tab' and @index='0']
+Wed, Jan 09  2019; 00:39:44 PM - navigateToFarmerProfileSection1 ----> Success
+Wed, Jan 09  2019; 00:40:52 PM - checkMandatoryFieldsWhileCreatingFarmerProfile ----> Failed
+Wed, Jan 09  2019; 00:40:52 PM - org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.22 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '10.6.139.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankqa, statBarHeight=72, noReset=false, viewportRect={top=72, left=0, width=1080, height=1848}, deviceName=330073a8508cb423, platform=LINUX, deviceUDID=330073a8508cb423, desired={app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, appPackage=com.itc.seedbankqa, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.0, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=330073a8508cb423, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.0, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, deviceApiLevel=24, app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=3, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=480, deviceModel=SM-G610F, autoAcceptAlerts=true}]
+Session ID: a8005f30-6673-4e45-bdc2-663bfb961aef
+*** Element info: {Using=xpath, value=//android.widget.TextView[@resource-id='android:id/message']}
+Wed, Jan 09  2019; 00:41:30 PM - enterMandatoryFieldsAndSaveProfile ----> Success
+Wed, Jan 09  2019; 00:41:39 PM - Invalid PAN Number
+Wed, Jan 09  2019; 00:41:46 PM - validatePANNumber ----> Success
+Wed, Jan 09  2019; 00:41:56 PM - Invalid Aadhaar Number
+Wed, Jan 09  2019; 00:42:04 PM - validateAadharNumber ----> Success
+Wed, Jan 09  2019; 00:42:26 PM - navigateToFarmerLandSection1 ----> Success
+Wed, Jan 09  2019; 00:42:44 PM - The message:Survey No cannot be empty.
+Wed, Jan 09  2019; 00:42:47 PM - checkWhetherSurveyNoIsMandatory ----> Success
+Wed, Jan 09  2019; 00:42:58 PM - The message:Total Land Holding Area cannot be empty
+Wed, Jan 09  2019; 00:43:10 PM - checkWhetherTotalLandHoldingAreaIsMandatory ----> Success
+Wed, Jan 09  2019; 00:43:36 PM - The message:Irrigated Land should be less than or equal to Total Land Holding Area
+Wed, Jan 09  2019; 00:43:45 PM - checkWhetherIrrigatedLandIsGreaterThanTotalLandHoldingArea ----> Success
+Wed, Jan 09  2019; 00:43:55 PM - navigateToFarmerCroppingPatternSection2 ----> Success
+Wed, Jan 09  2019; 00:44:03 PM - The message:Survey No cannot be empty.
+Wed, Jan 09  2019; 00:45:03 PM - checkIfSurveyNoIsMandatory ----> Failed
+Wed, Jan 09  2019; 00:45:03 PM - org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.71 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '10.6.139.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankqa, statBarHeight=72, noReset=false, viewportRect={top=72, left=0, width=1080, height=1848}, deviceName=330073a8508cb423, platform=LINUX, deviceUDID=330073a8508cb423, desired={app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, appPackage=com.itc.seedbankqa, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.0, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=330073a8508cb423, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.0, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, deviceApiLevel=24, app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=3, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=480, deviceModel=SM-G610F, autoAcceptAlerts=true}]
+Session ID: a8005f30-6673-4e45-bdc2-663bfb961aef
+*** Element info: {Using=id, value=com.itc.seedbankqa:id/edit_SurveyNo}
+Wed, Jan 09  2019; 00:45:09 PM - The message:Survey No cannot be empty.
+Wed, Jan 09  2019; 00:45:13 PM - checkIfFieldNameIsMandatory ----> Failed
+Wed, Jan 09  2019; 00:45:13 PM - java.lang.AssertionError: expected [Field Name cannot be empty.] but found [Survey No cannot be empty.]
+Wed, Jan 09  2019; 00:45:23 PM - The message:Crop cannot be empty
+Wed, Jan 09  2019; 00:45:29 PM - checkIfCropTypeIsMandatory ----> Success
+Wed, Jan 09  2019; 00:45:33 PM - The message:Season Crop Mapping cannot be empty
+Wed, Jan 09  2019; 00:45:38 PM - checkIfSeasonCropMappingIsMandatory ----> Success
+Wed, Jan 09  2019; 00:47:49 PM - checkIfSizeIsMandatory ----> Failed
+Wed, Jan 09  2019; 00:47:49 PM - org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.87 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '10.6.139.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankqa, statBarHeight=72, noReset=false, viewportRect={top=72, left=0, width=1080, height=1848}, deviceName=330073a8508cb423, platform=LINUX, deviceUDID=330073a8508cb423, desired={app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, appPackage=com.itc.seedbankqa, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.0, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=330073a8508cb423, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.0, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, deviceApiLevel=24, app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=3, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=480, deviceModel=SM-G610F, autoAcceptAlerts=true}]
+Session ID: a8005f30-6673-4e45-bdc2-663bfb961aef
+*** Element info: {Using=xpath, value=//android.widget.Button[@resource-id='android:id/button1' and @text='OK']}
+Wed, Jan 09  2019; 00:47:50 PM - Ending Execution...
+Wed, Jan 09  2019; 00:47:50 PM - Trying to close Webdriver...
+Wed, Jan 09  2019; 00:47:53 PM - Selenium Webdriver closed successfully!
+Wed, Jan 09  2019; 00:47:53 PM - Stopping Appium server for Windows
+Wed, Jan 09  2019; 00:47:53 PM - Appium server is shutdown successfully
+Wed, Jan 09  2019; 00:48:03 PM - Writing Results and Logs to file...

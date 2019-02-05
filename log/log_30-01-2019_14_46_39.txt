@@ -1,0 +1,171 @@
+Thu, Jan 10  2019; 03:39:29 PM - Starting Appium Server
+Thu, Jan 10  2019; 03:39:39 PM - Starting Test Execution
+Thu, Jan 10  2019; 03:39:39 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 03:39:40 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 03:39:40 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 03:39:40 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 03:39:40 PM - Starting Appium Server
+Thu, Jan 10  2019; 03:39:50 PM - Starting Test Execution
+Thu, Jan 10  2019; 03:39:50 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 03:39:50 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 03:39:50 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 03:39:50 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 03:39:50 PM - Test case name--->Registration Validations
+Thu, Jan 10  2019; 03:39:50 PM - Launching Appium Android...
+Thu, Jan 10  2019; 03:41:04 PM - Ending Execution...
+Thu, Jan 10  2019; 03:41:04 PM - Trying to close Webdriver...
+Thu, Jan 10  2019; 03:41:04 PM - Error closing the drivers!
+Thu, Jan 10  2019; 03:41:04 PM - Writing Results and Logs to file...
+Thu, Jan 10  2019; 03:43:49 PM - Starting Appium Server
+Thu, Jan 10  2019; 03:43:59 PM - Starting Test Execution
+Thu, Jan 10  2019; 03:43:59 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 03:44:00 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 03:44:00 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 03:44:00 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 03:44:00 PM - Starting Appium Server
+Thu, Jan 10  2019; 03:44:10 PM - Starting Test Execution
+Thu, Jan 10  2019; 03:44:10 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 03:44:10 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 03:44:10 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 03:44:10 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 03:44:10 PM - Test case name--->Registration Validations
+Thu, Jan 10  2019; 03:44:10 PM - Launching Appium Android...
+Thu, Jan 10  2019; 03:44:38 PM - Ending Execution...
+Thu, Jan 10  2019; 03:44:38 PM - Trying to close Webdriver...
+Thu, Jan 10  2019; 03:44:38 PM - Error closing the drivers!
+Thu, Jan 10  2019; 03:44:38 PM - Writing Results and Logs to file...
+Thu, Jan 10  2019; 03:45:48 PM - Starting Appium Server
+Thu, Jan 10  2019; 03:45:58 PM - Starting Test Execution
+Thu, Jan 10  2019; 03:45:58 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 03:45:59 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 03:45:59 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 03:45:59 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 03:45:59 PM - Starting Appium Server
+Thu, Jan 10  2019; 03:46:09 PM - Starting Test Execution
+Thu, Jan 10  2019; 03:46:09 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 03:46:09 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 03:46:09 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 03:46:09 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 03:46:09 PM - Test case name--->Registration Validations
+Thu, Jan 10  2019; 03:46:09 PM - Launching Appium Android...
+Thu, Jan 10  2019; 03:47:17 PM - Entered value in Phone Number field:=)'/-?^?(%
+Thu, Jan 10  2019; 04:01:04 PM - 
+Test name : Farmer_PositiveFlow
+List of TestNames of Farmer_PositiveFlow:
+Thu, Jan 10  2019; 04:01:04 PM - 				Check Dashboard$Registration
+Thu, Jan 10  2019; 04:01:04 PM - 				Validations_FarmerProfile$FarmerProfileTest
+Thu, Jan 10  2019; 04:01:04 PM - 
+Test name : Farmer_NegativeFlow
+List of TestNames of Farmer_NegativeFlow:
+Thu, Jan 10  2019; 04:01:04 PM - 				Check Dashboard$Registration
+Thu, Jan 10  2019; 04:01:04 PM - 				Validations_FarmerProfile$FarmerProfileTest
+Thu, Jan 10  2019; 04:01:04 PM - 				Create Farmer Profile$FarmerProfileTest
+Thu, Jan 10  2019; 04:01:04 PM - 
+Test name : Farmer_PositiveFlow
+List of TestNames of Farmer_PositiveFlow:
+Thu, Jan 10  2019; 04:01:04 PM - 
+Test name : Farmer_NegativeFlow
+List of TestNames of Farmer_NegativeFlow:
+Thu, Jan 10  2019; 04:01:04 PM - Starting Appium Server
+Thu, Jan 10  2019; 04:01:14 PM - Starting Test Execution
+Thu, Jan 10  2019; 04:01:14 PM - Initializing locators from excel sheet...
+Thu, Jan 10  2019; 04:01:14 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 10  2019; 04:01:14 PM - Initializing data from excel sheet...
+Thu, Jan 10  2019; 04:01:14 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 10  2019; 04:01:14 PM - Test case name--->Setup class
+Thu, Jan 10  2019; 04:01:14 PM - Launching Appium Android...
+Thu, Jan 10  2019; 04:02:22 PM - Test case name--->Farmer_PositiveFlow::Check Dashboard$Registration
+Thu, Jan 10  2019; 04:02:24 PM - Entered value in Phone Number field:3964775061
+Thu, Jan 10  2019; 04:02:51 PM - Entered value in OTP field:610166
+Thu, Jan 10  2019; 04:03:15 PM - registerAsNewUser ----> Success
+Wed, Jan 30  2019; 02:38:18 PM - Starting Appium Server
+Wed, Jan 30  2019; 02:38:28 PM - Starting Test Execution
+Wed, Jan 30  2019; 02:38:28 PM - Initializing locators from excel sheet...
+Wed, Jan 30  2019; 02:38:29 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 30  2019; 02:38:29 PM - Initializing data from excel sheet...
+Wed, Jan 30  2019; 02:38:29 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 30  2019; 02:38:29 PM - Starting Appium Server
+Wed, Jan 30  2019; 02:38:39 PM - Starting Test Execution
+Wed, Jan 30  2019; 02:38:39 PM - Initializing locators from excel sheet...
+Wed, Jan 30  2019; 02:38:40 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 30  2019; 02:38:40 PM - Initializing data from excel sheet...
+Wed, Jan 30  2019; 02:38:40 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 30  2019; 02:38:40 PM - Starting Appium Server
+Wed, Jan 30  2019; 02:38:50 PM - Starting Test Execution
+Wed, Jan 30  2019; 02:38:50 PM - Initializing locators from excel sheet...
+Wed, Jan 30  2019; 02:38:50 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 30  2019; 02:38:50 PM - Initializing data from excel sheet...
+Wed, Jan 30  2019; 02:38:50 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 30  2019; 02:38:50 PM - Test case name--->Setup class
+Wed, Jan 30  2019; 02:38:50 PM - Launching Appium Android...
+Wed, Jan 30  2019; 02:38:50 PM - Test case name--->Farmer_PositiveFlow::Check Dashboard$Registration
+Wed, Jan 30  2019; 02:38:51 PM - Ending Execution...
+Wed, Jan 30  2019; 02:38:51 PM - Trying to close Webdriver...
+Wed, Jan 30  2019; 02:38:51 PM - Error closing the drivers!
+Wed, Jan 30  2019; 02:38:51 PM - Writing Results and Logs to file...
+Wed, Jan 30  2019; 02:40:30 PM - 
+Test name : Registration_Validations
+List of TestNames of Registration_Validations:
+Wed, Jan 30  2019; 02:40:30 PM - 				Registration_Invalid Mobile Number$RegistrationTests
+Wed, Jan 30  2019; 02:40:30 PM - 				Registration_Invalid OTP$RegistrationTests
+Wed, Jan 30  2019; 02:40:30 PM - 
+Test name : Registration_Validations
+List of TestNames of Registration_Validations:
+Wed, Jan 30  2019; 02:40:30 PM - Constructed XML::<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="SeedBank TestSuites"><parameter name="OS" value="Android"/><parameter name="deviceID" value="330073a8508cb423" /><listeners><listener class-name="com.seedbank.common.reporting.CustomListener" /></listeners><test name="Setup class" preserve-order="true"><groups><run><include name="setup" /></run></groups><classes><class name="com.seedbank.base.TestCaseBase" /></classes></test><test name="Registration_Validations::Registration_Invalid Mobile Number$RegistrationTests" preserve-order="true"><groups><run><include name="Registration_Invalid Mobile Number"/></run></groups><classes><class name="com.seedbank.common.tests.RegistrationTests"/></classes></test><test name="Registration_Validations::Registration_Invalid OTP$RegistrationTests" preserve-order="true"><groups><run><include name="Registration_Invalid OTP"/></run></groups><classes><class name="com.seedbank.common.tests.RegistrationTests"/></classes></test></suite>
+Wed, Jan 30  2019; 02:40:31 PM - Starting Appium Server
+Wed, Jan 30  2019; 02:40:41 PM - Starting Test Execution
+Wed, Jan 30  2019; 02:40:41 PM - Initializing locators from excel sheet...
+Wed, Jan 30  2019; 02:40:41 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 30  2019; 02:40:41 PM - Initializing data from excel sheet...
+Wed, Jan 30  2019; 02:40:41 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 30  2019; 02:40:41 PM - Test case name--->Setup class
+Wed, Jan 30  2019; 02:40:41 PM - Launching Appium Android...
+Wed, Jan 30  2019; 02:40:44 PM - Test case name--->Registration_Validations::Registration_Invalid Mobile Number$RegistrationTests
+Wed, Jan 30  2019; 02:40:44 PM - checkForInvalidMobileNumber_SpecialChar ----> Failed
+Wed, Jan 30  2019; 02:40:44 PM - java.lang.NullPointerException
+Wed, Jan 30  2019; 02:40:44 PM - checkForInvalidMobileNumber_SpecialChar ----> Failed
+Wed, Jan 30  2019; 02:40:44 PM - java.lang.NullPointerException
+Wed, Jan 30  2019; 02:43:24 PM - 
+Test name : Registration_Validations
+List of TestNames of Registration_Validations:
+Wed, Jan 30  2019; 02:43:24 PM - 				Registration_Invalid Mobile Number$RegistrationTests
+Wed, Jan 30  2019; 02:43:24 PM - 				Registration_Invalid OTP$RegistrationTests
+Wed, Jan 30  2019; 02:43:24 PM - 
+Test name : Registration_Validations
+List of TestNames of Registration_Validations:
+Wed, Jan 30  2019; 02:43:24 PM - Constructed XML::<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="SeedBank TestSuites"><parameter name="OS" value="Android"/><parameter name="deviceID" value="e516e0b0" /><listeners><listener class-name="com.seedbank.common.reporting.CustomListener" /></listeners><test name="Setup class" preserve-order="true"><groups><run><include name="setup" /></run></groups><classes><class name="com.seedbank.base.TestCaseBase" /></classes></test><test name="Registration_Validations::Registration_Invalid Mobile Number$RegistrationTests" preserve-order="true"><groups><run><include name="Registration_Invalid Mobile Number"/></run></groups><classes><class name="com.seedbank.common.tests.RegistrationTests"/></classes></test><test name="Registration_Validations::Registration_Invalid OTP$RegistrationTests" preserve-order="true"><groups><run><include name="Registration_Invalid OTP"/></run></groups><classes><class name="com.seedbank.common.tests.RegistrationTests"/></classes></test></suite>
+Wed, Jan 30  2019; 02:43:24 PM - Starting Appium Server
+Wed, Jan 30  2019; 02:43:34 PM - Starting Test Execution
+Wed, Jan 30  2019; 02:43:34 PM - Initializing locators from excel sheet...
+Wed, Jan 30  2019; 02:43:34 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 30  2019; 02:43:34 PM - Initializing data from excel sheet...
+Wed, Jan 30  2019; 02:43:34 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 30  2019; 02:43:35 PM - Test case name--->Setup class
+Wed, Jan 30  2019; 02:43:35 PM - Launching Appium Android...
+Wed, Jan 30  2019; 02:44:39 PM - Test case name--->Registration_Validations::Registration_Invalid Mobile Number$RegistrationTests
+Wed, Jan 30  2019; 02:44:40 PM - Entered value in Phone Number field:$=&}}'&)(&
+Wed, Jan 30  2019; 02:44:49 PM - Invalid Mobile number:$=&}}'&)(&
+Wed, Jan 30  2019; 02:44:49 PM - checkForInvalidMobileNumber_SpecialChar ----> Success
+Wed, Jan 30  2019; 02:44:50 PM - Entered value in Phone Number field:Uz1sMeVi8q
+Wed, Jan 30  2019; 02:44:59 PM - Invalid Mobile number:Uz1sMeVi8q
+Wed, Jan 30  2019; 02:44:59 PM - checkForInvalidMobileNumber_AlphaNumeric ----> Success
+Wed, Jan 30  2019; 02:45:01 PM - Entered value in Phone Number field:NkYhpOqtnU
+Wed, Jan 30  2019; 02:45:11 PM - checkForInvalidMobileNumber_Alphabetic ----> Success
+Wed, Jan 30  2019; 02:45:13 PM - Entered value in Phone Number field:65579
+Wed, Jan 30  2019; 02:45:23 PM - checkForInvalidMobileNumber_checkMobileNumberLength ----> Success
+Wed, Jan 30  2019; 02:45:23 PM - Test case name--->Registration_Validations::Registration_Invalid OTP$RegistrationTests
+Wed, Jan 30  2019; 02:45:24 PM - Entered value in Phone Number field:6124358579
+Wed, Jan 30  2019; 02:45:38 PM - Entered value in OTP field:+$@*)|
+Wed, Jan 30  2019; 02:45:41 PM - checkForInvalidOTP_SpecialChar ----> Failed
+Wed, Jan 30  2019; 02:45:41 PM - java.lang.AssertionError: expected [Invalid OTP!! You have left 1 out of 3 attempts!!] but found [Invalid OTP!! You have left with 2 more attempts!!]
+Wed, Jan 30  2019; 02:46:05 PM - Entered value in OTP field:Oh6zA4
+Wed, Jan 30  2019; 02:46:08 PM - checkForInvalidOTP_AlphaNumeric ----> Failed
+Wed, Jan 30  2019; 02:46:08 PM - java.lang.AssertionError: expected [Invalid OTP!! You have left 1 out of 3 attempts!!] but found [Invalid OTP!! You have left with 2 more attempts!!]
+Wed, Jan 30  2019; 02:46:26 PM - Entered value in OTP field:TAjVZk
+Wed, Jan 30  2019; 02:46:27 PM - checkForInvalidOTP_Alphabetic ----> Failed
+Wed, Jan 30  2019; 02:46:27 PM - java.lang.AssertionError: expected [Invalid OTP!! You have left 1 out of 3 attempts!!] but found [Invalid OTP!! You have left with 2 more attempts!!]
+Wed, Jan 30  2019; 02:46:28 PM - Ending Execution...
+Wed, Jan 30  2019; 02:46:28 PM - Trying to close Webdriver...
+Wed, Jan 30  2019; 02:46:29 PM - Selenium Webdriver closed successfully!
+Wed, Jan 30  2019; 02:46:29 PM - Appium server is shutdown successfully
+Wed, Jan 30  2019; 02:46:39 PM - Writing Results and Logs to file...

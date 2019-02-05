@@ -1,0 +1,585 @@
+<html>
+<head>
+<title>TestNG:  Payment</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Payment</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/93</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jun 13 11:21:30 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (143 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>Payment_8 Payment_12 Payment_3 Payment_13 Payment_4 Payment_10 setup Payment_9 </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.initializeTestBaseSetup()'><b>initializeTestBaseSetup</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browserType&apos; is required by @Configuration on method initializeTestBaseSetup but has not been marked @Optional or defined
+in D:\Nithya\DunlemWorkspace\Dunelm Framework (Mobile)\text.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace690974606", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace690974606'><pre>org.testng.TestNGException: 
+Parameter &apos;browserType&apos; is required by @Configuration on method initializeTestBaseSetup but has not been marked @Optional or defined
+in D:\Nithya\DunlemWorkspace\Dunelm Framework (Mobile)\text.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.CardMonth()'><b>CardMonth</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.CardName()'><b>CardName</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.CardSecurity()'><b>CardSecurity</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.CardText()'><b>CardText</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.CardYear()'><b>CardYear</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.PayCard()'><b>PayCard</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.addAProductAvailableForExpressDeliveryToTheBasket()'><b>addAProductAvailableForExpressDeliveryToTheBasket</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.addAProductAvailableForMixedBasketEgDsvZeroValueStandardDeliveryToTheBasket()'><b>addAProductAvailableForMixedBasketEgDsvZeroValueStandardDeliveryToTheBasket</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.addAProductToBasket2()'><b>addAProductToBasket2</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.addAProductToBasket21()'><b>addAProductToBasket21</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.addAProductToBasket3()'><b>addAProductToBasket3</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.browseAndAddAProductAvailableForStandardDeliveryToTheBasket()'><b>browseAndAddAProductAvailableForStandardDeliveryToTheBasket</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.cardMonth10()'><b>cardMonth10</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.cardName10()'><b>cardName10</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.cardSecurity10()'><b>cardSecurity10</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.cardText10()'><b>cardText10</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.cardYear10()'><b>cardYear10</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.checkForTheBillingAddressDisplayedInPaymentPage()'><b>checkForTheBillingAddressDisplayedInPaymentPage</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.checkForThePaypalLoginScreen()'><b>checkForThePaypalLoginScreen</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.checkTheAvailablePaymentOptions1()'><b>checkTheAvailablePaymentOptions1</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.checkTheAvailablePaymentOptions2()'><b>checkTheAvailablePaymentOptions2</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.chooseEmptyToAddress1()'><b>chooseEmptyToAddress1</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickCardMonth()'><b>clickCardMonth</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickCardPaymentType()'><b>clickCardPaymentType</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickCardSecurity()'><b>clickCardSecurity</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickCardYear()'><b>clickCardYear</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickDeliverToThisAddress()'><b>clickDeliverToThisAddress</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickForLookUP()'><b>clickForLookUP</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickForLookUP10()'><b>clickForLookUP10</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickOn3Dpassword()'><b>clickOn3Dpassword</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickOn3Dsubmit1()'><b>clickOn3Dsubmit1</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickOn3Dsubmit10()'><b>clickOn3Dsubmit10</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickOn3Dsubmit12()'><b>clickOn3Dsubmit12</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickOnAccount13()'><b>clickOnAccount13</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickOnAccount2()'><b>clickOnAccount2</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickOnAccount21()'><b>clickOnAccount21</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickOnBuyAction10()'><b>clickOnBuyAction10</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickOnCard()'><b>clickOnCard</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickOnDeliverToThisAddress2()'><b>clickOnDeliverToThisAddress2</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickOnDeliverToThisAddress21()'><b>clickOnDeliverToThisAddress21</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickOnDpassword1()'><b>clickOnDpassword1</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickOnEmailField13()'><b>clickOnEmailField13</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickOnEmailField2()'><b>clickOnEmailField2</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickOnEmailField21()'><b>clickOnEmailField21</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickOnEmptyOrderPay()'><b>clickOnEmptyOrderPay</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickOnHomeDelivery17()'><b>clickOnHomeDelivery17</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickOnHomeDelivery2()'><b>clickOnHomeDelivery2</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickOnHomeDelivery21()'><b>clickOnHomeDelivery21</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickOnHouseNumber()'><b>clickOnHouseNumber</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickOnMaestroCard3D()'><b>clickOnMaestroCard3D</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickOnMasterCard3D()'><b>clickOnMasterCard3D</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickOnName()'><b>clickOnName</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickOnPasswordField13()'><b>clickOnPasswordField13</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickOnPasswordField2()'><b>clickOnPasswordField2</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickOnPasswordField21()'><b>clickOnPasswordField21</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickOnPostCode()'><b>clickOnPostCode</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickOnSubmit13()'><b>clickOnSubmit13</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickOnSubmit2()'><b>clickOnSubmit2</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickOnSubmit21()'><b>clickOnSubmit21</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickOnTheBuyCallToAction()'><b>clickOnTheBuyCallToAction</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickOnTitleDropdown()'><b>clickOnTitleDropdown</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickOnVizaDebitCard3D10()'><b>clickOnVizaDebitCard3D10</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickPayCard()'><b>clickPayCard</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickTheCallToActionButton1()'><b>clickTheCallToActionButton1</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickTheCallToActionButton2()'><b>clickTheCallToActionButton2</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickToPayCard10()'><b>clickToPayCard10</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.clickYourAccount()'><b>clickYourAccount</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.enterInvalidLoginCredentials()'><b>enterInvalidLoginCredentials</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.enterValidLoginCredentials()'><b>enterValidLoginCredentials</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.fillFirstName()'><b>fillFirstName</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.fillLastName()'><b>fillLastName</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.fillMobileNumber()'><b>fillMobileNumber</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.fillUserDetails()'><b>fillUserDetails</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.followTheCheckoutProcessUntilYouReachThePaymentMethodPage1()'><b>followTheCheckoutProcessUntilYouReachThePaymentMethodPage1</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.followTheCheckoutProcessUntilYouReachThePaymentMethodPage2()'><b>followTheCheckoutProcessUntilYouReachThePaymentMethodPage2</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.inYourAccountYourAddressBookSectionAddNewAddressAndSetAsBillingOrSetAnyOfTheSavedAddressesAsBilling()'><b>inYourAccountYourAddressBookSectionAddNewAddressAndSetAsBillingOrSetAnyOfTheSavedAddressesAsBilling</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.logInToPaypal1()'><b>logInToPaypal1</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.navigateAddNewAddress()'><b>navigateAddNewAddress</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.navigateToHomePage()'><b>navigateToHomePage</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.navigateToProductAndAddToBasket()'><b>navigateToProductAndAddToBasket</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.navigateToTheBasket13()'><b>navigateToTheBasket13</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.navigateToTheBasket2()'><b>navigateToTheBasket2</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.navigateToTheBasket21()'><b>navigateToTheBasket21</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.navigateToTheWebsite11()'><b>navigateToTheWebsite11</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.navigateToTheWebsite12()'><b>navigateToTheWebsite12</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.navigateToTheWebsite18()'><b>navigateToTheWebsite18</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.navigateToTheWebsite19()'><b>navigateToTheWebsite19</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.navigateToTheWebsite2()'><b>navigateToTheWebsite2</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.placeThePaypalOrder1()'><b>placeThePaypalOrder1</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.placeThePaypalOrder2()'><b>placeThePaypalOrder2</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.selectPaypal1()'><b>selectPaypal1</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.selectPaypal2()'><b>selectPaypal2</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.PaymentTest.signInAsRegisteredUser()'><b>signInAsRegisteredUser</b><br>Test class: com.dunelm.common.tests.PaymentTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.PaymentTest@69317d48</td></tr>
+</table><p>
+</body>
+</html>

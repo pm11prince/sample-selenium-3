@@ -1,0 +1,33 @@
+Mon, Feb 04  2019; 11:36:27 AM - Starting Appium Server
+Mon, Feb 04  2019; 11:36:27 AM - Starting Test Execution
+Mon, Feb 04  2019; 11:36:27 AM - Initializing locators from excel sheet...
+Mon, Feb 04  2019; 11:36:28 AM - Initializing locators from excel sheet completed successfully!
+Mon, Feb 04  2019; 11:36:28 AM - Initializing data from excel sheet...
+Mon, Feb 04  2019; 11:36:28 AM - Initializing data from excel sheet completed successfully!
+Mon, Feb 04  2019; 11:36:28 AM - Starting Appium Server
+Mon, Feb 04  2019; 11:36:28 AM - Starting Test Execution
+Mon, Feb 04  2019; 11:36:28 AM - Initializing locators from excel sheet...
+Mon, Feb 04  2019; 11:36:28 AM - Initializing locators from excel sheet completed successfully!
+Mon, Feb 04  2019; 11:36:28 AM - Initializing data from excel sheet...
+Mon, Feb 04  2019; 11:36:28 AM - Initializing data from excel sheet completed successfully!
+Mon, Feb 04  2019; 11:36:28 AM - Starting Appium Server
+Mon, Feb 04  2019; 11:36:28 AM - Starting Test Execution
+Mon, Feb 04  2019; 11:36:28 AM - Initializing locators from excel sheet...
+Mon, Feb 04  2019; 11:36:28 AM - Initializing locators from excel sheet completed successfully!
+Mon, Feb 04  2019; 11:36:28 AM - Initializing data from excel sheet...
+Mon, Feb 04  2019; 11:36:28 AM - Initializing data from excel sheet completed successfully!
+Mon, Feb 04  2019; 11:36:28 AM - Test case name--->Registration_Validations::Registration_Invalid Mobile Number$RegistrationTests
+Mon, Feb 04  2019; 11:36:28 AM - checkForInvalidMobileNumber_SpecialChar ----> Failed
+Mon, Feb 04  2019; 11:36:28 AM - java.lang.AssertionError: TEst Method failed
+Mon, Feb 04  2019; 11:36:28 AM - checkForInvalidMobileNumber_AlphaNumeric ----> Skipped
+Mon, Feb 04  2019; 11:36:28 AM - checkForInvalidMobileNumber_Alphabetic ----> Skipped
+Mon, Feb 04  2019; 11:36:28 AM - checkForInvalidMobileNumber_checkMobileNumberLength ----> Skipped
+Mon, Feb 04  2019; 11:36:29 AM - Test case name--->Registration_Validations::Registration_Invalid OTP$RegistrationTests
+Mon, Feb 04  2019; 11:36:29 AM - checkForInvalidOTP_SpecialChar ----> Success
+Mon, Feb 04  2019; 11:36:29 AM - checkForInvalidOTP_AlphaNumeric ----> Failed
+Mon, Feb 04  2019; 11:36:29 AM - java.lang.AssertionError: TEst Method failed
+Mon, Feb 04  2019; 11:36:29 AM - checkForInvalidOTP_Alphabetic ----> Skipped
+Mon, Feb 04  2019; 11:36:29 AM - Ending Execution...
+Mon, Feb 04  2019; 11:36:29 AM - Trying to close Webdriver...
+Mon, Feb 04  2019; 11:36:29 AM - Error closing the drivers!
+Mon, Feb 04  2019; 11:36:29 AM - Writing Results and Logs to file...

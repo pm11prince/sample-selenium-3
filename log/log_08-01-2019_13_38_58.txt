@@ -1,0 +1,33 @@
+Tue, Jan 08  2019; 01:35:44 PM - Starting Appium Server
+Tue, Jan 08  2019; 01:35:54 PM - Starting Test Execution
+Tue, Jan 08  2019; 01:35:54 PM - Initializing locators from excel sheet...
+Tue, Jan 08  2019; 01:35:55 PM - Initializing locators from excel sheet completed successfully!
+Tue, Jan 08  2019; 01:35:55 PM - Initializing data from excel sheet...
+Tue, Jan 08  2019; 01:35:55 PM - Initializing data from excel sheet completed successfully!
+Tue, Jan 08  2019; 01:35:55 PM - Starting Appium Server
+Tue, Jan 08  2019; 01:36:05 PM - Starting Test Execution
+Tue, Jan 08  2019; 01:36:05 PM - Initializing locators from excel sheet...
+Tue, Jan 08  2019; 01:36:05 PM - Initializing locators from excel sheet completed successfully!
+Tue, Jan 08  2019; 01:36:05 PM - Initializing data from excel sheet...
+Tue, Jan 08  2019; 01:36:05 PM - Initializing data from excel sheet completed successfully!
+Tue, Jan 08  2019; 01:36:05 PM - Starting Appium Server
+Tue, Jan 08  2019; 01:36:15 PM - Starting Test Execution
+Tue, Jan 08  2019; 01:36:15 PM - Initializing locators from excel sheet...
+Tue, Jan 08  2019; 01:36:15 PM - Initializing locators from excel sheet completed successfully!
+Tue, Jan 08  2019; 01:36:15 PM - Initializing data from excel sheet...
+Tue, Jan 08  2019; 01:36:15 PM - Initializing data from excel sheet completed successfully!
+Tue, Jan 08  2019; 01:36:15 PM - Launching Appium Android...
+Tue, Jan 08  2019; 01:37:16 PM - Entered registered value in Phone Number field:9548231871
+Tue, Jan 08  2019; 01:37:36 PM - Entered value in OTP field:610166
+Tue, Jan 08  2019; 01:37:36 PM - loginAsExistingUser ----> Success
+Tue, Jan 08  2019; 01:38:15 PM - navigateToFarmerLandSection1 ----> Success
+Tue, Jan 08  2019; 01:38:26 PM - The message:Survey No cannot be empty.
+Tue, Jan 08  2019; 01:38:29 PM - checkWhetherSurveyNoIsMandatory ----> Success
+Tue, Jan 08  2019; 01:38:40 PM - The message:Total Land Holding Area cannot be empty
+Tue, Jan 08  2019; 01:38:46 PM - checkWhetherTotalLandHoldingAreaIsMandatory ----> Success
+Tue, Jan 08  2019; 01:38:46 PM - Ending Execution...
+Tue, Jan 08  2019; 01:38:46 PM - Trying to close Webdriver...
+Tue, Jan 08  2019; 01:38:48 PM - Selenium Webdriver closed successfully!
+Tue, Jan 08  2019; 01:38:48 PM - Stopping Appium server for Windows
+Tue, Jan 08  2019; 01:38:48 PM - Appium server is shutdown successfully
+Tue, Jan 08  2019; 01:38:58 PM - Writing Results and Logs to file...

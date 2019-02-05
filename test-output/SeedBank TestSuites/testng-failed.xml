@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SeedBank TestSuites]">
+  <parameter name="OS" value="Android"/>
+  <parameter name="deviceID" value="e516e0b0"/>
+  <listeners>
+    <listener class-name="com.seedbank.common.reporting.CustomListener"/>
+  </listeners>
+  <test name="Registration_Validations::Registration_Invalid Mobile Number$RegistrationTests(failed)">
+    <groups>
+      <run>
+        <include name="Registration_Invalid Mobile Number"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.seedbank.common.tests.RegistrationTests">
+        <methods>
+          <include name="checkForInvalidMobileNumber_checkMobileNumberLength"/>
+          <include name="checkForInvalidMobileNumber_SpecialChar"/>
+          <include name="checkForInvalidMobileNumber_AlphaNumeric"/>
+          <include name="checkForInvalidMobileNumber_Alphabetic"/>
+        </methods>
+      </class> <!-- com.seedbank.common.tests.RegistrationTests -->
+    </classes>
+  </test> <!-- Registration_Validations::Registration_Invalid Mobile Number$RegistrationTests(failed) -->
+  <test name="Registration_Validations::Registration_Invalid OTP$RegistrationTests(failed)">
+    <groups>
+      <run>
+        <include name="Registration_Invalid OTP"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.seedbank.common.tests.RegistrationTests">
+        <methods>
+          <include name="checkForInvalidOTP_SpecialChar"/>
+          <include name="checkForInvalidOTP_Alphabetic"/>
+          <include name="checkForInvalidOTP_AlphaNumeric"/>
+        </methods>
+      </class> <!-- com.seedbank.common.tests.RegistrationTests -->
+    </classes>
+  </test> <!-- Registration_Validations::Registration_Invalid OTP$RegistrationTests(failed) -->
+</suite> <!-- Failed suite [SeedBank TestSuites] -->

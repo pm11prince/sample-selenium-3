@@ -1,0 +1,52 @@
+Wed, Jan 30  2019; 03:10:07 PM - 
+Test name : Registration_Validations
+List of TestNames of Registration_Validations:
+Wed, Jan 30  2019; 03:10:07 PM - 				Registration_Invalid Mobile Number$RegistrationTests
+Wed, Jan 30  2019; 03:10:07 PM - 				Registration_Invalid OTP$RegistrationTests
+Wed, Jan 30  2019; 03:10:07 PM - 
+Test name : Registration_Validations
+List of TestNames of Registration_Validations:
+Wed, Jan 30  2019; 03:10:07 PM - Constructed XML::<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="SeedBank TestSuites"><parameter name="OS" value="Android"/><parameter name="deviceID" value="e516e0b0" /><listeners><listener class-name="com.seedbank.common.reporting.CustomListener" /></listeners><test name="Setup class" preserve-order="true"><groups><run><include name="setup" /></run></groups><classes><class name="com.seedbank.base.TestCaseBase" /></classes></test><test name="Registration_Validations::Registration_Invalid Mobile Number$RegistrationTests" preserve-order="true"><groups><run><include name="Registration_Invalid Mobile Number"/></run></groups><classes><class name="com.seedbank.common.tests.RegistrationTests"/></classes></test><test name="Registration_Validations::Registration_Invalid OTP$RegistrationTests" preserve-order="true"><groups><run><include name="Registration_Invalid OTP"/></run></groups><classes><class name="com.seedbank.common.tests.RegistrationTests"/></classes></test></suite>
+Wed, Jan 30  2019; 03:10:07 PM - Starting Appium Server
+Wed, Jan 30  2019; 03:10:17 PM - Starting Test Execution
+Wed, Jan 30  2019; 03:10:17 PM - Initializing locators from excel sheet...
+Wed, Jan 30  2019; 03:10:17 PM - Initializing locators from excel sheet completed successfully!
+Wed, Jan 30  2019; 03:10:17 PM - Initializing data from excel sheet...
+Wed, Jan 30  2019; 03:10:17 PM - Initializing data from excel sheet completed successfully!
+Wed, Jan 30  2019; 03:10:17 PM - Test case name--->Setup class
+Wed, Jan 30  2019; 03:10:17 PM - Launching Appium Android...
+Wed, Jan 30  2019; 03:11:29 PM - Test case name--->Registration_Validations::Registration_Invalid Mobile Number$RegistrationTests
+Wed, Jan 30  2019; 03:11:31 PM - Entered value in Phone Number field:{-|[':!##]
+Wed, Jan 30  2019; 03:11:40 PM - Invalid Mobile number:{-|[':!##]
+Wed, Jan 30  2019; 03:11:40 PM - checkForInvalidMobileNumber_SpecialChar ----> Success
+Wed, Jan 30  2019; 03:11:42 PM - Entered value in Phone Number field:2yL63kHp6Q
+Wed, Jan 30  2019; 03:11:51 PM - Invalid Mobile number:2yL63kHp6Q
+Wed, Jan 30  2019; 03:11:51 PM - checkForInvalidMobileNumber_AlphaNumeric ----> Success
+Wed, Jan 30  2019; 03:11:52 PM - Entered value in Phone Number field:lAbCyqiTiw
+Wed, Jan 30  2019; 03:12:01 PM - checkForInvalidMobileNumber_Alphabetic ----> Success
+Wed, Jan 30  2019; 03:12:02 PM - Entered value in Phone Number field:45179
+Wed, Jan 30  2019; 03:12:11 PM - checkForInvalidMobileNumber_checkMobileNumberLength ----> Success
+Wed, Jan 30  2019; 03:12:11 PM - Test case name--->Registration_Validations::Registration_Invalid OTP$RegistrationTests
+Wed, Jan 30  2019; 03:12:13 PM - Entered value in Phone Number field:1960689917
+Wed, Jan 30  2019; 03:12:32 PM - Entered value in OTP field:%('?!+
+Wed, Jan 30  2019; 03:12:34 PM - checkForInvalidOTP_SpecialChar ----> Failed
+Wed, Jan 30  2019; 03:12:34 PM - java.lang.AssertionError: Actual Message contains the expected expected [true] but found [false]
+Wed, Jan 30  2019; 03:12:52 PM - Entered value in OTP field:6ulCJ5
+Wed, Jan 30  2019; 03:12:54 PM - checkForInvalidOTP_AlphaNumeric ----> Failed
+Wed, Jan 30  2019; 03:12:54 PM - java.lang.AssertionError: Actual Message contains the expected expected [true] but found [false]
+Wed, Jan 30  2019; 03:14:06 PM - Element Not Found:By.xpath: //android.widget.EditText[contains(@resource-id,'edit_otpValue')]
+Wed, Jan 30  2019; 03:15:06 PM - checkForInvalidOTP_Alphabetic ----> Failed
+Wed, Jan 30  2019; 03:15:06 PM - org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.48 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRAGWN11763', ip: '10.6.185.224', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_77'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankuat, statBarHeight=48, noReset=false, viewportRect={top=48, left=0, width=720, height=1308}, deviceName=e516e0b0, platform=LINUX, deviceUDID=e516e0b0, desired={app=C:\Users\11763\git\Automation\SeedBank Test Framework\apk_files\SeedBank_UAT_01.apk, appPackage=com.itc.seedbankuat, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.1.2, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=e516e0b0, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.1.2, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=vivo, deviceApiLevel=25, app=C:\Users\11763\git\Automation\SeedBank Test Framework\apk_files\SeedBank_UAT_01.apk, deviceScreenSize=720x1440, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=2, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=320, deviceModel=vivo 1716, autoAcceptAlerts=true}]
+Session ID: da2e45e1-76a2-4662-81f0-703990dca3f3
+*** Element info: {Using=xpath, value=//android.widget.EditText[contains(@resource-id,'edit_otpValue')]}
+Wed, Jan 30  2019; 03:15:07 PM - Ending Execution...
+Wed, Jan 30  2019; 03:15:07 PM - Trying to close Webdriver...
+Wed, Jan 30  2019; 03:15:09 PM - Selenium Webdriver closed successfully!
+Wed, Jan 30  2019; 03:15:09 PM - Appium server is shutdown successfully
+Wed, Jan 30  2019; 03:15:19 PM - Writing Results and Logs to file...

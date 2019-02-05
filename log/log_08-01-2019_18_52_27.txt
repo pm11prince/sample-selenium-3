@@ -1,0 +1,57 @@
+Tue, Jan 08  2019; 06:46:17 PM - Starting Appium Server
+Tue, Jan 08  2019; 06:46:27 PM - Starting Test Execution
+Tue, Jan 08  2019; 06:46:27 PM - Initializing locators from excel sheet...
+Tue, Jan 08  2019; 06:46:28 PM - Initializing locators from excel sheet completed successfully!
+Tue, Jan 08  2019; 06:46:28 PM - Initializing data from excel sheet...
+Tue, Jan 08  2019; 06:46:28 PM - Initializing data from excel sheet completed successfully!
+Tue, Jan 08  2019; 06:46:28 PM - Starting Appium Server
+Tue, Jan 08  2019; 06:46:38 PM - Starting Test Execution
+Tue, Jan 08  2019; 06:46:38 PM - Initializing locators from excel sheet...
+Tue, Jan 08  2019; 06:46:38 PM - Initializing locators from excel sheet completed successfully!
+Tue, Jan 08  2019; 06:46:38 PM - Initializing data from excel sheet...
+Tue, Jan 08  2019; 06:46:38 PM - Initializing data from excel sheet completed successfully!
+Tue, Jan 08  2019; 06:46:42 PM - Element Not Found:By.xpath: //*[@class='android.support.v7.app.ActionBar$Tab' and @index='0']
+Tue, Jan 08  2019; 06:46:42 PM - navigateToFarmerProfileSection1 ----> Failed
+Tue, Jan 08  2019; 06:46:42 PM - java.lang.NullPointerException
+Tue, Jan 08  2019; 06:46:42 PM - navigateToFarmerProfileSection1 ----> Failed
+Tue, Jan 08  2019; 06:46:42 PM - java.lang.NullPointerException
+Tue, Jan 08  2019; 06:47:24 PM - Starting Appium Server
+Tue, Jan 08  2019; 06:47:34 PM - Starting Test Execution
+Tue, Jan 08  2019; 06:47:34 PM - Initializing locators from excel sheet...
+Tue, Jan 08  2019; 06:47:34 PM - Initializing locators from excel sheet completed successfully!
+Tue, Jan 08  2019; 06:47:34 PM - Initializing data from excel sheet...
+Tue, Jan 08  2019; 06:47:34 PM - Initializing data from excel sheet completed successfully!
+Tue, Jan 08  2019; 06:47:34 PM - Starting Appium Server
+Tue, Jan 08  2019; 06:47:44 PM - Starting Test Execution
+Tue, Jan 08  2019; 06:47:44 PM - Initializing locators from excel sheet...
+Tue, Jan 08  2019; 06:47:44 PM - Initializing locators from excel sheet completed successfully!
+Tue, Jan 08  2019; 06:47:44 PM - Initializing data from excel sheet...
+Tue, Jan 08  2019; 06:47:44 PM - Initializing data from excel sheet completed successfully!
+Tue, Jan 08  2019; 06:47:48 PM - Element Not Found:By.xpath: //*[@class='android.support.v7.app.ActionBar$Tab' and @index='0']
+Tue, Jan 08  2019; 06:47:48 PM - navigateToFarmerProfileSection1 ----> Failed
+Tue, Jan 08  2019; 06:47:48 PM - java.lang.NullPointerException
+Tue, Jan 08  2019; 06:47:48 PM - navigateToFarmerProfileSection1 ----> Failed
+Tue, Jan 08  2019; 06:47:48 PM - java.lang.NullPointerException
+Tue, Jan 08  2019; 06:50:05 PM - Starting Appium Server
+Tue, Jan 08  2019; 06:50:15 PM - Starting Test Execution
+Tue, Jan 08  2019; 06:50:15 PM - Initializing locators from excel sheet...
+Tue, Jan 08  2019; 06:50:16 PM - Initializing locators from excel sheet completed successfully!
+Tue, Jan 08  2019; 06:50:16 PM - Initializing data from excel sheet...
+Tue, Jan 08  2019; 06:50:16 PM - Initializing data from excel sheet completed successfully!
+Tue, Jan 08  2019; 06:50:16 PM - Starting Appium Server
+Tue, Jan 08  2019; 06:50:26 PM - Starting Test Execution
+Tue, Jan 08  2019; 06:50:26 PM - Initializing locators from excel sheet...
+Tue, Jan 08  2019; 06:50:26 PM - Initializing locators from excel sheet completed successfully!
+Tue, Jan 08  2019; 06:50:26 PM - Initializing data from excel sheet...
+Tue, Jan 08  2019; 06:50:26 PM - Initializing data from excel sheet completed successfully!
+Tue, Jan 08  2019; 06:50:26 PM - Launching Appium Android...
+Tue, Jan 08  2019; 06:51:27 PM - Entered registered value in Phone Number field:9874563211
+Tue, Jan 08  2019; 06:51:38 PM - Entered value in OTP field:610166
+Tue, Jan 08  2019; 06:51:38 PM - loginAsExistingUser ----> Success
+Tue, Jan 08  2019; 06:52:15 PM - navigateToFarmerLandSection1 ----> Success
+Tue, Jan 08  2019; 06:52:15 PM - Ending Execution...
+Tue, Jan 08  2019; 06:52:15 PM - Trying to close Webdriver...
+Tue, Jan 08  2019; 06:52:17 PM - Selenium Webdriver closed successfully!
+Tue, Jan 08  2019; 06:52:17 PM - Stopping Appium server for Windows
+Tue, Jan 08  2019; 06:52:17 PM - Appium server is shutdown successfully
+Tue, Jan 08  2019; 06:52:27 PM - Writing Results and Logs to file...

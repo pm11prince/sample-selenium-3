@@ -1,0 +1,86 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SeedBank TestSuites">
+	<listeners>
+		<listener class-name="com.seedbank.common.reporting.CustomListener" />
+	</listeners>
+	<test
+		name="Farmer_NegativeFlow::Registration_Invalid Mobile Number$Registration"
+		preserve-order="true">
+		<groups>
+			<run>
+				<include name="Registration_Invalid Mobile Number" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.seedbank.common.tests.Registration" />
+		</classes>
+	</test>
+	<test name="Farmer_NegativeFlow::Registration_Invalid OTP$Registration"
+		preserve-order="true">
+		<groups>
+			<run>
+				<include name="Registration_Invalid OTP" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.seedbank.common.tests.Registration" />
+		</classes>
+	</test>
+	<test
+		name="Farmer_NegativeFlow::Registration_Register with already registered number$Registration"
+		preserve-order="true">
+		<groups>
+			<run>
+				<include name="Registration_Register with already registered number" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.seedbank.common.tests.Registration" />
+		</classes>
+	</test>
+	<test name="Farmer_NegativeFlow::Check Dashboard$Registration"
+		preserve-order="true">
+		<groups>
+			<run>
+				<include name="Check Dashboard" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.seedbank.common.tests.Registration" />
+		</classes>
+	</test>
+	<test name="Farmer_NegativeFlow::Check Mandatory fields$FarmerProfileTest"
+		preserve-order="true">
+		<groups>
+			<run>
+				<include name="Check Mandatory fields" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.seedbank.common.tests.FarmerProfileTest" />
+		</classes>
+	</test>
+	<test name="Farmer_NegativeFlow::Create Farmer Land$FarmerLandTest"
+		preserve-order="true">
+		<groups>
+			<run>
+				<include name="Create Farmer Land" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.seedbank.common.tests.FarmerLandTest" />
+		</classes>
+	</test>
+	<test
+		name="Farmer_NegativeFlow::Create Crop Pattern$FarmerCroppingPatternTest"
+		preserve-order="true">
+		<groups>
+			<run>
+				<include name="Create Crop Pattern" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.seedbank.common.tests.FarmerCroppingPatternTest" />
+		</classes>
+	</test>
+</suite>

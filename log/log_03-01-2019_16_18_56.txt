@@ -1,0 +1,41 @@
+Thu, Jan 03  2019; 04:14:22 PM - Starting Appium Server
+Thu, Jan 03  2019; 04:14:32 PM - Starting Test Execution
+Thu, Jan 03  2019; 04:14:32 PM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 04:14:33 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 04:14:33 PM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 04:14:33 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 04:14:33 PM - Starting Appium Server
+Thu, Jan 03  2019; 04:14:43 PM - Starting Test Execution
+Thu, Jan 03  2019; 04:14:43 PM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 04:14:43 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 04:14:43 PM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 04:14:43 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 04:14:43 PM - Starting Appium Server
+Thu, Jan 03  2019; 04:14:53 PM - Starting Test Execution
+Thu, Jan 03  2019; 04:14:53 PM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 04:14:53 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 04:14:53 PM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 04:14:53 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 04:14:53 PM - Launching Appium Android...
+Thu, Jan 03  2019; 04:15:45 PM - Entered value in Phone Number field:8767789137
+Thu, Jan 03  2019; 04:16:34 PM - Entered value in OTP field:610166
+Thu, Jan 03  2019; 04:17:12 PM - registerAsNewUser ----> Success
+Thu, Jan 03  2019; 04:17:16 PM - navigateToFarmerProfileSection1 ----> Success
+Thu, Jan 03  2019; 04:17:32 PM - Please select Village
+Thu, Jan 03  2019; 04:17:32 PM - checkMandatoryFieldsWhileCreatingFarmerProfile ----> Success
+Thu, Jan 03  2019; 04:18:43 PM - enterVillageAndSaveProfile ----> Failed
+Thu, Jan 03  2019; 04:18:43 PM - org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.31 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '10.6.141.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankqa, statBarHeight=72, noReset=false, viewportRect={top=72, left=0, width=1080, height=1848}, deviceName=330073a8508cb423, platform=LINUX, deviceUDID=330073a8508cb423, desired={app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, appPackage=com.itc.seedbankqa, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.0, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=330073a8508cb423, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.0, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, deviceApiLevel=24, app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=3, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=480, deviceModel=SM-G610F, autoAcceptAlerts=true}]
+Session ID: 4a6f2e97-4a3b-40da-b9a6-9fd6128b3c42
+*** Element info: {Using=xpath, value=//android.widget.LinearLayout[contains(@resource-id,'linear_framerInfoLayout')]}
+Thu, Jan 03  2019; 04:18:44 PM - Ending Execution...
+Thu, Jan 03  2019; 04:18:44 PM - Trying to close Webdriver...
+Thu, Jan 03  2019; 04:18:46 PM - Selenium Webdriver closed successfully!
+Thu, Jan 03  2019; 04:18:46 PM - Stopping Appium server for Windows
+Thu, Jan 03  2019; 04:18:46 PM - Appium server is shutdown successfully
+Thu, Jan 03  2019; 04:18:56 PM - Writing Results and Logs to file...

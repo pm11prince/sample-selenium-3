@@ -1,0 +1,485 @@
+<html>
+<head>
+<title>TestNG:  QAS</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>QAS</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/73</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jun 13 11:21:30 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (73 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>QAS_1 QAS_3 QAS_2 setup QAS_5 QAS_4 </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.initializeTestBaseSetup()'><b>initializeTestBaseSetup</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browserType&apos; is required by @Configuration on method initializeTestBaseSetup but has not been marked @Optional or defined
+in D:\Nithya\DunlemWorkspace\Dunelm Framework (Mobile)\text.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace404190678", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace404190678'><pre>org.testng.TestNGException: 
+Parameter &apos;browserType&apos; is required by @Configuration on method initializeTestBaseSetup but has not been marked @Optional or defined
+in D:\Nithya\DunlemWorkspace\Dunelm Framework (Mobile)\text.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.addAProductToTheBasket()'><b>addAProductToTheBasket</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.addAProductToTheBasket1()'><b>addAProductToTheBasket1</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.addAProductToTheBasket2()'><b>addAProductToTheBasket2</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.addAProductToTheBasket3()'><b>addAProductToTheBasket3</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.addAProductToTheBasket4()'><b>addAProductToTheBasket4</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.clearInvalidPostcodeAndEnterValidPostcode()'><b>clearInvalidPostcodeAndEnterValidPostcode</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.clickEnterAddressManually()'><b>clickEnterAddressManually</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.clickOnContinueToPayment()'><b>clickOnContinueToPayment</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.clickOnLookUp()'><b>clickOnLookUp</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.clickOnLookUpAddress()'><b>clickOnLookUpAddress</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.clickOnLookupAddress()'><b>clickOnLookupAddress</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.clickOnTheBasketCheckoutIcon()'><b>clickOnTheBasketCheckoutIcon</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.clickOnTheBasketCheckoutIcon1()'><b>clickOnTheBasketCheckoutIcon1</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.clickOnTheBasketCheckoutIcon2()'><b>clickOnTheBasketCheckoutIcon2</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.clickOnTheBasketCheckoutIcon3()'><b>clickOnTheBasketCheckoutIcon3</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.clickOnTheBasketCheckoutIcon4()'><b>clickOnTheBasketCheckoutIcon4</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.clickOnTheHomeDeliveryOption()'><b>clickOnTheHomeDeliveryOption</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.clickOnTheHomeDeliveryOption1()'><b>clickOnTheHomeDeliveryOption1</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.clickOnTheHomeDeliveryOption2()'><b>clickOnTheHomeDeliveryOption2</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.clickOnTheHomeDeliveryOption3()'><b>clickOnTheHomeDeliveryOption3</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.clickOnTheHomeDeliveryOption4()'><b>clickOnTheHomeDeliveryOption4</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.ensureAll()'><b>ensureAll</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.ensureUserCantProceed()'><b>ensureUserCantProceed</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterAEmailAddress()'><b>enterAEmailAddress</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterAEmailAddress1()'><b>enterAEmailAddress1</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterAEmailAddress2()'><b>enterAEmailAddress2</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterAFirstName()'><b>enterAFirstName</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterAFirstName1()'><b>enterAFirstName1</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterAFirstName2()'><b>enterAFirstName2</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterAHouseNumber()'><b>enterAHouseNumber</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterAHouseNumber1()'><b>enterAHouseNumber1</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterAHouseNumber2()'><b>enterAHouseNumber2</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterAInvalidPostcode()'><b>enterAInvalidPostcode</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterALastName()'><b>enterALastName</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterALastName1()'><b>enterALastName1</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterALastName2()'><b>enterALastName2</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterAPhoneNumber()'><b>enterAPhoneNumber</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterAPhoneNumber1()'><b>enterAPhoneNumber1</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterAPhoneNumber2()'><b>enterAPhoneNumber2</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterAPostcodeAndClickLookupAddress()'><b>enterAPostcodeAndClickLookupAddress</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterATitle()'><b>enterATitle</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterAnEmailAddress()'><b>enterAnEmailAddress</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterAnFirstName()'><b>enterAnFirstName</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterAnHouseNumber()'><b>enterAnHouseNumber</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterAnLastName()'><b>enterAnLastName</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterAnPhoneNumber()'><b>enterAnPhoneNumber</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterAnTitle()'><b>enterAnTitle</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterEmailAddress()'><b>enterEmailAddress</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterFirstName()'><b>enterFirstName</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterHouseNumber()'><b>enterHouseNumber</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterInvalidCharactersInFirstAddressLine1()'><b>enterInvalidCharactersInFirstAddressLine1</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterInvalidCharactersInSecondAddressLine1()'><b>enterInvalidCharactersInSecondAddressLine1</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterLastName()'><b>enterLastName</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterPhoneNumber()'><b>enterPhoneNumber</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterSpecialCharactersInFirstAddressLine()'><b>enterSpecialCharactersInFirstAddressLine</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterSpecialCharactersInSecondAddressLine()'><b>enterSpecialCharactersInSecondAddressLine</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterTitle()'><b>enterTitle</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterTitle1()'><b>enterTitle1</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterTitle2()'><b>enterTitle2</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.enterValidPostCode()'><b>enterValidPostCode</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.openPDP()'><b>openPDP</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.openPDP1()'><b>openPDP1</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.openPDP2()'><b>openPDP2</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.openPDP3()'><b>openPDP3</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.openPDP4()'><b>openPDP4</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.reEnterTown()'><b>reEnterTown</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.removeTown()'><b>removeTown</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.searchforanItemAvailableforHD()'><b>searchforanItemAvailableforHD</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.searchforanItemAvailableforHD1()'><b>searchforanItemAvailableforHD1</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.searchforanItemAvailableforHD2()'><b>searchforanItemAvailableforHD2</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.searchforanItemAvailableforHD3()'><b>searchforanItemAvailableforHD3</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.searchforanItemAvailableforHD4()'><b>searchforanItemAvailableforHD4</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+<tr>
+<td title='com.dunelm.common.tests.QASTest.writeToEnterAPostcode()'><b>writeToEnterAPostcode</b><br>Test class: com.dunelm.common.tests.QASTest</td>
+<td></td>
+<td>0</td>
+<td>com.dunelm.common.tests.QASTest@64a9c13</td></tr>
+</table><p>
+</body>
+</html>

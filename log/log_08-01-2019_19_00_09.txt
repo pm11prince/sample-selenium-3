@@ -1,0 +1,45 @@
+Tue, Jan 08  2019; 06:54:09 PM - Starting Appium Server
+Tue, Jan 08  2019; 06:54:19 PM - Starting Test Execution
+Tue, Jan 08  2019; 06:54:19 PM - Initializing locators from excel sheet...
+Tue, Jan 08  2019; 06:54:19 PM - Initializing locators from excel sheet completed successfully!
+Tue, Jan 08  2019; 06:54:19 PM - Initializing data from excel sheet...
+Tue, Jan 08  2019; 06:54:19 PM - Initializing data from excel sheet completed successfully!
+Tue, Jan 08  2019; 06:54:19 PM - Starting Appium Server
+Tue, Jan 08  2019; 06:54:29 PM - Starting Test Execution
+Tue, Jan 08  2019; 06:54:29 PM - Initializing locators from excel sheet...
+Tue, Jan 08  2019; 06:54:30 PM - Initializing locators from excel sheet completed successfully!
+Tue, Jan 08  2019; 06:54:30 PM - Initializing data from excel sheet...
+Tue, Jan 08  2019; 06:54:30 PM - Initializing data from excel sheet completed successfully!
+Tue, Jan 08  2019; 06:54:30 PM - Launching Appium Android...
+Tue, Jan 08  2019; 06:55:28 PM - Entered registered value in Phone Number field:9874563211
+Tue, Jan 08  2019; 06:55:38 PM - Entered value in OTP field:610166
+Tue, Jan 08  2019; 06:55:38 PM - loginAsExistingUser ----> Success
+Tue, Jan 08  2019; 06:56:18 PM - navigateToFarmerProfileSection1 ----> Success
+Tue, Jan 08  2019; 06:56:30 PM - Please select Village
+Tue, Jan 08  2019; 06:56:30 PM - checkMandatoryFieldsWhileCreatingFarmerProfile ----> Success
+Tue, Jan 08  2019; 06:57:05 PM - enterMandatoryFieldsAndSaveProfile ----> Success
+Tue, Jan 08  2019; 06:57:13 PM - Invalid PAN Number
+Tue, Jan 08  2019; 06:57:19 PM - validatePANNumber ----> Success
+Tue, Jan 08  2019; 06:57:29 PM - Invalid Aadhaar Number
+Tue, Jan 08  2019; 06:57:37 PM - validateAadharNumber ----> Success
+Tue, Jan 08  2019; 06:57:59 PM - navigateToFarmerLandSection1 ----> Success
+Tue, Jan 08  2019; 06:58:08 PM - The message:Survey No cannot be empty.
+Tue, Jan 08  2019; 06:58:11 PM - checkWhetherSurveyNoIsMandatory ----> Success
+Tue, Jan 08  2019; 06:58:22 PM - The message:Total Land Holding Area cannot be empty
+Tue, Jan 08  2019; 06:58:34 PM - checkWhetherTotalLandHoldingAreaIsMandatory ----> Success
+Tue, Jan 08  2019; 06:59:57 PM - checkWhetherIrrigatedLandIsGreaterThanTotalLandHoldingArea ----> Failed
+Tue, Jan 08  2019; 06:59:57 PM - org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.61 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '10.6.139.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankqa, statBarHeight=72, noReset=false, viewportRect={top=72, left=0, width=1080, height=1848}, deviceName=330073a8508cb423, platform=LINUX, deviceUDID=330073a8508cb423, desired={app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, appPackage=com.itc.seedbankqa, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.0, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=330073a8508cb423, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.0, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, deviceApiLevel=24, app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=3, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=480, deviceModel=SM-G610F, autoAcceptAlerts=true}]
+Session ID: 8bdacdcb-3c54-4436-b0a8-e7b2e2d0bad1
+*** Element info: {Using=xpath, value=//android.widget.TextView[@resource-id='android:id/message']}
+Tue, Jan 08  2019; 06:59:58 PM - Ending Execution...
+Tue, Jan 08  2019; 06:59:58 PM - Trying to close Webdriver...
+Tue, Jan 08  2019; 06:59:59 PM - Selenium Webdriver closed successfully!
+Tue, Jan 08  2019; 06:59:59 PM - Stopping Appium server for Windows
+Tue, Jan 08  2019; 06:59:59 PM - Appium server is shutdown successfully
+Tue, Jan 08  2019; 07:00:09 PM - Writing Results and Logs to file...

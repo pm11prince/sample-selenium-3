@@ -1,0 +1,56 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SeedBank Testing Framework">
+	<parameter name="OS" value="Android" />
+	<parameter name="deviceID" value="330073a8508cb423" />
+	<listeners>
+		<listener
+			class-name="com.seedbank.common.reporting.CustomListener" />
+	</listeners>
+	<test name="Registration" preserve-order="true">
+		<groups><run>
+				<include name="setup" />
+				<include name="Register with Valid Details"/>
+			
+			</run></groups>
+		<classes><class name="com.seedbank.common.tests.Registration" /></classes>
+	</test>
+	
+	<test name="Create Farmer Profile" preserve-order="true">
+		<groups><run><include name="Check Mandatory fields" /></run></groups>
+		<classes><class name="com.seedbank.common.tests.FarmerProfileTest" /></classes>
+	</test>
+	<!-- <test name="Create Farmer Land" preserve-order="true">
+		<groups>
+			<run>
+				<include name="Create Farmer Land" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.seedbank.common.tests.FarmerLandTest" />
+		</classes>
+	</test>
+	<test name="Create Crop Pattern" preserve-order="true">
+		<groups>
+			<run><include name="Create Crop Pattern" /></run>
+		</groups>
+		<classes>
+			<class
+				name="com.seedbank.common.tests.FarmerCroppingPatternTest" />
+		</classes>
+	</test>
+	<test name="Monitor a crop" preserve-order="true">
+		<groups>
+			<run>
+				<include name="Monitor a crop" />
+			</run>
+		</groups>
+		<classes>
+			<class
+				name="com.seedbank.common.tests.MonitorCropTest" />
+		</classes>
+	</test> -->
+	<!-- <test name="Monitor a crop" preserve-order="true">
+	 <groups> <run> <include name="Monitor a crop"/> </run> </groups>
+		 <classes> <class name="com.seedbank.common.tests.SeedBank_MonitorACrop" 
+		/> </classes> </test> -->
+</suite> 

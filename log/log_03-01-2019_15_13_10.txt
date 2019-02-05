@@ -1,0 +1,99 @@
+Thu, Jan 03  2019; 02:53:46 PM - Starting Appium Server
+Thu, Jan 03  2019; 02:53:56 PM - Starting Test Execution
+Thu, Jan 03  2019; 02:53:56 PM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 02:53:57 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 02:53:57 PM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 02:53:57 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 02:53:57 PM - Starting Appium Server
+Thu, Jan 03  2019; 02:54:07 PM - Starting Test Execution
+Thu, Jan 03  2019; 02:54:07 PM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 02:54:07 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 02:54:07 PM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 02:54:07 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 02:54:07 PM - Starting Appium Server
+Thu, Jan 03  2019; 02:54:17 PM - Starting Test Execution
+Thu, Jan 03  2019; 02:54:17 PM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 02:54:17 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 02:54:17 PM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 02:54:17 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 02:54:17 PM - Launching Appium Android...
+Thu, Jan 03  2019; 02:55:09 PM - Entered value in Phone Number field:7474695262
+Thu, Jan 03  2019; 02:55:35 PM - Entered value in OTP field:610166
+Thu, Jan 03  2019; 02:57:36 PM - Element Not Found:By.id: com.itc.seedbankqa:id/image_profilePhoto
+Thu, Jan 03  2019; 02:57:36 PM - registerAsNewUser ----> Success
+Thu, Jan 03  2019; 02:58:06 PM - Starting Appium Server
+Thu, Jan 03  2019; 02:58:16 PM - Starting Test Execution
+Thu, Jan 03  2019; 02:58:16 PM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 02:58:16 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 02:58:16 PM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 02:58:16 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 02:58:16 PM - Starting Appium Server
+Thu, Jan 03  2019; 02:58:26 PM - Starting Test Execution
+Thu, Jan 03  2019; 02:58:26 PM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 02:58:26 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 02:58:26 PM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 02:58:26 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 02:58:26 PM - Starting Appium Server
+Thu, Jan 03  2019; 02:58:36 PM - Starting Test Execution
+Thu, Jan 03  2019; 02:58:36 PM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 02:58:36 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 02:58:36 PM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 02:58:36 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 02:58:36 PM - Launching Appium Android...
+Thu, Jan 03  2019; 02:59:28 PM - Entered value in Phone Number field:4533160887
+Thu, Jan 03  2019; 02:59:40 PM - Entered value in OTP field:610166
+Thu, Jan 03  2019; 03:00:43 PM - registerAsNewUser ----> Success
+Thu, Jan 03  2019; 03:00:47 PM - navigateToFarmerProfileSection1 ----> Success
+Thu, Jan 03  2019; 03:01:03 PM - Please select Village
+Thu, Jan 03  2019; 03:01:03 PM - checkMandatoryFieldsWhileCreatingFarmerProfile ----> Success
+Thu, Jan 03  2019; 03:02:06 PM - enterVillageAndSaveProfile ----> Failed
+Thu, Jan 03  2019; 03:02:06 PM - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '10.6.141.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: driver.version: AndroidDriver
+Thu, Jan 03  2019; 03:02:07 PM - enterVillageAndSaveProfile ----> Failed
+Thu, Jan 03  2019; 03:02:07 PM - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '10.6.141.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: driver.version: RemoteWebDriver
+Thu, Jan 03  2019; 03:09:01 PM - Starting Appium Server
+Thu, Jan 03  2019; 03:09:11 PM - Starting Test Execution
+Thu, Jan 03  2019; 03:09:11 PM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 03:09:13 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 03:09:13 PM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 03:09:14 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 03:09:14 PM - Starting Appium Server
+Thu, Jan 03  2019; 03:09:24 PM - Starting Test Execution
+Thu, Jan 03  2019; 03:09:24 PM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 03:09:24 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 03:09:24 PM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 03:09:24 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 03:09:24 PM - Starting Appium Server
+Thu, Jan 03  2019; 03:09:34 PM - Starting Test Execution
+Thu, Jan 03  2019; 03:09:34 PM - Initializing locators from excel sheet...
+Thu, Jan 03  2019; 03:09:34 PM - Initializing locators from excel sheet completed successfully!
+Thu, Jan 03  2019; 03:09:34 PM - Initializing data from excel sheet...
+Thu, Jan 03  2019; 03:09:34 PM - Initializing data from excel sheet completed successfully!
+Thu, Jan 03  2019; 03:09:34 PM - Launching Appium Android...
+Thu, Jan 03  2019; 03:10:50 PM - Entered value in Phone Number field:9043913440
+Thu, Jan 03  2019; 03:11:06 PM - Entered value in OTP field:610166
+Thu, Jan 03  2019; 03:11:31 PM - registerAsNewUser ----> Success
+Thu, Jan 03  2019; 03:11:36 PM - navigateToFarmerProfileSection1 ----> Success
+Thu, Jan 03  2019; 03:11:51 PM - Please select Village
+Thu, Jan 03  2019; 03:11:51 PM - checkMandatoryFieldsWhileCreatingFarmerProfile ----> Success
+Thu, Jan 03  2019; 03:12:57 PM - enterVillageAndSaveProfile ----> Failed
+Thu, Jan 03  2019; 03:12:57 PM - org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.13 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'BLRPRGGWN20723', ip: '10.6.141.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.itc.seedbankqa, statBarHeight=72, noReset=false, viewportRect={top=72, left=0, width=1080, height=1848}, deviceName=330073a8508cb423, platform=LINUX, deviceUDID=330073a8508cb423, desired={app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, appPackage=com.itc.seedbankqa, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, noReset=false, newCommandTimeout=400, platformVersion=7.0, automationName=UiAutomator2, browserName=, autoGrantPermissions=true, platformName=Android, deviceName=330073a8508cb423, autoAcceptAlerts=true}, newCommandTimeout=400, platformVersion=7.0, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, browserName=, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, deviceApiLevel=24, app=D:\Sneha\SeedBank Test Framework\resources\SeedBankV1.0.0.32.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=md570a67b0d01c415d5dec6503f08b2f877.SplashScreen, pixelRatio=3, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=480, deviceModel=SM-G610F, autoAcceptAlerts=true}]
+Session ID: db6b031d-542e-4b8f-abf4-a57758c2fbc3
+*** Element info: {Using=xpath, value=//android.widget.LinearLayout[contains(@resource-id,'linear_framerInfoLayout')]}
+Thu, Jan 03  2019; 03:12:58 PM - Ending Execution...
+Thu, Jan 03  2019; 03:12:58 PM - Trying to close Webdriver...
+Thu, Jan 03  2019; 03:13:00 PM - Selenium Webdriver closed successfully!
+Thu, Jan 03  2019; 03:13:00 PM - Stopping Appium server for Windows
+Thu, Jan 03  2019; 03:13:00 PM - Appium server is shutdown successfully
+Thu, Jan 03  2019; 03:13:10 PM - Writing Results and Logs to file...

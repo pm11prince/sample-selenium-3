@@ -1,0 +1,71 @@
+Mon, Feb 04  2019; 03:00:45 PM - Saving XML file
+Mon, Feb 04  2019; 03:53:16 PM - Starting Appium Server
+Mon, Feb 04  2019; 03:53:16 PM - Starting Test Execution
+Mon, Feb 04  2019; 03:53:16 PM - Initializing locators from excel sheet...
+Mon, Feb 04  2019; 03:53:17 PM - Initializing locators from excel sheet completed successfully!
+Mon, Feb 04  2019; 03:53:17 PM - Initializing data from excel sheet...
+Mon, Feb 04  2019; 03:53:17 PM - Initializing data from excel sheet completed successfully!
+Mon, Feb 04  2019; 03:53:17 PM - Starting Appium Server
+Mon, Feb 04  2019; 03:53:17 PM - Starting Test Execution
+Mon, Feb 04  2019; 03:53:17 PM - Initializing locators from excel sheet...
+Mon, Feb 04  2019; 03:53:17 PM - Initializing locators from excel sheet completed successfully!
+Mon, Feb 04  2019; 03:53:17 PM - Initializing data from excel sheet...
+Mon, Feb 04  2019; 03:53:18 PM - Initializing data from excel sheet completed successfully!
+Mon, Feb 04  2019; 03:53:18 PM - Starting Appium Server
+Mon, Feb 04  2019; 03:53:18 PM - Starting Test Execution
+Mon, Feb 04  2019; 03:53:18 PM - Initializing locators from excel sheet...
+Mon, Feb 04  2019; 03:53:18 PM - Initializing locators from excel sheet completed successfully!
+Mon, Feb 04  2019; 03:53:18 PM - Initializing data from excel sheet...
+Mon, Feb 04  2019; 03:53:18 PM - Initializing data from excel sheet completed successfully!
+Mon, Feb 04  2019; 03:53:18 PM - Starting Appium Server
+Mon, Feb 04  2019; 03:53:18 PM - Starting Test Execution
+Mon, Feb 04  2019; 03:53:18 PM - Initializing locators from excel sheet...
+Mon, Feb 04  2019; 03:53:18 PM - Initializing locators from excel sheet completed successfully!
+Mon, Feb 04  2019; 03:53:18 PM - Initializing data from excel sheet...
+Mon, Feb 04  2019; 03:53:18 PM - Initializing data from excel sheet completed successfully!
+Mon, Feb 04  2019; 03:53:18 PM - Test case name--->Registration_Validations::Registration_Invalid Mobile Number$RegistrationTests
+Mon, Feb 04  2019; 03:53:23 PM - checkForInvalidMobileNumber_SpecialChar ----> Failed
+Mon, Feb 04  2019; 03:53:23 PM - java.lang.AssertionError: TEst Method failed
+Mon, Feb 04  2019; 03:53:23 PM - checkForInvalidMobileNumber_SpecialChar ----> Failed
+Mon, Feb 04  2019; 03:53:23 PM - java.lang.NullPointerException
+Mon, Feb 04  2019; 03:53:48 PM - Starting Appium Server
+Mon, Feb 04  2019; 03:53:48 PM - Starting Test Execution
+Mon, Feb 04  2019; 03:53:48 PM - Initializing locators from excel sheet...
+Mon, Feb 04  2019; 03:53:49 PM - Initializing locators from excel sheet completed successfully!
+Mon, Feb 04  2019; 03:53:49 PM - Initializing data from excel sheet...
+Mon, Feb 04  2019; 03:53:49 PM - Initializing data from excel sheet completed successfully!
+Mon, Feb 04  2019; 03:53:49 PM - Starting Appium Server
+Mon, Feb 04  2019; 03:53:49 PM - Starting Test Execution
+Mon, Feb 04  2019; 03:53:49 PM - Initializing locators from excel sheet...
+Mon, Feb 04  2019; 03:53:49 PM - Initializing locators from excel sheet completed successfully!
+Mon, Feb 04  2019; 03:53:49 PM - Initializing data from excel sheet...
+Mon, Feb 04  2019; 03:53:49 PM - Initializing data from excel sheet completed successfully!
+Mon, Feb 04  2019; 03:53:49 PM - Starting Appium Server
+Mon, Feb 04  2019; 03:53:49 PM - Starting Test Execution
+Mon, Feb 04  2019; 03:53:49 PM - Initializing locators from excel sheet...
+Mon, Feb 04  2019; 03:53:49 PM - Initializing locators from excel sheet completed successfully!
+Mon, Feb 04  2019; 03:53:49 PM - Initializing data from excel sheet...
+Mon, Feb 04  2019; 03:53:49 PM - Initializing data from excel sheet completed successfully!
+Mon, Feb 04  2019; 03:53:49 PM - Starting Appium Server
+Mon, Feb 04  2019; 03:53:49 PM - Starting Test Execution
+Mon, Feb 04  2019; 03:53:49 PM - Initializing locators from excel sheet...
+Mon, Feb 04  2019; 03:53:49 PM - Initializing locators from excel sheet completed successfully!
+Mon, Feb 04  2019; 03:53:49 PM - Initializing data from excel sheet...
+Mon, Feb 04  2019; 03:53:49 PM - Initializing data from excel sheet completed successfully!
+Mon, Feb 04  2019; 03:53:49 PM - Test case name--->Registration_Validations::Registration_Invalid Mobile Number$RegistrationTests
+Mon, Feb 04  2019; 03:53:54 PM - checkForInvalidMobileNumber_SpecialChar ----> Failed
+Mon, Feb 04  2019; 03:53:54 PM - java.lang.AssertionError: TEst Method failed
+Mon, Feb 04  2019; 03:53:55 PM - checkForInvalidMobileNumber_AlphaNumeric ----> Skipped
+Mon, Feb 04  2019; 03:53:55 PM - checkForInvalidMobileNumber_Alphabetic ----> Skipped
+Mon, Feb 04  2019; 03:53:55 PM - checkForInvalidMobileNumber_checkMobileNumberLength ----> Skipped
+Mon, Feb 04  2019; 03:53:55 PM - Test case name--->Registration_Validations::Registration_Invalid OTP$RegistrationTests
+Mon, Feb 04  2019; 03:53:55 PM - checkForInvalidOTP_SpecialChar ----> Success
+Mon, Feb 04  2019; 03:53:55 PM - checkForInvalidOTP_AlphaNumeric ----> Failed
+Mon, Feb 04  2019; 03:53:55 PM - java.lang.AssertionError: TEst Method failed
+Mon, Feb 04  2019; 03:53:55 PM - checkForInvalidOTP_Alphabetic ----> Skipped
+Mon, Feb 04  2019; 03:53:55 PM - Test case name--->Farmer_Flows::Validati6ons_FarmerProfile$FarmerProfileTest
+Mon, Feb 04  2019; 03:53:55 PM - validateAadharNumber ----> Success
+Mon, Feb 04  2019; 03:53:55 PM - Ending Execution...
+Mon, Feb 04  2019; 03:53:55 PM - Trying to close Webdriver...
+Mon, Feb 04  2019; 03:53:55 PM - Error closing the drivers!
+Mon, Feb 04  2019; 03:53:55 PM - Writing Results and Logs to file...
