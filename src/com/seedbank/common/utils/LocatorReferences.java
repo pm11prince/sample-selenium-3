@@ -11,7 +11,7 @@ import org.openqa.selenium.By;
  * @author Pratyush Choudhary
  */
 public class LocatorReferences {
-	private static final String LOCATOR_REFERENCES_FILE_LOCATION = "resources\\Locator References.xlsx";
+	private static final String LOCATOR_REFERENCES_FILE_LOCATION = "resources/Locator References.xlsx";
 	private static final String CLASS_NAME = "CLASS_NAME";
 	private static final String CSS_SELECTOR = "CSS_SELECTOR";
 	private static final String ID = "ID";

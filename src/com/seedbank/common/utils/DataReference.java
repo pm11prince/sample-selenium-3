@@ -10,7 +10,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
  * @author Pratyush Choudhary
  */
 public class DataReference {
-	private static final String DATA_REFERENCES_FILE_LOCATION = "resources\\Data References.xlsx";
+	private static final String DATA_REFERENCES_FILE_LOCATION = "resources/Data References.xlsx";
 	
 	private static XSSFWorkbook workbook;
 	private static XSSFSheet sheet;

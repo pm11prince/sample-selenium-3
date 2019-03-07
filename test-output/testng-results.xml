@@ -2,29 +2,29 @@
 <testng-results skipped="4" failed="2" total="11" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="SeedBank TestSuites" duration-ms="5086" started-at="2019-02-05T10:46:00Z" finished-at="2019-02-05T10:46:05Z">
+  <suite name="SeedBank TestSuites" duration-ms="5098" started-at="2019-03-01T12:06:54Z" finished-at="2019-03-01T12:06:59Z">
     <groups>
       <group name="Validations_FarmerProfile">
-        <method signature="FarmerProfileTest.checkMandatoryFieldsWhileCreatingFarmerProfile()[pri:0, instance:com.seedbank.common.tests.FarmerProfileTest@53cb1ce9]" name="checkMandatoryFieldsWhileCreatingFarmerProfile" class="com.seedbank.common.tests.FarmerProfileTest"/>
-        <method signature="FarmerProfileTest.enterMandatoryFieldsAndSaveProfile()[pri:0, instance:com.seedbank.common.tests.FarmerProfileTest@53cb1ce9]" name="enterMandatoryFieldsAndSaveProfile" class="com.seedbank.common.tests.FarmerProfileTest"/>
-        <method signature="FarmerProfileTest.navigateToFarmerProfileSection1()[pri:0, instance:com.seedbank.common.tests.FarmerProfileTest@53cb1ce9]" name="navigateToFarmerProfileSection1" class="com.seedbank.common.tests.FarmerProfileTest"/>
-        <method signature="FarmerProfileTest.validatePANNumber()[pri:0, instance:com.seedbank.common.tests.FarmerProfileTest@53cb1ce9]" name="validatePANNumber" class="com.seedbank.common.tests.FarmerProfileTest"/>
+        <method signature="FarmerProfileTest.checkMandatoryFieldsWhileCreatingFarmerProfile()[pri:0, instance:com.seedbank.common.tests.FarmerProfileTest@d4c8ab3]" name="checkMandatoryFieldsWhileCreatingFarmerProfile" class="com.seedbank.common.tests.FarmerProfileTest"/>
+        <method signature="FarmerProfileTest.enterMandatoryFieldsAndSaveProfile()[pri:0, instance:com.seedbank.common.tests.FarmerProfileTest@d4c8ab3]" name="enterMandatoryFieldsAndSaveProfile" class="com.seedbank.common.tests.FarmerProfileTest"/>
+        <method signature="FarmerProfileTest.navigateToFarmerProfileSection1()[pri:0, instance:com.seedbank.common.tests.FarmerProfileTest@d4c8ab3]" name="navigateToFarmerProfileSection1" class="com.seedbank.common.tests.FarmerProfileTest"/>
+        <method signature="FarmerProfileTest.validatePANNumber()[pri:0, instance:com.seedbank.common.tests.FarmerProfileTest@d4c8ab3]" name="validatePANNumber" class="com.seedbank.common.tests.FarmerProfileTest"/>
       </group> <!-- Validations_FarmerProfile -->
       <group name="Registration_Invalid Mobile Number">
-        <method signature="RegistrationTests.checkForInvalidMobileNumber_SpecialChar()[pri:0, instance:com.seedbank.common.tests.RegistrationTests@4379df96]" name="checkForInvalidMobileNumber_SpecialChar" class="com.seedbank.common.tests.RegistrationTests"/>
-        <method signature="RegistrationTests.checkForInvalidMobileNumber_AlphaNumeric()[pri:0, instance:com.seedbank.common.tests.RegistrationTests@4379df96]" name="checkForInvalidMobileNumber_AlphaNumeric" class="com.seedbank.common.tests.RegistrationTests"/>
-        <method signature="RegistrationTests.checkForInvalidMobileNumber_Alphabetic()[pri:0, instance:com.seedbank.common.tests.RegistrationTests@4379df96]" name="checkForInvalidMobileNumber_Alphabetic" class="com.seedbank.common.tests.RegistrationTests"/>
-        <method signature="RegistrationTests.checkForInvalidMobileNumber_checkMobileNumberLength()[pri:0, instance:com.seedbank.common.tests.RegistrationTests@4379df96]" name="checkForInvalidMobileNumber_checkMobileNumberLength" class="com.seedbank.common.tests.RegistrationTests"/>
+        <method signature="RegistrationTests.checkForInvalidMobileNumber_SpecialChar()[pri:0, instance:com.seedbank.common.tests.RegistrationTests@7334d591]" name="checkForInvalidMobileNumber_SpecialChar" class="com.seedbank.common.tests.RegistrationTests"/>
+        <method signature="RegistrationTests.checkForInvalidMobileNumber_AlphaNumeric()[pri:0, instance:com.seedbank.common.tests.RegistrationTests@7334d591]" name="checkForInvalidMobileNumber_AlphaNumeric" class="com.seedbank.common.tests.RegistrationTests"/>
+        <method signature="RegistrationTests.checkForInvalidMobileNumber_Alphabetic()[pri:0, instance:com.seedbank.common.tests.RegistrationTests@7334d591]" name="checkForInvalidMobileNumber_Alphabetic" class="com.seedbank.common.tests.RegistrationTests"/>
+        <method signature="RegistrationTests.checkForInvalidMobileNumber_checkMobileNumberLength()[pri:0, instance:com.seedbank.common.tests.RegistrationTests@7334d591]" name="checkForInvalidMobileNumber_checkMobileNumberLength" class="com.seedbank.common.tests.RegistrationTests"/>
       </group> <!-- Registration_Invalid Mobile Number -->
       <group name="Registration_Invalid OTP">
-        <method signature="RegistrationTests.checkForInvalidOTP_SpecialChar()[pri:0, instance:com.seedbank.common.tests.RegistrationTests@73ae299]" name="checkForInvalidOTP_SpecialChar" class="com.seedbank.common.tests.RegistrationTests"/>
-        <method signature="RegistrationTests.checkForInvalidOTP_AlphaNumeric()[pri:0, instance:com.seedbank.common.tests.RegistrationTests@73ae299]" name="checkForInvalidOTP_AlphaNumeric" class="com.seedbank.common.tests.RegistrationTests"/>
-        <method signature="RegistrationTests.checkForInvalidOTP_Alphabetic()[pri:0, instance:com.seedbank.common.tests.RegistrationTests@73ae299]" name="checkForInvalidOTP_Alphabetic" class="com.seedbank.common.tests.RegistrationTests"/>
+        <method signature="RegistrationTests.checkForInvalidOTP_SpecialChar()[pri:0, instance:com.seedbank.common.tests.RegistrationTests@310921ed]" name="checkForInvalidOTP_SpecialChar" class="com.seedbank.common.tests.RegistrationTests"/>
+        <method signature="RegistrationTests.checkForInvalidOTP_AlphaNumeric()[pri:0, instance:com.seedbank.common.tests.RegistrationTests@310921ed]" name="checkForInvalidOTP_AlphaNumeric" class="com.seedbank.common.tests.RegistrationTests"/>
+        <method signature="RegistrationTests.checkForInvalidOTP_Alphabetic()[pri:0, instance:com.seedbank.common.tests.RegistrationTests@310921ed]" name="checkForInvalidOTP_Alphabetic" class="com.seedbank.common.tests.RegistrationTests"/>
       </group> <!-- Registration_Invalid OTP -->
     </groups>
-    <test name="Registration_Validations::Registration_Invalid Mobile Number$RegistrationTests" duration-ms="5040" started-at="2019-02-05T10:46:00Z" finished-at="2019-02-05T10:46:05Z">
+    <test name="Registration_Validations::Registration_Invalid Mobile Number$RegistrationTests" duration-ms="5022" started-at="2019-03-01T12:06:54Z" finished-at="2019-03-01T12:06:59Z">
       <class name="com.seedbank.common.tests.RegistrationTests">
-        <test-method status="FAIL" signature="checkForInvalidMobileNumber_SpecialChar()[pri:0, instance:com.seedbank.common.tests.RegistrationTests@4379df96]" name="checkForInvalidMobileNumber_SpecialChar" duration-ms="5019" started-at="2019-02-05T16:16:00Z" finished-at="2019-02-05T16:16:05Z">
+        <test-method status="FAIL" signature="checkForInvalidMobileNumber_SpecialChar()[pri:0, instance:com.seedbank.common.tests.RegistrationTests@7334d591]" name="checkForInvalidMobileNumber_SpecialChar" duration-ms="5008" started-at="2019-03-01T12:06:54Z" finished-at="2019-03-01T12:06:59Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[TEst Method failed]]>
@@ -69,27 +69,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkForInvalidMobileNumber_SpecialChar -->
-        <test-method status="SKIP" signature="checkForInvalidMobileNumber_Alphabetic()[pri:0, instance:com.seedbank.common.tests.RegistrationTests@4379df96]" name="checkForInvalidMobileNumber_Alphabetic" duration-ms="0" started-at="2019-02-05T16:16:05Z" depends-on-methods="com.seedbank.common.tests.RegistrationTests.checkForInvalidMobileNumber_AlphaNumeric" finished-at="2019-02-05T16:16:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkForInvalidMobileNumber_Alphabetic -->
-        <test-method status="SKIP" signature="checkForInvalidMobileNumber_checkMobileNumberLength()[pri:0, instance:com.seedbank.common.tests.RegistrationTests@4379df96]" name="checkForInvalidMobileNumber_checkMobileNumberLength" duration-ms="0" started-at="2019-02-05T16:16:05Z" depends-on-methods="com.seedbank.common.tests.RegistrationTests.checkForInvalidMobileNumber_Alphabetic" finished-at="2019-02-05T16:16:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkForInvalidMobileNumber_checkMobileNumberLength -->
-        <test-method status="SKIP" signature="checkForInvalidMobileNumber_AlphaNumeric()[pri:0, instance:com.seedbank.common.tests.RegistrationTests@4379df96]" name="checkForInvalidMobileNumber_AlphaNumeric" duration-ms="0" started-at="2019-02-05T16:16:05Z" depends-on-methods="com.seedbank.common.tests.RegistrationTests.checkForInvalidMobileNumber_SpecialChar" finished-at="2019-02-05T16:16:05Z">
+        <test-method status="SKIP" signature="checkForInvalidMobileNumber_AlphaNumeric()[pri:0, instance:com.seedbank.common.tests.RegistrationTests@7334d591]" name="checkForInvalidMobileNumber_AlphaNumeric" duration-ms="1" started-at="2019-03-01T12:06:59Z" depends-on-methods="com.seedbank.common.tests.RegistrationTests.checkForInvalidMobileNumber_SpecialChar" finished-at="2019-03-01T12:06:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkForInvalidMobileNumber_AlphaNumeric -->
+        <test-method status="SKIP" signature="checkForInvalidMobileNumber_Alphabetic()[pri:0, instance:com.seedbank.common.tests.RegistrationTests@7334d591]" name="checkForInvalidMobileNumber_Alphabetic" duration-ms="0" started-at="2019-03-01T12:06:59Z" depends-on-methods="com.seedbank.common.tests.RegistrationTests.checkForInvalidMobileNumber_AlphaNumeric" finished-at="2019-03-01T12:06:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkForInvalidMobileNumber_Alphabetic -->
+        <test-method status="SKIP" signature="checkForInvalidMobileNumber_checkMobileNumberLength()[pri:0, instance:com.seedbank.common.tests.RegistrationTests@7334d591]" name="checkForInvalidMobileNumber_checkMobileNumberLength" duration-ms="0" started-at="2019-03-01T12:06:59Z" depends-on-methods="com.seedbank.common.tests.RegistrationTests.checkForInvalidMobileNumber_Alphabetic" finished-at="2019-03-01T12:06:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkForInvalidMobileNumber_checkMobileNumberLength -->
       </class> <!-- com.seedbank.common.tests.RegistrationTests -->
     </test> <!-- Registration_Validations::Registration_Invalid Mobile Number$RegistrationTests -->
-    <test name="Registration_Validations::Registration_Invalid OTP$RegistrationTests" duration-ms="0" started-at="2019-02-05T10:46:05Z" finished-at="2019-02-05T10:46:05Z">
+    <test name="Registration_Validations::Registration_Invalid OTP$RegistrationTests" duration-ms="3" started-at="2019-03-01T12:06:59Z" finished-at="2019-03-01T12:06:59Z">
       <class name="com.seedbank.common.tests.RegistrationTests">
-        <test-method status="PASS" signature="checkForInvalidOTP_SpecialChar()[pri:0, instance:com.seedbank.common.tests.RegistrationTests@73ae299]" name="checkForInvalidOTP_SpecialChar" duration-ms="0" started-at="2019-02-05T16:16:05Z" finished-at="2019-02-05T16:16:05Z">
+        <test-method status="PASS" signature="checkForInvalidOTP_SpecialChar()[pri:0, instance:com.seedbank.common.tests.RegistrationTests@310921ed]" name="checkForInvalidOTP_SpecialChar" duration-ms="0" started-at="2019-03-01T12:06:59Z" finished-at="2019-03-01T12:06:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkForInvalidOTP_SpecialChar -->
-        <test-method status="FAIL" signature="checkForInvalidOTP_AlphaNumeric()[pri:0, instance:com.seedbank.common.tests.RegistrationTests@73ae299]" name="checkForInvalidOTP_AlphaNumeric" duration-ms="0" started-at="2019-02-05T16:16:05Z" depends-on-methods="com.seedbank.common.tests.RegistrationTests.checkForInvalidOTP_SpecialChar" finished-at="2019-02-05T16:16:05Z">
+        <test-method status="FAIL" signature="checkForInvalidOTP_AlphaNumeric()[pri:0, instance:com.seedbank.common.tests.RegistrationTests@310921ed]" name="checkForInvalidOTP_AlphaNumeric" duration-ms="0" started-at="2019-03-01T12:06:59Z" depends-on-methods="com.seedbank.common.tests.RegistrationTests.checkForInvalidOTP_SpecialChar" finished-at="2019-03-01T12:06:59Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[TEst Method failed]]>
@@ -134,30 +134,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkForInvalidOTP_AlphaNumeric -->
-        <test-method status="SKIP" signature="checkForInvalidOTP_Alphabetic()[pri:0, instance:com.seedbank.common.tests.RegistrationTests@73ae299]" name="checkForInvalidOTP_Alphabetic" duration-ms="0" started-at="2019-02-05T16:16:05Z" depends-on-methods="com.seedbank.common.tests.RegistrationTests.checkForInvalidOTP_AlphaNumeric" finished-at="2019-02-05T16:16:05Z">
+        <test-method status="SKIP" signature="checkForInvalidOTP_Alphabetic()[pri:0, instance:com.seedbank.common.tests.RegistrationTests@310921ed]" name="checkForInvalidOTP_Alphabetic" duration-ms="0" started-at="2019-03-01T12:06:59Z" depends-on-methods="com.seedbank.common.tests.RegistrationTests.checkForInvalidOTP_AlphaNumeric" finished-at="2019-03-01T12:06:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkForInvalidOTP_Alphabetic -->
       </class> <!-- com.seedbank.common.tests.RegistrationTests -->
     </test> <!-- Registration_Validations::Registration_Invalid OTP$RegistrationTests -->
-    <test name="Farmer_PositiveFlow::Validations_FarmerProfile$FarmerProfileTest" duration-ms="15" started-at="2019-02-05T10:46:05Z" finished-at="2019-02-05T10:46:05Z">
+    <test name="Farmer_PositiveFlow::Validations_FarmerProfile$FarmerProfileTest" duration-ms="4" started-at="2019-03-01T12:06:59Z" finished-at="2019-03-01T12:06:59Z">
       <class name="com.seedbank.common.tests.FarmerProfileTest">
-        <test-method status="PASS" signature="checkMandatoryFieldsWhileCreatingFarmerProfile()[pri:0, instance:com.seedbank.common.tests.FarmerProfileTest@53cb1ce9]" name="checkMandatoryFieldsWhileCreatingFarmerProfile" duration-ms="0" started-at="2019-02-05T16:16:05Z" finished-at="2019-02-05T16:16:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkMandatoryFieldsWhileCreatingFarmerProfile -->
-        <test-method status="PASS" signature="enterMandatoryFieldsAndSaveProfile()[pri:0, instance:com.seedbank.common.tests.FarmerProfileTest@53cb1ce9]" name="enterMandatoryFieldsAndSaveProfile" duration-ms="0" started-at="2019-02-05T16:16:05Z" finished-at="2019-02-05T16:16:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterMandatoryFieldsAndSaveProfile -->
-        <test-method status="PASS" signature="validatePANNumber()[pri:0, instance:com.seedbank.common.tests.FarmerProfileTest@53cb1ce9]" name="validatePANNumber" duration-ms="0" started-at="2019-02-05T16:16:05Z" finished-at="2019-02-05T16:16:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validatePANNumber -->
-        <test-method status="PASS" signature="navigateToFarmerProfileSection1()[pri:0, instance:com.seedbank.common.tests.FarmerProfileTest@53cb1ce9]" name="navigateToFarmerProfileSection1" duration-ms="0" started-at="2019-02-05T16:16:05Z" finished-at="2019-02-05T16:16:05Z">
+        <test-method status="PASS" signature="navigateToFarmerProfileSection1()[pri:0, instance:com.seedbank.common.tests.FarmerProfileTest@d4c8ab3]" name="navigateToFarmerProfileSection1" duration-ms="0" started-at="2019-03-01T12:06:59Z" finished-at="2019-03-01T12:06:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToFarmerProfileSection1 -->
+        <test-method status="PASS" signature="enterMandatoryFieldsAndSaveProfile()[pri:0, instance:com.seedbank.common.tests.FarmerProfileTest@d4c8ab3]" name="enterMandatoryFieldsAndSaveProfile" duration-ms="1" started-at="2019-03-01T12:06:59Z" finished-at="2019-03-01T12:06:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterMandatoryFieldsAndSaveProfile -->
+        <test-method status="PASS" signature="checkMandatoryFieldsWhileCreatingFarmerProfile()[pri:0, instance:com.seedbank.common.tests.FarmerProfileTest@d4c8ab3]" name="checkMandatoryFieldsWhileCreatingFarmerProfile" duration-ms="0" started-at="2019-03-01T12:06:59Z" finished-at="2019-03-01T12:06:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMandatoryFieldsWhileCreatingFarmerProfile -->
+        <test-method status="PASS" signature="validatePANNumber()[pri:0, instance:com.seedbank.common.tests.FarmerProfileTest@d4c8ab3]" name="validatePANNumber" duration-ms="0" started-at="2019-03-01T12:06:59Z" finished-at="2019-03-01T12:06:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePANNumber -->
       </class> <!-- com.seedbank.common.tests.FarmerProfileTest -->
     </test> <!-- Farmer_PositiveFlow::Validations_FarmerProfile$FarmerProfileTest -->
   </suite> <!-- SeedBank TestSuites -->

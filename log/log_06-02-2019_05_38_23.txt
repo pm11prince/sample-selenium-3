@@ -1,0 +1,43 @@
+Tue, Feb 05  2019; 06:02:50 PM - Saving XML file
+Wed, Feb 06  2019; 05:38:17 AM - 
+Test name : Registration_Validations
+List of TestNames of Registration_Validations:
+Wed, Feb 06  2019; 05:38:17 AM - 				Registration_Invalid Mobile Number$RegistrationTests
+Wed, Feb 06  2019; 05:38:17 AM - 				Registration_Invalid OTP$RegistrationTests
+Wed, Feb 06  2019; 05:38:17 AM - 
+Test name : Farmer_PositiveFlow
+List of TestNames of Farmer_PositiveFlow:
+Wed, Feb 06  2019; 05:38:17 AM - 				Validations_FarmerProfile$FarmerProfileTest
+Wed, Feb 06  2019; 05:38:17 AM - 
+Test name : Registration_Validations
+List of TestNames of Registration_Validations:
+Wed, Feb 06  2019; 05:38:17 AM - 
+Test name : Farmer_PositiveFlow
+List of TestNames of Farmer_PositiveFlow:
+Wed, Feb 06  2019; 05:38:17 AM - Constructed XML::<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="SeedBank TestSuites"><parameter name="OS" value="Android"/><parameter name="deviceID" value="e516e0b0" /><listeners><listener class-name="com.seedbank.common.reporting.CustomListener" /></listeners><test name="Registration_Validations::Registration_Invalid Mobile Number$RegistrationTests" preserve-order="true"><groups><run><include name="Registration_Invalid Mobile Number"/></run></groups><classes><class name="com.seedbank.common.tests.RegistrationTests"/></classes></test><test name="Registration_Validations::Registration_Invalid OTP$RegistrationTests" preserve-order="true"><groups><run><include name="Registration_Invalid OTP"/></run></groups><classes><class name="com.seedbank.common.tests.RegistrationTests"/></classes></test><test name="Farmer_PositiveFlow::Validations_FarmerProfile$FarmerProfileTest" preserve-order="true"><groups><run><include name="Validations_FarmerProfile"/></run></groups><classes><class name="com.seedbank.common.tests.FarmerProfileTest"/></classes></test></suite>
+Wed, Feb 06  2019; 05:38:17 AM - Starting Appium Server
+Wed, Feb 06  2019; 05:38:17 AM - Starting Test Execution
+Wed, Feb 06  2019; 05:38:17 AM - Initializing locators from excel sheet...
+Wed, Feb 06  2019; 05:38:17 AM - Initializing locators from excel sheet completed successfully!
+Wed, Feb 06  2019; 05:38:17 AM - Initializing data from excel sheet...
+Wed, Feb 06  2019; 05:38:17 AM - Initializing data from excel sheet completed successfully!
+Wed, Feb 06  2019; 05:38:17 AM - Test case name--->Registration_Validations::Registration_Invalid Mobile Number$RegistrationTests
+Wed, Feb 06  2019; 05:38:22 AM - checkForInvalidMobileNumber_SpecialChar ----> Failed
+Wed, Feb 06  2019; 05:38:22 AM - java.lang.AssertionError: TEst Method failed
+Wed, Feb 06  2019; 05:38:22 AM - checkForInvalidMobileNumber_AlphaNumeric ----> Skipped
+Wed, Feb 06  2019; 05:38:22 AM - checkForInvalidMobileNumber_Alphabetic ----> Skipped
+Wed, Feb 06  2019; 05:38:22 AM - checkForInvalidMobileNumber_checkMobileNumberLength ----> Skipped
+Wed, Feb 06  2019; 05:38:23 AM - Test case name--->Registration_Validations::Registration_Invalid OTP$RegistrationTests
+Wed, Feb 06  2019; 05:38:23 AM - checkForInvalidOTP_SpecialChar ----> Success
+Wed, Feb 06  2019; 05:38:23 AM - checkForInvalidOTP_AlphaNumeric ----> Failed
+Wed, Feb 06  2019; 05:38:23 AM - java.lang.AssertionError: TEst Method failed
+Wed, Feb 06  2019; 05:38:23 AM - checkForInvalidOTP_Alphabetic ----> Skipped
+Wed, Feb 06  2019; 05:38:23 AM - Test case name--->Farmer_PositiveFlow::Validations_FarmerProfile$FarmerProfileTest
+Wed, Feb 06  2019; 05:38:23 AM - navigateToFarmerProfileSection1 ----> Success
+Wed, Feb 06  2019; 05:38:23 AM - checkMandatoryFieldsWhileCreatingFarmerProfile ----> Success
+Wed, Feb 06  2019; 05:38:23 AM - enterMandatoryFieldsAndSaveProfile ----> Success
+Wed, Feb 06  2019; 05:38:23 AM - validatePANNumber ----> Success
+Wed, Feb 06  2019; 05:38:23 AM - Ending Execution...
+Wed, Feb 06  2019; 05:38:23 AM - Trying to close Webdriver...
+Wed, Feb 06  2019; 05:38:23 AM - Error closing the drivers!
+Wed, Feb 06  2019; 05:38:23 AM - Writing Results and Logs to file...

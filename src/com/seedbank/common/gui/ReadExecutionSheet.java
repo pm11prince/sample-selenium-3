@@ -23,7 +23,7 @@ public class ReadExecutionSheet {
 	public static XSSFWorkbook workbook;
 	public static XSSFSheet sheet;
 	public static List<String> excelData = new ArrayList<String>();
-	public static final String DRIVER_SHEET_LOCATION = "resources\\Driver.xlsx";
+	public static final String DRIVER_SHEET_LOCATION = "resources/Driver.xlsx";
 	public static FileInputStream fis = null ;
 	public static ArrayList<ExecutionSheetObject> list = new ArrayList<ExecutionSheetObject>();
 	public static String deviceID, platformVersion,appPackage,appActivity;

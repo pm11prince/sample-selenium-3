@@ -54,8 +54,8 @@ public class Reporter {
 	private static final String TCPASS_PLACEHOLDER = "#TCPASS#";
 	private static final String TCFAIL_PLACEHOLDER = "#TCFAIL#";
 	private static final String TCPASSPERCENTAGE_PLACEHOLDER = "#TCPASSPERCENTAGE#";
-	private static final String TEMPLATE_PATH = "template\\template.html";
-	private static final String HTML_REPORT_PATH = "reports\\";
+	private static final String TEMPLATE_PATH = "template/template.html";
+	private static final String HTML_REPORT_PATH = "reports/";
 	private static DecimalFormat round = new DecimalFormat("##.00");
 	private static int tcTotal = 0, tcPass = 0, tcFail = 0;
 	private static int 	passed = 0, failed = 0, total = 0;
@@ -152,7 +152,7 @@ public class Reporter {
 		String path = "";
 		File f = null;
 		do {
-			path = "reports\\screenshots\\";
+			path = "reports/screenshots/";
 			Random random = new Random();
 			char[] list = "0123456789abcdef".toCharArray();
 			for (int i = 0; i < 32; i++) {
@@ -372,16 +372,16 @@ public class Reporter {
 
 			String reprtDirectory= createReportDirectory();
 
-			String htmlReportPath = reprtDirectory + "\\report_" + currentDate
+			String htmlReportPath = reprtDirectory + "/report_" + currentDate
 					+ ".html";
-			new File(Logger.LOG_FILE).renameTo(new File("log\\log_"
+			new File(Logger.LOG_FILE).renameTo(new File("log/log_"
 					+ currentDate + ".txt"));
 			new File(Logger.LOG_FILE).delete();
 			Files.write(Paths.get(htmlReportPath), reportIn.getBytes(),
 					StandardOpenOption.CREATE);
 			File htmlFile = new File(htmlReportPath);
 			createXML(reprtDirectory);
-			Desktop.getDesktop().browse(htmlFile.toURI());
+			//Desktop.getDesktop().browse(htmlFile.toURI());
 
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -452,7 +452,7 @@ public class Reporter {
 			}
 		}
 
-		xmlBuff.SaveXML(reportDirectory + "\\XMLReport_" + currentDate
+		xmlBuff.SaveXML(reportDirectory + "/XMLReport_" + currentDate
 				+ ".xml");
 	}
 
